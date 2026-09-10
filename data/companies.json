@@ -1,0 +1,1531 @@
+[
+  {
+    "id": "leapfrog",
+    "name": "Leapfrog Technology",
+    "website": "https://www.lftechnology.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.lftechnology.com",
+    "careersUrl": "https://career.lftechnology.com",
+    "applyEmail": "jobs@lftechnology.com",
+    "location": "Thirbam Sadak, Dillibazar, Kathmandu",
+    "hq": "Dillibazar, Kathmandu · Seattle, WA, USA",
+    "size": "450+",
+    "employeeRange": "201-500",
+    "founded": 2010,
+    "industry": "Product engineering · Digital health · SaaS",
+    "type": "Services",
+    "about": "Leapfrog builds digital products with world-class engineering teams across Nepal, the US, and Europe. Specialises in healthcare SaaS, cloud-native applications, and applied AI for Boston and Silicon Valley clients.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Python",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "React Native"
+    ],
+    "clientTypes": [
+      "US healthcare startups",
+      "Silicon Valley SaaS companies",
+      "Boston & Seattle tech firms"
+    ],
+    "coordinates": [
+      27.707319,
+      85.327424
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "recruitee",
+      "url": "https://career.lftechnology.com/api/offers"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/leapfrog-technology"
+  },
+  {
+    "id": "f1soft",
+    "name": "F1Soft Group",
+    "website": "https://f1soft.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://f1soft.com",
+    "careersUrl": "https://career.f1soft.com/jobs",
+    "applyEmail": "talent@f1soft.com",
+    "location": "F1Soft Tower, Pulchowk, Lalitpur",
+    "hq": "F1Soft Tower, Pulchowk, Lalitpur",
+    "size": "1000+",
+    "employeeRange": "1000+",
+    "founded": 2004,
+    "industry": "Fintech · Digital payments · Banking",
+    "type": "Product",
+    "about": "Nepal's largest fintech group, operating eSewa (the country's dominant digital wallet), and supplying core banking, payment switching, and digital finance infrastructure to 100+ financial institutions nationwide.",
+    "techStack": [
+      "Java",
+      "Spring Boot",
+      "Android",
+      "iOS",
+      "React",
+      "PHP",
+      "MySQL",
+      "Kafka",
+      "Redis"
+    ],
+    "clientTypes": [
+      "Commercial banks",
+      "Development banks",
+      "Microfinance institutions",
+      "Nepal Rastra Bank regulated entities"
+    ],
+    "coordinates": [
+      27.679367,
+      85.316272
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "f1soft"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/f1soft-international-pvt-ltd"
+  },
+  {
+    "id": "cloudfactory",
+    "name": "CloudFactory",
+    "website": "https://www.cloudfactory.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.cloudfactory.com",
+    "careersUrl": "https://www.cloudfactory.com/careers",
+    "applyEmail": null,
+    "location": "Bhaisepati, Lalitpur",
+    "hq": "Bhaisepati, Lalitpur · Durham, NC, USA",
+    "size": "400+",
+    "employeeRange": "201-500",
+    "founded": 2010,
+    "industry": "AI data labelling · Workforce cloud",
+    "type": "Product",
+    "about": "Mission-driven AI data company powering machine learning pipelines for leading AI labs and autonomous systems companies. Its Kathmandu hub handles annotation, QA, and training-data operations at scale.",
+    "techStack": [
+      "Python",
+      "Machine Learning",
+      "AWS",
+      "React",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "Autonomous vehicle companies",
+      "AI research labs",
+      "Computer vision startups"
+    ],
+    "coordinates": [
+      27.651378,
+      85.305265
+    ],
+    "forceNepal": false,
+    "source": {
+      "kind": "workable",
+      "account": "cloudfactory"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/cloudfactory"
+  },
+  {
+    "id": "guardsix",
+    "name": "Guardsix (formerly Logpoint)",
+    "website": "https://www.guardsix.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.guardsix.com",
+    "careersUrl": "https://logpoint.bamboohr.com/careers",
+    "applyEmail": "careers@logpoint.com",
+    "location": "Panipokhari Heights, Lazimpat, Kathmandu",
+    "hq": "Panipokhari, Kathmandu · Copenhagen, Denmark",
+    "size": "100–150",
+    "employeeRange": "51-200",
+    "founded": 2001,
+    "industry": "Cybersecurity · SIEM / SecOps",
+    "type": "Product",
+    "about": "European cybersecurity vendor (rebranded from Logpoint) building SIEM, SOAR, and threat-intelligence platforms. Kathmandu hosts a long-standing product and engineering office delivering core platform features.",
+    "techStack": [
+      "Python",
+      "Go",
+      "Elasticsearch",
+      "Kafka",
+      "React",
+      "Docker",
+      "Kubernetes",
+      "Linux"
+    ],
+    "clientTypes": [
+      "European enterprises",
+      "Financial services",
+      "Government & critical infrastructure"
+    ],
+    "coordinates": [
+      27.729438,
+      85.324581
+    ],
+    "forceNepal": false,
+    "source": {
+      "kind": "bamboohr",
+      "subdomain": "logpoint"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/guardsix"
+  },
+  {
+    "id": "hybridnews",
+    "name": "Hybrid News Limited",
+    "website": "https://hybrid.co.uk",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://hybrid.co.uk",
+    "careersUrl": "https://hybrid.recruitee.com",
+    "applyEmail": null,
+    "location": "Baluwatar, Kathmandu",
+    "hq": "Baluwatar, Kathmandu · Bristol, UK",
+    "size": "50–200",
+    "employeeRange": "51-200",
+    "founded": 2013,
+    "industry": "Media tech · Publishing platforms",
+    "type": "Product",
+    "about": "Builds publishing, content management, and media analytics platforms with a Kathmandu-based delivery team serving UK media groups.",
+    "techStack": [
+      "PHP",
+      "Laravel",
+      "React",
+      "Node.js",
+      "MySQL",
+      "AWS",
+      "Elasticsearch"
+    ],
+    "clientTypes": [
+      "UK media publishers",
+      "News organisations",
+      "Content platforms"
+    ],
+    "coordinates": [
+      27.721,
+      85.329
+    ],
+    "forceNepal": false,
+    "source": {
+      "kind": "recruitee",
+      "url": "https://hybrid.recruitee.com/api/offers"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/hybrid-news"
+  },
+  {
+    "id": "deerwalk",
+    "name": "Deerwalk",
+    "website": "https://www.deerwalk.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.deerwalk.com",
+    "careersUrl": "https://www.deerwalk.com/careers",
+    "applyEmail": "careers@deerwalk.com",
+    "location": "Jaya Bagheshwori Marg, Sifal, Kathmandu",
+    "hq": "Sifal, Kathmandu · Boston, MA, USA",
+    "size": "300+",
+    "employeeRange": "201-500",
+    "founded": 2008,
+    "industry": "Health data analytics · HealthIT",
+    "type": "Product",
+    "about": "US–Nepal healthcare analytics company with a major Kathmandu campus, processing claims, HEDIS, and population health data for US payers. Also operates Deerwalk Institute of Technology (DWIT).",
+    "techStack": [
+      "Java",
+      "Python",
+      "Spark",
+      "Hadoop",
+      "PostgreSQL",
+      "React",
+      "AWS"
+    ],
+    "clientTypes": [
+      "US health insurance payers",
+      "Health plans",
+      "ACOs and care management companies"
+    ],
+    "coordinates": [
+      27.711951,
+      85.341418
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[23][^>]*>([^<]*(?:Engineer|Developer|Analyst|Manager|Designer|Intern)[^<]*)</h[23]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/deerwalk-inc."
+  },
+  {
+    "id": "verisk",
+    "name": "Verisk",
+    "website": "https://www.verisk.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.verisk.com",
+    "careersUrl": "https://www.verisk.com/company/careers/",
+    "applyEmail": null,
+    "location": "Hattisar Sadak, Kamalpokhari, Kathmandu",
+    "hq": "Hattisar, Kathmandu · Jersey City, NJ, USA",
+    "size": "500+",
+    "employeeRange": "201-500",
+    "founded": 1971,
+    "industry": "Data analytics · Insurance · Risk intelligence",
+    "type": "Product",
+    "about": "S&P 500 data analytics and risk intelligence company with a major Nepal engineering and analytics centre. The Nepal hub supports Verisk's insurance underwriting, catastrophe modelling, claims analytics, and financial services data platforms.",
+    "techStack": [
+      "Java",
+      "Python",
+      "SQL",
+      "Hadoop",
+      "Spark",
+      "R",
+      "Tableau",
+      "AWS",
+      "Azure"
+    ],
+    "clientTypes": [
+      "US insurance carriers",
+      "Reinsurance companies",
+      "Financial institutions",
+      "Energy companies"
+    ],
+    "coordinates": [
+      27.711727,
+      85.322013
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/verisk"
+  },
+  {
+    "id": "cedargate",
+    "name": "Cedar Gate Technologies",
+    "website": "https://www.cedargate.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.cedargate.com",
+    "careersUrl": "https://www.cedargate.com/careers",
+    "applyEmail": "careers@cedargate.com",
+    "location": "Shanti Bhawan Marg, Sanepa, Lalitpur",
+    "hq": "Sanepa, Lalitpur · Greenwich, CT, USA",
+    "size": "200+",
+    "employeeRange": "51-200",
+    "founded": 2016,
+    "industry": "Healthcare analytics · Value-based care",
+    "type": "Product",
+    "about": "US healthcare analytics platform company with a significant Nepal engineering presence. Builds value-based care analytics, population health management, and care coordination tools used by health plans, provider groups, and ACOs across the US.",
+    "techStack": [
+      "Java",
+      "Python",
+      "React",
+      "SQL",
+      "AWS",
+      "Spark",
+      "PostgreSQL",
+      "FHIR",
+      "HL7"
+    ],
+    "clientTypes": [
+      "US health plans",
+      "ACOs",
+      "Provider organisations",
+      "Risk-bearing entities"
+    ],
+    "coordinates": [
+      27.68081,
+      85.305345
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/cedar-gate-technologies"
+  },
+  {
+    "id": "infinite",
+    "name": "Infinite (formerly Cotiviti Nepal)",
+    "website": "https://www.infinite.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.infinite.com",
+    "careersUrl": "https://www.infinite.com/careers/",
+    "applyEmail": null,
+    "location": "Amrit Bhawan, Hattisar, Kathmandu",
+    "hq": "Hattisar, Kathmandu · Rockville, MD, USA",
+    "size": "300+",
+    "employeeRange": "201-500",
+    "founded": 1999,
+    "industry": "Healthcare IT · Data analytics · BPO",
+    "type": "Services",
+    "about": "Formerly operated as Cotiviti Nepal, the Kathmandu centre continues as Infinite Computer Solutions, delivering healthcare data analytics, IT services, and business process management for US payers and providers.",
+    "techStack": [
+      "Java",
+      "Python",
+      "SQL",
+      "Oracle",
+      "AWS",
+      "React",
+      "Hadoop",
+      ".NET"
+    ],
+    "clientTypes": [
+      "US health insurance payers",
+      "Healthcare providers",
+      "Health IT vendors"
+    ],
+    "coordinates": [
+      27.7122,
+      85.3218
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/infinite-computer-solutions"
+  },
+  {
+    "id": "maitri",
+    "name": "Maitri Services",
+    "website": "https://maitriservices.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://maitriservices.com",
+    "careersUrl": "https://www.linkedin.com/company/maitri-services/jobs/",
+    "applyEmail": "contact@maitriservices.com",
+    "location": "Bakhundole, Lalitpur",
+    "hq": "Bakhundole, Lalitpur · Singapore",
+    "size": "50–150",
+    "employeeRange": "51-200",
+    "founded": 2015,
+    "industry": "Healthcare IT · Health data",
+    "type": "Services",
+    "about": "Nepal-based technology company delivering healthcare data engineering, analytics, and software development services for the US healthcare market. Operates as a dedicated development centre for US healthcare clients.",
+    "techStack": [
+      "Python",
+      "Java",
+      "SQL",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "FHIR"
+    ],
+    "clientTypes": [
+      "US health plans",
+      "Healthcare data companies",
+      "Health IT vendors"
+    ],
+    "coordinates": [
+      27.6842,
+      85.3115
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/maitri-services"
+  },
+  {
+    "id": "fusemachines",
+    "name": "Fusemachines",
+    "website": "https://www.fusemachines.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.fusemachines.com",
+    "careersUrl": "https://www.fusemachines.com/careers",
+    "applyEmail": "careers@fusemachines.com",
+    "location": "Nava Srijana Marg, New Baneshwor, Kathmandu",
+    "hq": "New Baneshwor, Kathmandu · New York, NY, USA",
+    "size": "200+",
+    "employeeRange": "51-200",
+    "founded": 2013,
+    "industry": "Enterprise AI · AI education",
+    "type": "Services",
+    "about": "AI company delivering enterprise AI solutions and talent development. Runs the Fusemachines AI Fellowship and Microdegree programmes, with a large Nepal engineering and AI research presence.",
+    "techStack": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "LLM",
+      "Machine Learning",
+      "FastAPI",
+      "React",
+      "AWS",
+      "GCP"
+    ],
+    "clientTypes": [
+      "Fortune 500 enterprises",
+      "US healthcare companies",
+      "Financial services firms"
+    ],
+    "coordinates": [
+      27.693331,
+      85.336479
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "(?:Job Title|position)[^<]{0,40}|<h[23][^>]*>([^<]*(?:Engineer|Scientist|Developer|Manager)[^<]*)</h[23]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/fusemachines"
+  },
+  {
+    "id": "ycotek",
+    "name": "Ycotek",
+    "formerNames": [
+      "LIS Nepal",
+      "Yomari Computing"
+    ],
+    "website": "https://ycotek.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://ycotek.com",
+    "careersUrl": "https://ycotek.com/careers-at-yco/",
+    "applyEmail": "hr@ycotek.com",
+    "location": "Sanepa Marg, Sanepa, Lalitpur",
+    "hq": "Sanepa, Lalitpur, Nepal",
+    "size": "200+",
+    "employeeRange": "51-200",
+    "founded": 1996,
+    "industry": "Enterprise software · IT services · ERP",
+    "type": "Services",
+    "about": "One of Nepal's longest-running software firms (est. 1996), formerly known as LIS Nepal and Yomari Computing. Now rebranded as Ycotek, delivering enterprise ERP, custom software, and offshore development services.",
+    "techStack": [
+      ".NET",
+      "Java",
+      "Python",
+      "React",
+      "SQL Server",
+      "PostgreSQL",
+      "Azure",
+      "Power BI"
+    ],
+    "clientTypes": [
+      "Nepal government agencies",
+      "INGOs and development organisations",
+      "Nepal enterprises",
+      "Offshore clients in US & Australia"
+    ],
+    "coordinates": [
+      27.683594,
+      85.304341
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[2-4][^>]*>([^<]*(?:Engineer|Developer|Officer|Intern|Manager|Analyst)[^<]*)</h[2-4]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/ycotek"
+  },
+  {
+    "id": "spiralogics",
+    "name": "Spiralogics",
+    "website": "https://spiralogics.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://spiralogics.com",
+    "careersUrl": "https://career.spiralogics.com",
+    "applyEmail": "careers@spiralogics.com",
+    "location": "Sankhamul Marg, New Baneshwor, Kathmandu",
+    "hq": "Sankhamul, Kathmandu · Atlanta, GA, USA",
+    "size": "100+",
+    "employeeRange": "51-200",
+    "founded": 2011,
+    "industry": "Healthcare IT · Custom software",
+    "type": "Services",
+    "about": "US–Nepal software company building healthcare applications, custom software solutions, and cloud-native platforms. The Nepal team works as an integrated engineering centre for US healthcare and enterprise clients.",
+    "techStack": [
+      "React",
+      "Angular",
+      ".NET",
+      "Node.js",
+      "Python",
+      "AWS",
+      "SQL Server",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "US healthcare providers",
+      "Health IT companies",
+      "US enterprises"
+    ],
+    "coordinates": [
+      27.685361,
+      85.335008
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/spiralogics"
+  },
+  {
+    "id": "yipl",
+    "name": "Young Innovations (YIPL)",
+    "website": "https://younginnovations.com.np",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://younginnovations.com.np",
+    "careersUrl": "https://www.linkedin.com/company/younginnovations/jobs/",
+    "applyEmail": "info@younginnovations.com.np",
+    "location": "Mahalaxmisthan Road, Kumaripati, Lalitpur",
+    "hq": "Kumaripati, Lalitpur, Nepal",
+    "size": "30–60",
+    "employeeRange": "11-50",
+    "founded": 2011,
+    "industry": "Civic tech · Open data · Development sector",
+    "type": "Services",
+    "about": "Leading Nepal civic-tech company building open-data platforms, e-government tools, and development-sector digital systems. Core contributors to OCHA's Humanitarian Data Exchange and digital governance initiatives across South Asia.",
+    "techStack": [
+      "Python",
+      "Django",
+      "React",
+      "PostgreSQL",
+      "OpenStreetMap",
+      "Docker",
+      "CKAN"
+    ],
+    "clientTypes": [
+      "UN agencies",
+      "USAID",
+      "Government of Nepal",
+      "I/NGOs",
+      "World Bank"
+    ],
+    "coordinates": [
+      27.664518,
+      85.319936
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/younginnovations"
+  },
+  {
+    "id": "genese",
+    "name": "Genese Solution",
+    "website": "https://www.genesesolution.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.genesesolution.com",
+    "careersUrl": "https://www.genesesolution.com/careers/",
+    "applyEmail": "careers@genesecloud.com",
+    "location": "Bakhundole, Lalitpur, Nepal",
+    "hq": "Bakhundole, Lalitpur · London, UK",
+    "size": "100+",
+    "employeeRange": "51-200",
+    "founded": 2010,
+    "industry": "Cloud services · AWS partner",
+    "type": "Services",
+    "about": "Nepal's leading AWS Advanced Consulting Partner, delivering cloud migration, DevOps automation, cloud-native application development, and managed cloud services to clients in Nepal and globally.",
+    "techStack": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "Python",
+      "Node.js",
+      "React",
+      "Ansible"
+    ],
+    "clientTypes": [
+      "Nepal enterprises",
+      "Banks and financial institutions",
+      "Government",
+      "International NGOs"
+    ],
+    "coordinates": [
+      27.684042,
+      85.312201
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/genese-solution"
+  },
+  {
+    "id": "infodevelopers",
+    "name": "InfoDevelopers",
+    "website": "https://infodev.com.np",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://infodev.com.np",
+    "careersUrl": "https://infodev.com.np/careers",
+    "applyEmail": "career@infodevelopers.com.np",
+    "location": "Sanepa, Lalitpur",
+    "hq": "Sanepa, Lalitpur, Nepal",
+    "size": "200+",
+    "employeeRange": "51-200",
+    "founded": 2007,
+    "industry": "Banking software · Enterprise IT",
+    "type": "Product",
+    "about": "Established Nepal IT company delivering core banking software, e-banking platforms, and enterprise applications for Nepal's financial sector. A major domestic supplier of fintech and banking technology.",
+    "techStack": [
+      "Java",
+      "Spring",
+      ".NET",
+      "Angular",
+      "React",
+      "Oracle",
+      "SQL Server",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "Nepal commercial banks",
+      "Development banks",
+      "Cooperatives",
+      "Microfinance institutions"
+    ],
+    "coordinates": [
+      27.6855,
+      85.3082
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/infodevelopers"
+  },
+  {
+    "id": "hamropatro",
+    "name": "Hamro Patro",
+    "website": "https://www.hamropatro.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.hamropatro.com",
+    "careersUrl": "https://www.linkedin.com/company/hamropatro/jobs",
+    "applyEmail": "career@hamropatro.com",
+    "location": "Panna Hiti, Chabahil, Kathmandu",
+    "hq": "Chabahil, Kathmandu · California, USA",
+    "size": "50+",
+    "employeeRange": "11-50",
+    "founded": 2010,
+    "industry": "Consumer apps · Nepali digital calendar",
+    "type": "Product",
+    "about": "Nepal's most-downloaded app (40M+ downloads) — the definitive Nepali calendar, news aggregator, and digital services platform. Engineering team in Kathmandu building mobile and web consumer products at scale.",
+    "techStack": [
+      "Android",
+      "iOS",
+      "Flutter",
+      "React",
+      "Node.js",
+      "Firebase",
+      "GCP"
+    ],
+    "clientTypes": [
+      "Nepali diaspora worldwide",
+      "Nepal consumers",
+      "Advertising partners"
+    ],
+    "coordinates": [
+      27.711892,
+      85.341927
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/hamropatro"
+  },
+  {
+    "id": "khalti",
+    "name": "Khalti by IME",
+    "website": "https://khalti.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://khalti.com",
+    "careersUrl": "https://khalti.com/careers",
+    "applyEmail": "careers@khalti.com",
+    "location": "Panipokhari, Kathmandu, Nepal",
+    "hq": "Panipokhari, Kathmandu, Nepal",
+    "size": "100+",
+    "employeeRange": "51-200",
+    "founded": 2017,
+    "industry": "Fintech · Digital payments",
+    "type": "Product",
+    "about": "Nepal's premier digital payment service provider, operating as Khalti by IME following the strategic merger. Headquartered in Panipokhari, Kathmandu, powering digital payments, micro-loans, and lifestyle services for millions.",
+    "techStack": [
+      "Python",
+      "Django",
+      "React",
+      "React Native",
+      "PostgreSQL",
+      "Redis",
+      "AWS"
+    ],
+    "clientTypes": [
+      "Nepal consumers",
+      "Merchants",
+      "Banks & financial institutions",
+      "Government agencies"
+    ],
+    "coordinates": [
+      27.729252,
+      85.324746
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/khaltiofficial"
+  },
+  {
+    "id": "naxa",
+    "name": "NAXA",
+    "website": "https://www.naxa.com.np",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.naxa.com.np",
+    "careersUrl": "https://www.naxa.com.np/career",
+    "applyEmail": "info@naxa.com.np",
+    "location": "Gairigaun, Baneshwor, Kathmandu",
+    "hq": "Baneshwor, Kathmandu, Nepal",
+    "size": "20–50",
+    "employeeRange": "11-50",
+    "founded": 2014,
+    "industry": "Geospatial tech · Civic tech · Open data",
+    "type": "Services",
+    "about": "Nepal's leading geospatial and civic-tech firm, building maps, GIS tools, and open-data platforms for government, UN agencies, and humanitarian organisations. A key contributor to OpenStreetMap Nepal.",
+    "techStack": [
+      "Python",
+      "Django",
+      "React",
+      "QGIS",
+      "GeoServer",
+      "PostGIS",
+      "OpenStreetMap",
+      "Leaflet"
+    ],
+    "clientTypes": [
+      "Government of Nepal",
+      "UN agencies",
+      "World Bank",
+      "I/NGOs",
+      "Humanitarian sector"
+    ],
+    "coordinates": [
+      27.693333,
+      85.347791
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[2-4][^>]*>([^<]*(?:Engineer|Developer|Designer|Intern|Officer)[^<]*)</h[2-4]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/naxanepal"
+  },
+  {
+    "id": "gts",
+    "name": "Geek Tech Solutions",
+    "website": "https://www.thegtspl.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.thegtspl.com",
+    "careersUrl": "https://www.thegtspl.com/career",
+    "applyEmail": "thegtsplcareer@gmail.com",
+    "location": "Balkumari, Lalitpur",
+    "hq": "Balkumari, Lalitpur, Nepal",
+    "size": "10–50",
+    "employeeRange": "11-50",
+    "founded": 2018,
+    "industry": "Custom software · Web & mobile",
+    "type": "Services",
+    "about": "Lalitpur studio building custom web, mobile, and desktop software for domestic and international business clients.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Flutter",
+      "Android",
+      "iOS",
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
+    "clientTypes": [
+      "SMEs in Nepal",
+      "International clients",
+      "E-commerce businesses"
+    ],
+    "coordinates": [
+      27.671,
+      85.338
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[2-4][^>]*>([^<]*(?:Developer|Engineer|Designer)[^<]*)</h[2-4]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/geek-tech-solutions-pvt-ltd"
+  },
+  {
+    "id": "zunkiree",
+    "name": "Zunkiree Labs",
+    "website": "https://zunkireelabs.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://zunkireelabs.com",
+    "careersUrl": "https://zunkireelabs.com/careers/",
+    "applyEmail": "hello@zunkireelabs.com",
+    "location": "Naxal, Kathmandu",
+    "hq": "Naxal, Kathmandu, Nepal",
+    "size": "10–50",
+    "employeeRange": "11-50",
+    "founded": 2022,
+    "industry": "AI platforms · LLM tooling",
+    "type": "Product",
+    "about": "AI-native product studio hiring remotely from Nepal, building LLM-powered platforms for engineering, ML, design, and DevOps use cases.",
+    "techStack": [
+      "Python",
+      "LLM",
+      "FastAPI",
+      "React",
+      "Docker",
+      "AWS",
+      "Machine Learning"
+    ],
+    "clientTypes": [
+      "AI-first startups",
+      "US tech companies"
+    ],
+    "coordinates": [
+      27.718,
+      85.326
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[2-4][^>]*>([^<]*(?:Engineer|Designer|DevOps)[^<]*)</h[2-4]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/zunkireelabs"
+  },
+  {
+    "id": "dignep",
+    "name": "Dignep Group",
+    "website": "https://dignep.com.np",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://dignep.com.np",
+    "careersUrl": "https://dignep.com.np/careers/",
+    "applyEmail": "info@dignep.com.np",
+    "location": "Kathmandu, Nepal",
+    "hq": "Kathmandu",
+    "size": "50–100",
+    "employeeRange": "51-200",
+    "founded": 2004,
+    "industry": "Software outsourcing · AI solutions",
+    "type": "Services",
+    "about": "ISO-certified Nepal software company delivering dedicated development teams and product engineering services, with growing AI and automation capabilities.",
+    "techStack": [
+      "React",
+      "Angular",
+      ".NET",
+      "Java",
+      "Python",
+      "AWS",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "European tech companies",
+      "Australian businesses",
+      "US startups"
+    ],
+    "coordinates": [
+      27.714,
+      85.328
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[2-4][^>]*>([^<]*(?:Officer|Engineer|Developer|Designer|Intern)[^<]*)</h[2-4]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/dignep-group"
+  },
+  {
+    "id": "ebpearls",
+    "name": "EB Pearls",
+    "website": "https://ebpearls.com.au",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://ebpearls.com.au",
+    "careersUrl": "https://ebpearls.com.au/careers",
+    "applyEmail": "hr@ebpearls.com.au",
+    "location": "Kandevsthan, Kupondole, Lalitpur",
+    "hq": "Kupondole, Lalitpur · Sydney, Australia",
+    "size": "100+",
+    "employeeRange": "51-200",
+    "founded": 2004,
+    "industry": "App & web product engineering",
+    "type": "Services",
+    "about": "Australian-founded product studio with a large Kathmandu engineering office, specialising in mobile apps (iOS/Android/React Native), web applications, and UI/UX design for Australian clients.",
+    "techStack": [
+      "React",
+      "React Native",
+      "Swift",
+      "Kotlin",
+      "Node.js",
+      "Laravel",
+      "AWS",
+      "Flutter"
+    ],
+    "clientTypes": [
+      "Australian SMEs",
+      "Australian enterprise clients",
+      "Startups across APAC"
+    ],
+    "coordinates": [
+      27.6895,
+      85.3135
+    ],
+    "forceNepal": false,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h3[^>]*>([^<]*(?:Developer|Engineer|Analyst|Designer|Manager)[^<]*)</h3>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/ebpearls"
+  },
+  {
+    "id": "proshore",
+    "name": "Proshore",
+    "website": "https://proshore.eu",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://proshore.eu",
+    "careersUrl": "https://proshore.eu/careers",
+    "applyEmail": "hello@proshore.eu",
+    "location": "Tinkune, Kathmandu",
+    "hq": "Tinkune, Kathmandu · Amsterdam, Netherlands",
+    "size": "80+",
+    "employeeRange": "51-200",
+    "founded": 2012,
+    "industry": "Product teams · Staff augmentation",
+    "type": "Services",
+    "about": "Dutch–Nepal company that assembles ready-to-code product teams for European tech companies, specialising in nearshore team extension for SaaS and e-commerce clients.",
+    "techStack": [
+      "React",
+      "Angular",
+      "Vue",
+      "Node.js",
+      "PHP",
+      "Laravel",
+      "Python",
+      "AWS",
+      "Docker"
+    ],
+    "clientTypes": [
+      "European SaaS companies",
+      "Dutch e-commerce businesses",
+      "Nordic tech startups"
+    ],
+    "coordinates": [
+      27.6865,
+      85.3485
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "html",
+      "titleRe": "<h[2-4][^>]*>([^<]*(?:Developer|Engineer|Designer|Scrum|Intern)[^<]*)</h[2-4]>"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/proshore"
+  },
+  {
+    "id": "techvortex",
+    "name": "Tekvortex",
+    "website": "https://tekvortex.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://tekvortex.com",
+    "careersUrl": "https://tekvortex.com",
+    "applyEmail": "hr@techvortex.com.np",
+    "location": "Shanta Bhawan Marg, Sanepa, Lalitpur, Nepal",
+    "hq": "Sanepa, Lalitpur · Delaware, USA",
+    "size": "10–50",
+    "employeeRange": "11-50",
+    "founded": 2017,
+    "industry": "Custom software · Mobile apps",
+    "type": "Services",
+    "about": "Nepal software studio delivering custom web and mobile application development, UI/UX design, and digital transformation projects for domestic and international clients.",
+    "techStack": [
+      "React",
+      "Flutter",
+      "Node.js",
+      "Python",
+      "Firebase",
+      "AWS",
+      "MySQL"
+    ],
+    "clientTypes": [
+      "Nepal SMEs",
+      "Startups",
+      "International clients"
+    ],
+    "coordinates": [
+      27.6812,
+      85.3055
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/tekvortex"
+  },
+  {
+    "id": "docsumo",
+    "name": "Docsumo",
+    "website": "https://www.docsumo.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.docsumo.com",
+    "careersUrl": "https://www.docsumo.com/careers",
+    "applyEmail": "careers@docsumo.com",
+    "location": "Sanepa, Lalitpur",
+    "hq": "Sanepa, Lalitpur · Wilmington, DE, USA",
+    "size": "50–100",
+    "employeeRange": "51-200",
+    "founded": 2019,
+    "industry": "AI · Intelligent Document Processing",
+    "type": "Product",
+    "about": "AI-powered Intelligent Document Processing (IDP) platform automating data extraction from unstructured documents (invoices, bank statements, forms) for financial services and insurance companies. Engineering team in Nepal.",
+    "techStack": [
+      "Python",
+      "Machine Learning",
+      "LLM",
+      "FastAPI",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "AI"
+    ],
+    "clientTypes": [
+      "US financial services",
+      "Insurance companies",
+      "Mortgage lenders",
+      "Accounting firms"
+    ],
+    "coordinates": [
+      27.6865,
+      85.3125
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/docsumo"
+  },
+  {
+    "id": "niural",
+    "name": "Niural",
+    "website": "https://www.niural.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.niural.com",
+    "careersUrl": "https://www.niural.com/careers",
+    "applyEmail": "team@niural.com",
+    "location": "Sanepa, Lalitpur",
+    "hq": "Sanepa, Lalitpur · San Francisco, CA, USA",
+    "size": "50–100",
+    "employeeRange": "11-50",
+    "founded": 2021,
+    "industry": "HR tech · Global payroll AI",
+    "type": "Product",
+    "about": "AI-powered global payroll and workforce management platform built by Nepali founders. Automates international payroll, contractor payments, and HR compliance for companies hiring globally. Engineering hub in Kathmandu.",
+    "techStack": [
+      "Python",
+      "AI",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS",
+      "Machine Learning"
+    ],
+    "clientTypes": [
+      "US tech companies",
+      "Global remote-first companies",
+      "HR and payroll service providers"
+    ],
+    "coordinates": [
+      27.6832,
+      85.309
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/niural"
+  },
+  {
+    "id": "bajra",
+    "name": "Bajra Technologies",
+    "website": "https://bajratechnologies.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://bajratechnologies.com",
+    "careersUrl": "https://bajratechnologies.com/jobs",
+    "applyEmail": "career@bajratechnologies.com",
+    "location": "Gurju Marg, Dillibazar, Kathmandu",
+    "hq": "Dillibazar, Kathmandu · San Jose, CA, USA",
+    "size": "200+",
+    "employeeRange": "201-500",
+    "founded": 2011,
+    "industry": "Software engineering · Cloud & Mobile · Enterprise AI",
+    "type": "Services",
+    "about": "Bajra Technologies is a premier software engineering firm with 200+ engineers building high-scale web platforms, mobile apps, and cloud architectures for Silicon Valley startups and global enterprises.",
+    "techStack": [
+      "React",
+      "React Native",
+      "Node.js",
+      "Python",
+      "Java",
+      "AWS",
+      "Flutter",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "clientTypes": [
+      "Silicon Valley startups",
+      "US enterprise clients",
+      "North American digital platforms"
+    ],
+    "coordinates": [
+      27.706836,
+      85.325384
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "careers-page",
+      "url": "https://bajratechnologies.com/careers"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/bajra-technologies"
+  },
+  {
+    "id": "deerhold",
+    "name": "Deerhold",
+    "website": "https://deerhold.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://deerhold.com",
+    "careersUrl": "https://deerhold.com/careers",
+    "applyEmail": "careers@deerhold.com",
+    "location": "Jaya Bagheshwori Marg, Sifal, Kathmandu",
+    "hq": "Sifal, Kathmandu · Boston, MA, USA",
+    "size": "300+",
+    "employeeRange": "201-500",
+    "founded": 2020,
+    "industry": "Healthcare tech · Enterprise software · Data & AI",
+    "type": "Services",
+    "about": "Founded by the pioneers behind Deerwalk, Deerhold delivers bespoke digital transformation, healthcare analytics, and cloud engineering for North American healthcare networks from its tech hub in Sifal.",
+    "techStack": [
+      "Java",
+      "Python",
+      "AWS",
+      "React",
+      "Angular",
+      "Snowflake",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "US healthcare networks",
+      "Health insurance companies",
+      "Enterprise SaaS"
+    ],
+    "coordinates": [
+      27.7121,
+      85.3416
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "careers-page",
+      "url": "https://deerhold.com/careers"
+    },
+    "linkedinUrl": "https://www.linkedin.com/company/deerhold"
+  },
+  {
+    "id": "growbydata",
+    "name": "GrowByData",
+    "website": "https://growbydata.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://growbydata.com",
+    "careersUrl": "https://growbydata.com/career-overview/",
+    "linkedinUrl": "https://www.linkedin.com/company/growbydata",
+    "applyEmail": "inquiries@growbydata.com",
+    "location": "Sanepa, Lalitpur, Nepal",
+    "hq": "Sanepa, Lalitpur · Boston, MA, USA",
+    "size": "150+",
+    "employeeRange": "51-200",
+    "founded": 2014,
+    "industry": "eCommerce Intelligence · Marketing Tech · Data Analytics",
+    "type": "Product",
+    "about": "GrowByData empowers global eCommerce brands and retailers with real-time marketing intelligence, competitive price monitoring, and search visibility data from its delivery center in Bakhundole.",
+    "techStack": [
+      "Python",
+      "Big Data",
+      "Machine Learning",
+      "AWS",
+      "React",
+      "Elasticsearch",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "Fortune 500 retailers",
+      "Global advertising agencies",
+      "US eCommerce brands"
+    ],
+    "coordinates": [
+      27.6845,
+      85.3066
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "careers-page",
+      "url": "https://growbydata.com/careers"
+    }
+  },
+  {
+    "id": "yarsatech",
+    "name": "Yarsa Tech & Labs",
+    "website": "https://www.yarsalabs.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.yarsalabs.com",
+    "careersUrl": "https://www.yarsalabs.com/careers/",
+    "linkedinUrl": "https://www.linkedin.com/company/yarsalabs/",
+    "applyEmail": "careers@yarsatech.com",
+    "location": "Tal Chowk, Pokhara (also Kathmandu)",
+    "hq": "Tal Chowk, Pokhara · Kathmandu, Nepal",
+    "size": "100+",
+    "employeeRange": "51-200",
+    "founded": 2016,
+    "industry": "Hardware & IoT · Embedded Systems · Software Engineering",
+    "type": "Product",
+    "about": "Yarsa Tech is a pioneer in hardware innovation, consumer IoT products, and software engineering in Nepal, building connected devices and consumer apps alongside Yarsa Labs.",
+    "techStack": [
+      "C++",
+      "Embedded C",
+      "IoT",
+      "Python",
+      "React",
+      "Node.js",
+      "PCB Design",
+      "Firmware"
+    ],
+    "clientTypes": [
+      "Consumer electronics buyers",
+      "Smart home devices",
+      "Global hardware distributors"
+    ],
+    "coordinates": [
+      28.160315,
+      84.057005
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "yarsalabs"
+    }
+  },
+  {
+    "id": "techkraft",
+    "name": "Techkraft Inc.",
+    "website": "https://techkraftinc.com/",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://techkraftinc.com",
+    "careersUrl": "https://techkraftinc.com/careers/",
+    "linkedinUrl": "https://www.linkedin.com/company/techkraft-inc/",
+    "applyEmail": "careers@techkraftinc.com",
+    "location": "Chakupat, Lalitpur, Nepal",
+    "hq": "Chakupat, Lalitpur · Dallas, TX, USA",
+    "size": "100+",
+    "employeeRange": "51-200",
+    "founded": 2017,
+    "industry": "Digital transformation · Enterprise Cloud & AI · Product Engineering",
+    "type": "Services",
+    "about": "Techkraft Inc. is a global technology services firm delivering modern cloud-native architectures, digital transformation, and scalable software solutions for US enterprises and fintech leaders.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Python",
+      "Java",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "US enterprise clients",
+      "North American financial tech",
+      "Global SaaS companies"
+    ],
+    "coordinates": [
+      27.6785,
+      85.3235
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "careers-page",
+      "url": "https://techkraftinc.com/careers/"
+    }
+  },
+  {
+    "id": "asterdio",
+    "name": "Asterdio",
+    "website": "https://asterdio.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://asterdio.com",
+    "careersUrl": "https://asterdio.com/careers",
+    "linkedinUrl": "https://www.linkedin.com/company/asterdio",
+    "applyEmail": "careers@asterdio.com",
+    "location": "Kamalpokhari, Kathmandu, Nepal",
+    "hq": "Kamalpokhari, Kathmandu · Delaware, USA",
+    "size": "50–100",
+    "employeeRange": "51-200",
+    "founded": 2015,
+    "industry": "Product engineering · Mobile & Cloud · Enterprise SaaS",
+    "type": "Services",
+    "about": "Asterdio designs and develops high-impact digital products, mobile applications, and AI integrations for North American and European healthcare, legaltech, and SaaS startups.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Python",
+      "Flutter",
+      "AWS",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "US healthtech startups",
+      "North American SaaS companies",
+      "Global digital platforms"
+    ],
+    "coordinates": [
+      27.7082,
+      85.323
+    ],
+    "forceNepal": true,
+    "source": {
+      "kind": "careers-page",
+      "url": "https://asterdio.com/careers"
+    }
+  },
+  {
+    "id": "devfinity",
+    "name": "Devfinity",
+    "website": "https://devfinity.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://devfinity.com",
+    "careersUrl": "https://www.linkedin.com/company/devfinity/jobs/",
+    "linkedinUrl": "https://www.linkedin.com/company/devfinity/",
+    "applyEmail": "hrnepal@devfinity.com",
+    "location": "New Baneshwor, Kathmandu, Nepal",
+    "hq": "New Baneshwor, Kathmandu · Salt Lake City, UT, USA",
+    "size": "100–250",
+    "employeeRange": "101-250",
+    "founded": 2018,
+    "industry": "Custom Software · Cloud Engineering · Mobile Apps",
+    "type": "Services",
+    "about": "Devfinity operates a major engineering and development hub in Kathmandu, delivering full-stack software development, cloud infrastructure, and UI/UX design to enterprise clients across North America.",
+    "techStack": [
+      "React",
+      "Node.js",
+      ".NET",
+      "Python",
+      "Angular",
+      "Flutter",
+      "AWS",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "US enterprise companies",
+      "North American fintechs",
+      "Healthcare & logistics platforms"
+    ],
+    "coordinates": [
+      27.6915,
+      85.334
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    }
+  },
+  {
+    "id": "deltatech",
+    "name": "Delta Tech (Delta Sales App)",
+    "website": "https://deltatechnepal.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://deltatechnepal.com",
+    "careersUrl": "https://deltatechnepal.com/careers",
+    "linkedinUrl": "https://www.linkedin.com/company/delta-tech-nepal/",
+    "applyEmail": "career@deltatechnepal.com",
+    "location": "Tinpaini, Biratnagar-2, Morang, Nepal",
+    "hq": "Tinpaini, Biratnagar, Morang, Nepal",
+    "size": "50–150",
+    "employeeRange": "51-200",
+    "founded": 2016,
+    "industry": "SaaS · Field Sales Automation · Mobile CRM",
+    "type": "Product",
+    "about": "Headquartered in Biratnagar, Delta Tech is the creator of Delta Sales App, Delta Retailer, and Delta Inventory CRM, providing field sales automation and supply chain tech used across Nepal, India, and Southeast Asia.",
+    "techStack": [
+      "Flutter",
+      "React Native",
+      "React",
+      "Node.js",
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "clientTypes": [
+      "FMCG manufacturers",
+      "Wholesale distributors",
+      "Retail brands in South Asia"
+    ],
+    "coordinates": [
+      26.4633,
+      87.2798
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    }
+  },
+  {
+    "id": "tunatech",
+    "name": "Tuna Technology",
+    "website": "https://tunatechnology.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://tunatechnology.com",
+    "careersUrl": "https://tunatechnology.com/careers",
+    "linkedinUrl": "https://www.linkedin.com/company/tuna-technology",
+    "applyEmail": "info@tunatechnology.com",
+    "location": "Yogikuti-3, Butwal, Rupandehi, Nepal",
+    "hq": "Yogikuti-3, Butwal · Chyasal, Lalitpur",
+    "size": "20–50",
+    "employeeRange": "20-50",
+    "founded": 2018,
+    "industry": "Enterprise ERP · Hotel Management · Custom Software",
+    "type": "Product & Services",
+    "about": "Based in Butwal with a presence in Kathmandu Valley, Tuna Technology builds enterprise ERP solutions, Dairy ERP, and Hotel Management Software (HMS), alongside custom web and mobile applications.",
+    "techStack": [
+      "Python",
+      "Django",
+      "React",
+      "Flutter",
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "Docker"
+    ],
+    "clientTypes": [
+      "Hospitality & hotel chains",
+      "Dairy and agricultural enterprises",
+      "Commercial businesses in Western Nepal"
+    ],
+    "coordinates": [
+      27.6865,
+      83.4663
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    }
+  },
+  {
+    "id": "nepsavvy",
+    "name": "Nepsavvy I.T. Solutions",
+    "website": "https://nepsavvy.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://nepsavvy.com",
+    "careersUrl": "https://nepsavvy.com/careers",
+    "linkedinUrl": "https://www.linkedin.com/company/nepsavvy",
+    "applyEmail": "career@nepsavvy.com",
+    "location": "Lion's Chowk, Narayangarh, Chitwan, Nepal",
+    "hq": "Narayangarh, Bharatpur, Chitwan, Nepal",
+    "size": "20–50",
+    "employeeRange": "20-50",
+    "founded": 2019,
+    "industry": "Web & Mobile Development · Cloud · Digital Solutions",
+    "type": "Services",
+    "about": "Based in Bharatpur/Narayangarh (Chitwan), Nepsavvy delivers high-performance web systems, custom mobile apps, and cloud-based software solutions for regional and international businesses.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "PHP",
+      "Laravel",
+      "Flutter",
+      "Python",
+      "MySQL",
+      "AWS"
+    ],
+    "clientTypes": [
+      "Tourism and healthcare providers in Chitwan",
+      "E-commerce businesses",
+      "SMEs across Central Nepal"
+    ],
+    "coordinates": [
+      27.6974,
+      84.4239
+    ],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    }
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "nepal-it-jobs",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Live IT job vacancies from Nepal's top tech companies",
+  "scripts": {
+    "sync": "node scripts/sync-jobs.mjs",
+    "dev":  "npx --yes serve . -p 3000",
+    "test": "node tests/validate-jobs.mjs && node tests/validate-map-and-locations.mjs",
+    "check-urls": "node tests/check_all_urls.mjs"
+  }
+}

@@ -1,0 +1,88 @@
+# .github/workflows/sync-and-deploy.yml
+#
+# Runs the Nepal IT Jobs scraper daily at 06:00 UTC (11:45 NPT),
+# commits any new data/jobs.json, and deploys to GitHub Pages.
+#
+# Setup:
+#   1. Repo Settings → Pages → Source: GitHub Actions
+#   2. No secrets needed (scraper hits only public APIs)
+
+name: Sync jobs & deploy
+
+on:
+  schedule:
+    - cron: "0 6 * * *"    # 06:00 UTC ≈ 11:45 NPT daily
+  workflow_dispatch:         # also allows manual trigger from Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/companies.json"
+      - "index.html"
+      - "style.css"
+      - "app.js"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # ── 1. Fetch live job data ─────────────────────────────────────────
+  sync:
+    name: Sync jobs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run scraper
+        run: node scripts/sync-jobs.mjs
+        timeout-minutes: 10
+
+      - name: Commit updated jobs.json (if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet data/jobs.json; then
+            git add data/jobs.json
+            COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/jobs.json','utf8'));console.log(d.jobCount)")
+            git commit -m "chore: sync jobs — ${COUNT} vacancies [skip ci]"
+            git push
+          else
+            echo "No changes in jobs.json, skipping commit."
+          fi
+
+  # ── 2. Deploy to GitHub Pages ──────────────────────────────────────
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: sync
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main          # pull the fresh commit from sync step
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."          # deploy entire repo root
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
