@@ -77,6 +77,61 @@ assert("all seniority values valid", badSeniority.length === 0, `${badSeniority.
 const badKind = jobs.filter(j => !["vacancy","talent-pool"].includes(j.listingKind));
 assert("all listingKind values valid", badKind.length === 0, `${badKind.length} invalid`);
 
+// Generated job URL/title sanity checks
+const TRACKING_OR_ASSET_HOSTS = [
+  "googletagmanager.com",
+  "google-analytics.com",
+  "cdn.jsdelivr.net",
+  "gmpg.org",
+];
+const CAREERS_PAGE_SOCIAL_HOSTS = [
+  "facebook.com",
+  "instagram.com",
+  "youtube.com",
+  "linkedin.com",
+  "twitter.com",
+  "x.com",
+];
+const STATIC_ASSET_RE = /\.(?:js|css|png|jpe?g|svg|webp|ico|woff2?|ttf|map)$/i;
+const GENERIC_CAREERS_TITLE_RE = /^(careers?|jobs?|openings?|company|about|our team|team|blog|case stud(?:y|ies)|sign in|sign up|join now|candidate portal|linkedin(?:-in)?|youtube|facebook(?:-f)?|instagram|twitter|x)(?:\s*[|:—-].*)?$/i;
+
+function hostMatches(hostname, blocked) {
+  return blocked.some(host => hostname === host || hostname.endsWith(`.${host}`));
+}
+
+function parseJobUrl(job) {
+  try {
+    return new URL(job.applyUrl);
+  } catch {
+    return null;
+  }
+}
+
+const badApplyUrls = jobs.filter(j => {
+  const url = parseJobUrl(j);
+  if (!url) return true;
+  const hostname = url.hostname.toLowerCase();
+  if (!["http:", "https:"].includes(url.protocol)) return true;
+  if (hostMatches(hostname, TRACKING_OR_ASSET_HOSTS)) return true;
+  if (STATIC_ASSET_RE.test(url.pathname)) return true;
+  return j.source === "Careers page" && hostMatches(hostname, CAREERS_PAGE_SOCIAL_HOSTS);
+});
+assert(
+  "no generated jobs use tracking, asset, or generic social apply URLs",
+  badApplyUrls.length === 0,
+  badApplyUrls.slice(0, 5).map(j => `${j.id}: ${j.applyUrl}`).join("; ")
+);
+
+const genericCareersTitles = jobs.filter(j => {
+  if (j.source !== "Careers page") return false;
+  return GENERIC_CAREERS_TITLE_RE.test(String(j.title || "").trim());
+});
+assert(
+  "no careers-page jobs use generic page titles",
+  genericCareersTitles.length === 0,
+  genericCareersTitles.slice(0, 5).map(j => `${j.id}: ${j.title}`).join("; ")
+);
+
 // ── companies.json ──────────────────────────────────────────────────
 console.log("\n🔍 Validating companies.json…");
 assert("companies is array",     Array.isArray(companies));

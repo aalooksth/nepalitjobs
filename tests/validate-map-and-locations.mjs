@@ -43,7 +43,7 @@ assert("Bajra careers URL is /jobs", bajra && bajra.careersUrl === "https://bajr
 const techkraft = companies.find(c => c.id === "techkraft");
 assert("Techkraft Inc. is present in directory", !!techkraft);
 assert("Techkraft website is techkraftinc.com", techkraft && techkraft.website.includes("techkraftinc.com"));
-assert("Techkraft careers is /careers/", techkraft && techkraft.careersUrl.includes("techkraftinc.com/careers"));
+assert("Techkraft careers uses the live portal", techkraft && techkraft.careersUrl === "https://careers.techkraftinc.com/jobs/Careers");
 
 const asterdio = companies.find(c => c.id === "asterdio");
 assert("Asterdio is present in directory", !!asterdio);

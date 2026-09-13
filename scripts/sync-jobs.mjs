@@ -248,6 +248,48 @@ function normalize(job) {
   };
 }
 
+function slugify(name) {
+  return String(name || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function detectCompanyFromPage(html, defaultName) {
+  if (!html) return null;
+  // 1) OpenGraph / meta site_name
+  const og = html.match(/<meta[^>]+property=["']og:site_name["'][^>]*content=["']([^"']+)["'][^>]*>/i) ||
+             html.match(/<meta[^>]+name=["']og:site_name["'][^>]*content=["']([^"']+)["'][^>]*>/i) ||
+             html.match(/<meta[^>]+name=["']twitter:site["'][^>]*content=["']([^"']+)["'][^>]*>/i);
+  if (og && og[1]) {
+    const v = og[1].trim();
+    if (v && v.toLowerCase() !== String(defaultName || "").toLowerCase()) return v;
+  }
+
+  // 2) Look for explicit "Company: XYZ" labels
+  const companyLabel = html.match(/Company:\s*<[^>]*>([^<\n]+)/i) || html.match(/Company:\s*([^<\n]+)/i);
+  if (companyLabel && companyLabel[1]) {
+    const v = companyLabel[1].trim();
+    if (v && v.toLowerCase() !== String(defaultName || "").toLowerCase()) return v;
+  }
+
+  // 3) Look for common company/employer class or id
+  const cls = html.match(/<(?:div|span|h1|h2|h3)[^>]+class=["'][^"']*(?:company|employer|org|employer-name|company-name)[^"']*["'][^>]*>([^<]+)</i);
+  if (cls && cls[1]) {
+    const v = cls[1].trim();
+    if (v && v.toLowerCase() !== String(defaultName || "").toLowerCase()) return v;
+  }
+
+  // 4) Fallback: look for anchor with rel or title containing company-like text
+  const link = html.match(/<a[^>]+class=["'][^"']*(?:company|brand|employer)[^"']*["'][^>]*>([^<]+)</i);
+  if (link && link[1]) {
+    const v = link[1].trim();
+    if (v && v.toLowerCase() !== String(defaultName || "").toLowerCase()) return v;
+  }
+
+  return null;
+}
+
 async function recruitee(company, apiUrl) {
   const data = await fetchText(apiUrl, { json: true });
   const offers = data.offers || [];
@@ -375,11 +417,20 @@ async function f1soft(company) {
       const descMatch = page.match(
         /<div[^>]+class="[^"]*(?:job-description|description)[^"]*"[^>]*>([\s\S]*?)<\/div>/i
       );
+      // Attempt to detect a child/subsidiary company name on the job page
+      const detectedCompany = detectCompanyFromPage(page, company.name);
+      let jobCompanyId = company.id;
+      let jobCompanyName = company.name;
+      if (detectedCompany && detectedCompany.toLowerCase() !== company.name.toLowerCase()) {
+        jobCompanyName = detectedCompany;
+        jobCompanyId = slugify(detectedCompany);
+      }
+
       details.push(
         normalize({
           id: `${company.id}-${item.url.split("/").pop()}`,
-          companyId: company.id,
-          company: company.name,
+          companyId: jobCompanyId,
+          company: jobCompanyName,
           title: stripHtml(title),
           department: "",
           description: descMatch ? descMatch[1] : stripHtml(page).slice(0, 2500),
@@ -471,19 +522,91 @@ async function htmlListings(company, { listRe, titleRe }) {
   return jobs;
 }
 
+const BLOCKED_CAREERS_HOSTS = [
+  "googletagmanager.com",
+  "google-analytics.com",
+  "cdn.jsdelivr.net",
+  "gmpg.org",
+  "facebook.com",
+  "instagram.com",
+  "youtube.com",
+  "linkedin.com",
+  "twitter.com",
+  "x.com",
+];
+
+const STATIC_ASSET_RE = /\.(?:js|css|png|jpe?g|svg|webp|ico|woff2?|ttf|map)$/i;
+const JOB_URL_MARKER_RE = /(^|[/.\-_])(jobs?|careers?|career|openings?|candidateportal|recruit(?:ing|ment)?|apply)([/._-]|$)/i;
+const ROLE_TITLE_RE = /\b(engineer|developer|designer|analyst|manager|qa|quality assurance|sqa|devops|data|software|frontend|front-end|backend|back-end|full[-\s]?stack|product|project|scrum|officer|intern|architect|lead|sales|support|accountant|hr|recruiter|consultant|strategist|specialist)\b/i;
+const GENERIC_CAREERS_TITLE_RE = /^(careers?|jobs?|openings?|company|about|our team|team|blog|case stud(?:y|ies)|sign in|sign up|join now|candidate portal|linkedin(?:-in)?|youtube|facebook(?:-f)?|instagram|twitter|x)$/i;
+
+function blockedHost(hostname) {
+  return BLOCKED_CAREERS_HOSTS.some(
+    (host) => hostname === host || hostname.endsWith(`.${host}`)
+  );
+}
+
+function isBlockedCareersUrl(url) {
+  try {
+    const parsed = new URL(url);
+    return (
+      !["http:", "https:"].includes(parsed.protocol) ||
+      blockedHost(parsed.hostname.toLowerCase()) ||
+      STATIC_ASSET_RE.test(parsed.pathname)
+    );
+  } catch {
+    return true;
+  }
+}
+
+function isGenericCareersTitle(title, company) {
+  const clean = title.replace(/\s+/g, " ").trim();
+  if (!clean) return true;
+  if (GENERIC_CAREERS_TITLE_RE.test(clean)) return true;
+  const companyName = String(company.name || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (companyName) {
+    const companyPageRe = new RegExp(`^(?:careers?|jobs?|openings?)\\s*(?:[|:—-]\\s*)?${companyName}$`, "i");
+    if (companyPageRe.test(clean)) return true;
+  }
+  return false;
+}
+
+function looksLikeJobTitle(title) {
+  return ROLE_TITLE_RE.test(title) && !isTalentPool(title);
+}
+
+function looksLikeJobUrl(url) {
+  const parsed = new URL(url);
+  return JOB_URL_MARKER_RE.test(`${parsed.hostname}${parsed.pathname}`);
+}
+
 async function parseCareersPage(company) {
   try {
     const targetUrl = company.source?.url || company.careersUrl || company.website;
     const html = await fetchText(targetUrl);
     const jobs = [];
     const seen = new Set();
-    const re = /href=["']((?:https?:\/\/[^"']+|(?:\/jobs\/|\/career\/|\/careers\/|\/openings\/)[^"']*))["'][^>]*>([\s\S]*?)<\/a>/gi;
+    const re = /<a\b[^>]*\bhref=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
     let m;
     while ((m = re.exec(html))) {
-      const url = m[1].startsWith("http") ? m[1] : new URL(m[1], targetUrl).href;
+      let url;
+      try {
+        url = new URL(m[1], targetUrl).href;
+      } catch {
+        continue;
+      }
+      const href = m[1];
+      if (href.startsWith("#")) {
+        if (!href.startsWith("#collapse-")) continue;
+      } else {
+        const parsed = new URL(href, targetUrl);
+        if (!looksLikeJobUrl(parsed.href) && !/\/positions?\b|\/jobs?\b|\/careers?\b|\/openings?\b/i.test(parsed.pathname)) continue;
+      }
       const title = stripHtml(m[2]).trim();
       const slug = title.toLowerCase().replace(/\W+/g, "-").replace(/^-+|-+$/g, "");
       if (!slug || seen.has(slug) || seen.has(url)) continue;
+      if (isBlockedCareersUrl(url)) continue;
+      if (isGenericCareersTitle(title, company) || !looksLikeJobTitle(title)) continue;
       if (/^(contact|apply|view|see|read|home|about|resume|submit|cv|back|more|learn|faq|privacy|terms|cookie|build-operate|why-join|our-process|benefits|culture|testimonials)/i.test(slug)) continue;
       seen.add(slug);
       seen.add(url);
@@ -506,6 +629,40 @@ async function parseCareersPage(company) {
   } catch {
     return [];
   }
+}
+
+async function homerun(company) {
+  const url = company.source?.url || "https://feed.homerun.co/proshore";
+  const xml = await fetchText(url);
+  const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map((m) => m[1]);
+
+  return entries
+    .map((entry) => {
+      const title = (entry.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || "";
+      const href = (entry.match(/<link[^>]*href="([^"]+)"/i) || [])[1] || "";
+      const updated = (entry.match(/<updated>([\s\S]*?)<\/updated>/i) || [])[1] || null;
+      const summary = (entry.match(/<summary[^>]*>([\s\S]*?)<\/summary>/i) || entry.match(/<content[^>]*>([\s\S]*?)<\/content>/i) || [])[1] || "";
+      const cleanTitle = stripHtml(title).trim();
+      const cleanDescription = stripHtml(summary).trim();
+      if (!cleanTitle || !href) return null;
+      return normalize({
+        id: `${company.id}-${cleanTitle.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`,
+        companyId: company.id,
+        company: company.name,
+        title: cleanTitle,
+        description: cleanDescription || `Open role at ${company.name}. Apply via the Proshore HomeRun job page.`,
+        location: company.location,
+        employmentType: "Full-time",
+        postedAt: updated,
+        applyUrl: href,
+        careersUrl: company.careersUrl,
+        applyEmail: company.applyEmail,
+        applyHow: `Apply on the Proshore HomeRun job board: ${href}`,
+        source: "HomeRun",
+      });
+    })
+    .filter(Boolean)
+    .filter((job) => nepalRelevant(job.location, job.summary, company.forceNepal));
 }
 
 async function yarsalabs(company) {
@@ -598,6 +755,91 @@ async function oracleHcm(company) {
     });
 }
 
+async function iqvia(company) {
+  const html = await fetchText(company.source.url);
+  const payload = html.replace(/\\"/g, '"');
+  const records = payload.match(/"instance_id"\s*:\s*"[\s\S]*?(?="instance_id"\s*:|$)/g) || [];
+  const field = (record, name) => {
+    const match = record.match(new RegExp(`"${name}"\\s*:\\s*"([^"]*)"`));
+    return match ? match[1] : "";
+  };
+
+  return records
+    .map((record) => ({
+      title: field(record, "job_title"),
+      reqId: field(record, "job_req_id"),
+      city: field(record, "city"),
+      country: field(record, "country"),
+      organization: field(record, "name"),
+      department: field(record, "employment_unit"),
+      employmentType: field(record, "employment_type"),
+      postedAt: field(record, "date_posted"),
+    }))
+    .filter(
+      (job) =>
+        job.reqId &&
+        job.title &&
+        job.country === "Nepal" &&
+        job.organization.toLowerCase() === company.name.toLowerCase()
+    )
+    .map((job) => {
+      const slug = job.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const jobUrl = `https://jobs.iqvia.com/en/job/${job.reqId}/${slug}`;
+      return normalize({
+        id: `${company.id}-${job.reqId}`,
+        companyId: company.id,
+        company: company.name,
+        title: job.title,
+        department: job.department,
+        location: job.city,
+        employmentType: job.employmentType,
+        postedAt: job.postedAt,
+        applyUrl: jobUrl,
+        careersUrl: company.careersUrl,
+        applyEmail: company.applyEmail,
+        applyHow: `Apply on the IQVIA careers portal: ${jobUrl}`,
+        source: "IQVIA Career Portal",
+      });
+    });
+}
+
+async function zohoRecruit(company) {
+  const html = await fetchText(company.source.url);
+  const match = html.match(/<input[^>]*value="([^"]*)"[^>]*id="jobs"/i);
+  if (!match) return [];
+
+  const jobs = JSON.parse(
+    match[1]
+      .replace(/&#34;/g, '"')
+      .replace(/&amp;/g, "&")
+      .replace(/&#39;/g, "'")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+  );
+
+  return jobs
+    .filter((job) => job.Publish && job.Country === "Nepal")
+    .map((job) => {
+      const title = job.Posting_Title || job.Job_Opening_Name;
+      const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      const jobUrl = `${new URL(company.source.url).origin}/jobs/Careers/${job.id}`;
+      return normalize({
+        id: `${company.id}-${job.id}`,
+        companyId: company.id,
+        company: company.name,
+        title,
+        department: job.Industry || "",
+        location: job.City || company.location,
+        employmentType: job.Job_Type || "Full-time",
+        applyUrl: jobUrl,
+        careersUrl: company.careersUrl,
+        applyEmail: company.applyEmail,
+        applyHow: `Apply on the Techkraft careers portal: ${jobUrl}`,
+        source: "Zoho Recruit",
+      });
+    });
+}
+
 async function linkedinJobs(company) {
   try {
     const query = company.source?.keyword || company.name;
@@ -677,6 +919,9 @@ const fetchers = {
     }),
   "careers-page": (c) => parseCareersPage(c),
   "oracle-hcm": (c) => oracleHcm(c),
+  iqvia: (c) => iqvia(c),
+  "zoho-recruit": (c) => zohoRecruit(c),
+  homerun: (c) => homerun(c),
   yarsalabs: (c) => yarsalabs(c),
 };
 
@@ -710,6 +955,77 @@ const payload = {
   errors,
   jobs: results,
 };
+
+// Detect any company IDs/names produced by scraping that aren't present in data/companies.json
+const existingIds = new Set(companies.map((c) => c.id));
+const existingNames = new Map(companies.map((c) => [String(c.name || "").toLowerCase(), c.id]));
+const newCompanies = [];
+for (const job of results) {
+  const jid = String(job.companyId || "").trim();
+  const jname = String(job.company || "").trim();
+  if (!jname) continue;
+  // If companyId already matches an existing id, skip
+  if (existingIds.has(jid)) continue;
+  // If the job's companyId looks like a slug created from a detected name, and the name isn't present, create a company entry
+  if (!existingIds.has(jid)) {
+    // Avoid adding duplicates for the same name
+    if (newCompanies.some((c) => String(c.name || "").toLowerCase() === jname.toLowerCase())) {
+      // update job.companyId to the id we generated earlier
+      const existing = newCompanies.find((c) => String(c.name || "").toLowerCase() === jname.toLowerCase());
+      if (existing) job.companyId = existing.id;
+      continue;
+    }
+
+    let newId = jid || slugify(jname);
+    let suffix = 1;
+    while (existingIds.has(newId) || newCompanies.some((c) => c.id === newId) || !newId) {
+      newId = `${slugify(jname) || 'company'}-${suffix++}`;
+    }
+
+    let website = null;
+    try {
+      const origin = job.careersUrl || job.applyUrl;
+      website = origin ? new URL(origin).origin : null;
+    } catch {
+      website = null;
+    }
+
+    const companyObj = {
+      id: newId,
+      name: jname,
+      website,
+      logoUrl: null,
+      careersUrl: job.careersUrl || website,
+      applyEmail: null,
+      location: job.location || "Nepal",
+      hq: job.location || "",
+      size: null,
+      employeeRange: null,
+      founded: null,
+      industry: "",
+      type: "",
+      about: "",
+      techStack: [],
+      clientTypes: [],
+      coordinates: null,
+      forceNepal: true,
+      source: { kind: "scraped-child" },
+      linkedinUrl: null,
+    };
+
+    newCompanies.push(companyObj);
+    existingIds.add(newId);
+    existingNames.set(jname.toLowerCase(), newId);
+    job.companyId = newId;
+  }
+}
+
+if (newCompanies.length) {
+  companies.push(...newCompanies);
+  await writeFile(join(ROOT, "data", "companies.json"), JSON.stringify(companies, null, 2));
+  console.log(`Appended ${newCompanies.length} new child companies to data/companies.json`);
+  payload.companyCount = companies.length;
+}
 
 await mkdir(join(ROOT, "data"), { recursive: true });
 await writeFile(join(ROOT, "data", "jobs.json"), JSON.stringify(payload, null, 2));

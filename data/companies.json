@@ -274,7 +274,7 @@
     "name": "Cedar Gate Technologies",
     "website": "https://www.cedargate.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.cedargate.com",
-    "careersUrl": "https://www.cedargate.com/careers",
+    "careersUrl": "https://jobs.iqvia.com/en/jobs?businesses=CEDAR+GATE+TECHNOLOGIES&locations=Nepal",
     "applyEmail": "careers@cedargate.com",
     "location": "Shanti Bhawan Marg, Sanepa, Lalitpur",
     "hq": "Sanepa, Lalitpur · Greenwich, CT, USA",
@@ -304,9 +304,8 @@
     "coordinates": [27.68081, 85.305345],
     "forceNepal": true,
     "source": {
-      "kind": "linkedin",
-      "keyword": "Cedar Gate Technologies",
-      "filter": "Cedar Gate"
+      "kind": "iqvia",
+      "url": "https://jobs.iqvia.com/en/jobs?businesses=CEDAR+GATE+TECHNOLOGIES&locations=Nepal"
     },
     "linkedinUrl": "https://www.linkedin.com/company/cedar-gate-technologies",
     "displayCareersUrl": "https://www.cedargate.com/careers/"
@@ -546,7 +545,7 @@
       "filter": "Young Innovations"
     },
     "linkedinUrl": "https://www.linkedin.com/company/younginnovations",
-    "displayCareersUrl": "https://www.younginnovations.com.np/careers"
+    "displayCareersUrl": "https://younginnovations.com.np/vacancy"
   },
   {
     "id": "genese",
@@ -895,7 +894,7 @@
     "name": "Proshore",
     "website": "https://proshore.eu",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://proshore.eu",
-    "careersUrl": "https://proshore.eu/careers",
+    "careersUrl": "https://proshore.homerun.co/?lang=en",
     "applyEmail": "hello@proshore.eu",
     "location": "Tinkune, Kathmandu",
     "hq": "Tinkune, Kathmandu · Amsterdam, Netherlands",
@@ -924,8 +923,8 @@
     "coordinates": [27.6865, 85.3485],
     "forceNepal": true,
     "source": {
-      "kind": "html",
-      "titleRe": "<h[2-4][^>]*>([^<]*(?:Developer|Engineer|Designer|Scrum|Intern)[^<]*)</h[2-4]>"
+      "kind": "homerun",
+      "url": "https://feed.homerun.co/proshore"
     },
     "linkedinUrl": "https://www.linkedin.com/company/proshore"
   },
@@ -1153,7 +1152,7 @@
     "forceNepal": true,
     "source": {
       "kind": "careers-page",
-      "url": "https://growbydata.com/careers"
+      "url": "https://growbydata.com/career-overview/"
     }
   },
   {
@@ -1198,7 +1197,7 @@
     "name": "Techkraft Inc.",
     "website": "https://techkraftinc.com/",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://techkraftinc.com",
-    "careersUrl": "https://techkraftinc.com/careers/",
+    "careersUrl": "https://careers.techkraftinc.com/jobs/Careers",
     "linkedinUrl": "https://www.linkedin.com/company/techkraft-inc/",
     "applyEmail": "careers@techkraftinc.com",
     "location": "Chakupat, Lalitpur, Nepal",
@@ -1228,8 +1227,8 @@
     "coordinates": [27.6785, 85.3235],
     "forceNepal": true,
     "source": {
-      "kind": "careers-page",
-      "url": "https://techkraftinc.com/careers/"
+      "kind": "zoho-recruit",
+      "url": "https://careers.techkraftinc.com/jobs/Careers"
     }
   },
   {
@@ -1264,6 +1263,7 @@
     ],
     "coordinates": [27.7082, 85.323],
     "forceNepal": true,
+    "directoryOnly": true,
     "source": {
       "kind": "careers-page",
       "url": "https://asterdio.com/careers"
