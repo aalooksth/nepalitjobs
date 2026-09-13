@@ -7,7 +7,7 @@
   "scripts": {
     "sync": "node scripts/sync-jobs.mjs",
     "dev":  "npx --yes serve . -p 3000",
-    "test": "node tests/validate-jobs.mjs && node tests/validate-map-and-locations.mjs",
+    "test": "node tests/validate-jobs.mjs && node tests/validate-map-and-locations.mjs && node tests/validate-seo-aeo.mjs",
     "check-urls": "node tests/check_all_urls.mjs"
   }
 }

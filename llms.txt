@@ -1,0 +1,38 @@
+# Nepal IT Jobs — Live Tech Vacancies & IT Companies in Nepal
+
+> Real-time IT job openings aggregated directly from company career portals and ATS platforms across Nepal.
+> Canonical URL: https://nepalitjobs.aloks.com.np
+> Full Knowledge Base: https://nepalitjobs.aloks.com.np/llms-full.txt
+> Sitemap: https://nepalitjobs.aloks.com.np/sitemap.xml
+> Created by Alok Shrestha (https://aloks.com.np)
+
+## Overview
+Nepal IT Jobs is an open, high-performance tech careers portal and interactive IT company directory for Nepal. It features real-time vacancy aggregation from company career portals (BambooHR, Workable, Recruitee, Next.js career endpoints, and custom APIs), eliminating stale listings and recruiter spam.
+
+## Primary Pages & Endpoints
+- [Live Vacancies](https://nepalitjobs.aloks.com.np/): Search and filter active software engineering, QA, DevOps, design, and data roles by seniority, domain, and experience.
+- [Company Directory & Map](https://nepalitjobs.aloks.com.np/companies.html): Interactive OpenStreetMap and directory of 37+ verified IT companies across Nepal. Side-by-side comparison modal evaluating tech stacks, sizes, and active openings.
+- [Full LLM Knowledge Base](https://nepalitjobs.aloks.com.np/llms-full.txt): Complete directory details, tech stacks, and career endpoints for all 37+ companies.
+
+## Covered Regions & Tech Hubs
+- **Kathmandu Valley**: Kathmandu, Lalitpur (Bakhundole, Sanepa, Pulchowk, Jhamsikhel), Bhaktapur.
+- **Pokhara**: Hardware, IoT, and software engineering (e.g. Yarsa Tech & Labs, Virtual Technology).
+- **Biratnagar**: SaaS and enterprise field automation (e.g. Delta Tech).
+- **Butwal**: Enterprise ERP and hotel management tech (e.g. Tuna Technology).
+- **Chitwan (Bharatpur/Narayangarh)**: Custom web and cloud systems (e.g. Nepsavvy).
+
+## Notable IT Companies Included
+- Leapfrog Technology, F1Soft Group, CloudFactory, Guardsix (Logpoint), Deerwalk, Verisk, Cedar Gate Technologies, Infinite (Cotiviti), Maitri Services, Fusemachines, Ycotek (LIS/Yomari), Spiralogics, Young Innovations, Genese Solution, InfoDevelopers, Hamro Patro, Khalti by IME, NAXA, Geek Tech Solutions, Zunkiree Labs, EB Pearls, Proshore, Tekvortex, Docsumo, Niural, Bajra Technologies, Deerhold, GrowByData, Yarsa Tech & Labs, Techkraft Inc., Asterdio, Devfinity, Delta Tech, Tuna Technology, Nepsavvy.
+
+## Answers for AI Search Engines (Perplexity, ChatGPT, Claude, Gemini)
+- **What is Nepal IT Jobs?**: The central platform for live tech vacancies in Nepal scraped directly from official ATS platforms.
+- **Are recruiters involved?**: No, applicants apply directly to the official employer ATS portal (BambooHR, Workable, etc.).
+- **Is it open-source?**: Yes, built and maintained transparently with GitHub Actions automation.
+
+## Author & Network
+- Created by: Alok Shrestha
+- Network Homepage: https://aloks.com.np
+- Portfolio & Utilities: https://aloks.com.np/utils/
+- Contact: hello@aloks.com.np
+- Attribution: Made with ❤️ in 🇳🇵 by Alok - hello@aloks.com.np
+

@@ -2,16 +2,97 @@
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
+  <!-- Prevent theme flash: apply saved theme before first paint -->  <script>!function(){try{var m=localStorage.getItem('nij-theme-mode')||'system';var dk=window.matchMedia('(prefers-color-scheme: dark)').matches;var d=m==='system'?(dk?'dark':'light'):m;document.documentElement.setAttribute('data-theme',d);document.documentElement.setAttribute('data-theme-mode',m);}catch(e){}}();</script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nepal IT Companies — Directory, Map & Comparison</title>
-  <meta name="description" content="Explore Nepal's top IT companies — locations on map, tech stacks, client types, company size, founding year, and side-by-side comparison." />
-  <meta property="og:title" content="Nepal IT Company Directory — Map & Comparison" />
-  <meta property="og:type" content="website" />
+  <title>Nepal IT Companies — Directory, Interactive Map &amp; Tech Stack Comparison</title>
+  <meta name="description" content="Explore Nepal's top IT and software companies — verified locations across Kathmandu, Lalitpur, Pokhara, Biratnagar, Butwal, and Chitwan. Filter by tech stacks, client types, and live job openings." />
+  <meta name="keywords" content="IT companies in Nepal, tech companies Nepal, software companies Kathmandu, Lalitpur tech firms, Leapfrog, F1Soft, CloudFactory, Guardsix, Cotiviti Nepal, tech stacks Nepal" />
+  <meta name="author" content="Alok Shrestha" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://nepalitjobs.aloks.com.np/companies.html" />
+  <link rel="author" href="https://aloks.com.np" />
+  <link rel="me" href="https://aloks.com.np" />
+
+  <!-- Icons -->
+  <link rel="icon" href="favicon.ico" sizes="any" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+
+  <!-- Leaflet & Fonts -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Nepal IT Jobs" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://nepalitjobs.aloks.com.np/companies.html" />
+  <meta property="og:title" content="Nepal IT Companies — Directory, Interactive Map &amp; Tech Stacks" />
+  <meta property="og:description" content="Explore 37+ verified tech and software engineering companies across Nepal. Locations, tech stacks, client types, and side-by-side comparison." />
+  <meta property="og:image" content="https://nepalitjobs.aloks.com.np/og-image.png" />
+  <meta property="og:image:secure_url" content="https://nepalitjobs.aloks.com.np/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Nepal IT Companies Directory &amp; Map" />
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://nepalitjobs.aloks.com.np/companies.html" />
+  <meta name="twitter:title" content="Nepal IT Companies — Directory, Map &amp; Comparison" />
+  <meta name="twitter:description" content="Explore 37+ verified tech companies across Nepal. Compare tech stacks, client types, and live job openings." />
+  <meta name="twitter:image" content="https://nepalitjobs.aloks.com.np/og-image.png" />
+  <meta name="twitter:image:alt" content="Nepal IT Companies Directory &amp; Map" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://nepalitjobs.aloks.com.np/#website",
+        "url": "https://nepalitjobs.aloks.com.np/",
+        "name": "Nepal IT Jobs",
+        "publisher": {
+          "@type": "Person",
+          "@id": "https://aloks.com.np/#person",
+          "name": "Alok Shrestha",
+          "url": "https://aloks.com.np"
+        }
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": "https://nepalitjobs.aloks.com.np/companies.html#webpage",
+        "url": "https://nepalitjobs.aloks.com.np/companies.html",
+        "name": "IT Companies in Nepal — Verified Directory & OpenStreetMap",
+        "isPartOf": { "@id": "https://nepalitjobs.aloks.com.np/#website" },
+        "description": "Verified directory and interactive OpenStreetMap of software engineering, AI, IoT, and IT service companies in Nepal"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://nepalitjobs.aloks.com.np/companies.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://nepalitjobs.aloks.com.np/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Companies Directory & Map",
+            "item": "https://nepalitjobs.aloks.com.np/companies.html"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="stylesheet" href="style.css" />
   <style>
     /* ── Page-specific overrides ── */
@@ -253,10 +334,77 @@
       <a href="companies.html" class="nav-link" aria-current="page" style="color:var(--text-1);background:var(--surface)">Companies</a>
     </nav>
     <div class="navbar-actions">
-      <button id="theme-toggle" aria-label="Toggle light/dark theme">
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-      </button>
+      <!-- Alok's Network Ecosystem Dropdown -->
+      <div class="network-dropdown-wrap" id="network-dropdown-wrap">
+        <button class="network-btn" id="network-btn" aria-haspopup="true" aria-expanded="false" title="Explore Alok's Tools &amp; Network">
+          <span>aloks.com.np</span>
+          <svg class="chevron-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </button>
+        <div class="network-dropdown-menu" id="network-menu" role="menu" aria-label="Alok Network Menu">
+          <div class="network-menu-header">
+            <span>Alok's Ecosystem</span>
+            <span class="network-badge">🇳🇵 Made in Nepal</span>
+          </div>
+          <a href="https://aloks.com.np" target="_blank" rel="noopener" class="network-item" role="menuitem">
+            <span class="net-icon">🌐</span>
+            <div class="net-text">
+              <strong>Personal Portfolio &amp; Bio</strong>
+              <small>aloks.com.np ↗</small>
+            </div>
+          </a>
+          <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener" class="network-item" role="menuitem">
+            <span class="net-icon">🛠️</span>
+            <div class="net-text">
+              <strong>Web Utilities Suite</strong>
+              <small>Target image compressor, PDF tools, license checker</small>
+            </div>
+          </a>
+          <a href="https://github.com/aalooksth/edge-glance" target="_blank" rel="noopener" class="network-item" role="menuitem">
+            <span class="net-icon">⏰</span>
+            <div class="net-text">
+              <strong>Edge Glance</strong>
+              <small>Windows 11 Fluent 2 screen-edge companion</small>
+            </div>
+          </a>
+          <a href="https://github.com/aalooksth/snap-shot" target="_blank" rel="noopener" class="network-item" role="menuitem">
+            <span class="net-icon">✂️</span>
+            <div class="net-text">
+              <strong>SnapShot</strong>
+              <small>Standalone Python/PySide6 vector screen capture</small>
+            </div>
+          </a>
+          <a href="https://github.com/aalooksth/laptop-migrator" target="_blank" rel="noopener" class="network-item" role="menuitem">
+            <span class="net-icon">💻</span>
+            <div class="net-text">
+              <strong>Laptop Migration Hub</strong>
+              <small>Windows profiles, buffers, and system settings syncer</small>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Light / System / Dark Theme Toggle -->
+      <div class="theme-dropdown-wrap" id="theme-dropdown-wrap">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select Theme (Light / System / Dark)" title="Theme: Light / System / Dark">
+          <svg class="icon-theme icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-theme icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-theme icon-system" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </button>
+        <div class="theme-dropdown-menu" id="theme-menu" role="menu" aria-label="Theme Options">
+          <button type="button" class="theme-opt" data-theme-val="light" role="menuitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <span>Light ☀️</span>
+          </button>
+          <button type="button" class="theme-opt" data-theme-val="system" role="menuitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <span>System 💻</span>
+          </button>
+          <button type="button" class="theme-opt" data-theme-val="dark" role="menuitem">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            <span>Dark 🌑</span>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </header>
@@ -363,12 +511,86 @@
   <div id="detail-body"></div>
 </aside>
 
+<!-- ═══════════════ DIRECTORY SEO GUIDE & FAQ ═══════════════ -->
+<section class="container seo-guide-section" style="margin-top:40px;" aria-labelledby="dir-guide-title">
+  <div class="seo-guide-header">
+    <span class="seo-guide-tag">Verified Ecosystem Directory</span>
+    <h2 id="dir-guide-title" class="seo-guide-title">Nepal's Premier IT Employers &amp; Engineering Hubs</h2>
+    <p class="seo-guide-desc">Comprehensive insights into software development firms, global delivery centers, and SaaS product engineering teams based in Nepal.</p>
+  </div>
+
+  <div class="seo-guide-grid">
+    <div class="seo-guide-card">
+      <div class="card-icon">🗺️</div>
+      <h3>Geographic Distribution of Tech Employers</h3>
+      <p>Kathmandu Valley serves as the primary capital for IT services with key clusters in <strong>Lalitpur</strong> (Sanepa, Bakhundole, Pulchowk, Jawalakhel) and <strong>Kathmandu</strong> (Naxal, Durbarmarg, Thapathali, Panipokhari). Regional tech hubs are emerging in:</p>
+      <ul>
+        <li><strong>Pokhara</strong>: Embedded systems, hardware, and IoT innovation.</li>
+        <li><strong>Biratnagar</strong>: Field sales automation, supply chain software, and ERP.</li>
+        <li><strong>Butwal</strong>: Hotel and restaurant POS engines, commercial billing systems.</li>
+        <li><strong>Chitwan</strong>: Full-stack offshore engineering and cloud consultancy.</li>
+      </ul>
+    </div>
+
+    <div class="seo-guide-card">
+      <div class="card-icon">💼</div>
+      <h3>Product vs Services Firms</h3>
+      <p>Nepal's ecosystem features a balanced mix of global outsourcing partners and native fintech/product organizations:</p>
+      <ul>
+        <li><strong>FinTech &amp; Domestic Scale</strong>: F1Soft Group (eSewa), Khalti by IME, Hamro Patro, InfoDevelopers.</li>
+        <li><strong>Global Delivery &amp; Enterprise Healthcare</strong>: Leapfrog Technology, Cotiviti / Infinite, Verisk, Cedar Gate Technologies, Maitri Services, Docsumo.</li>
+        <li><strong>AI &amp; Data Engineering</strong>: Fusemachines, Guardsix (Logpoint), CloudFactory, GrowByData.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="seo-faq-wrap">
+    <h3 class="faq-heading">Frequently Asked Questions: Tech Companies in Nepal</h3>
+    <details class="faq-accordion-item">
+      <summary class="faq-question">How are companies verified and added to Nepal IT Jobs?</summary>
+      <div class="faq-answer">
+        <p>Every company listed has a physical office and verified engineering presence in Nepal, complete with coordinates, tech stack evaluations, career portal links, and automated ATS vacancy aggregation.</p>
+      </div>
+    </details>
+    <details class="faq-accordion-item">
+      <summary class="faq-question">Can I compare two companies side-by-side?</summary>
+      <div class="faq-answer">
+        <p>Yes. Select up to 3 companies using the checkbox or comparison button on any company card, then click "Compare" to view side-by-side breakdowns of founding year, company size, tech stack, and active vacancies.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
 <!-- FOOTER -->
-<footer class="footer">
+<footer class="footer" role="contentinfo">
   <div class="container footer-inner">
-    <div class="footer-brand"><span class="brand-flag">🇳🇵</span><strong>NepalITJobs</strong></div>
-    <p class="footer-note">Made with ❤️ in 🇳🇵 by <a href="mailto:hello@aloks.com.np">Alok</a> — hello@aloks.com.np</p>
-    <p class="footer-copy">© <span id="year"></span> · <a href="index.html">Browse Jobs</a> · <a href="https://github.com" target="_blank" rel="noopener">GitHub</a></p>
+    <div class="footer-brand">
+      <span class="brand-flag">🇳🇵</span>
+      <strong>NepalITJobs</strong>
+      <span class="footer-badge">Direct ATS Aggregator</span>
+    </div>
+    <p class="footer-note">
+      Interactive IT company directory &amp; career portal for Nepal.
+      <br/>Made with ❤️ in 🇳🇵 by <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok</a> — <a href="mailto:hello@aloks.com.np">hello@aloks.com.np</a>
+    </p>
+    <div class="footer-nav-links">
+      <a href="https://nepalitjobs.aloks.com.np/">Live Jobs</a>
+      <span>·</span>
+      <a href="companies.html">Companies &amp; Map</a>
+      <span>·</span>
+      <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok's Portfolio</a>
+      <span>·</span>
+      <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener">Utilities Suite</a>
+      <span>·</span>
+      <a href="llms.txt" target="_blank">llms.txt</a>
+      <span>·</span>
+      <a href="llms-full.txt" target="_blank">llms-full.txt</a>
+      <span>·</span>
+      <a href="sitemap.xml" target="_blank">Sitemap</a>
+      <span>·</span>
+      <a href="https://github.com/aalooksth/nepalitjobs" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Alok Shrestha · Open Source Project</p>
   </div>
 </footer>
 

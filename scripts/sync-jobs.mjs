@@ -164,24 +164,58 @@ function employmentType(code, title) {
   return "Full-time";
 }
 
-function nepalRelevant(location, text, forceNepal) {
-  const t = `${location} ${text}`.toLowerCase();
-  if (
-    /\b(pune|bengaluru|bangalore|hyderabad|mumbai|chennai|gurugram|noida|india)\b/.test(
-      t
-    ) &&
-    !/\bnepal\b|kathmandu|lalitpur/.test(t)
-  ) {
+const FOREIGN_BLACKLIST = /\b(india|united states|usa|u\.s\.a|u\.s\.|united kingdom|uk|u\.k\.|england|scotland|wales|ireland|poland|germany|canada|australia|singapore|netherlands|spain|france|italy|philippines|brazil|mexico|colombia|portugal|sweden|denmark|norway|finland|switzerland|austria|belgium|romania|bulgaria|czech|slovakia|hungary|greece|turkey|dubai|uae|saudi|qatar|japan|malaysia|vietnam|thailand|indonesia|pakistan|bangladesh|sri lanka|kenya|uganda|nigeria|south africa|pune|bengaluru|bangalore|hyderabad|mumbai|chennai|gurugram|noida|delhi|kolkata|kerala|ahmedabad|jaipur|coimbatore|kochi|indore|chandigarh|boston|new york|jersey city|chicago|austin|seattle|san francisco|california|texas|massachusetts|london|bristol|manchester|woburn|karlsruhe|oldenburg|nairobi|kampala|reading|berlin|sydney|melbourne|toronto|vancouver)\b/i;
+
+const NEPAL_LOCATIONS = /\b(nepal|kathmandu|lalitpur|patan|bhaktapur|pokhara|butwal|biratnagar|chitwan|bharatpur|narayangarh|dharan|itahari|birgunj|nepalgunj|hetauda|dhangadhi|banepa|dhulikhel|sanepa|pulchowk|bakhundole|jhamsikhel|jawalakhel|kupondole|thamel|dillibazar|naxal|hattisar|baluwatar|baneshwor|sifal|tinkune|kamalpokhari|koteshwor|chabahil)\b/i;
+
+function cleanNepalLocation(loc, defaultLoc = "Nepal") {
+  if (!loc) return defaultLoc;
+  let s = String(loc).trim();
+  s = s.replace(/,?\s*Bāgmatī/gi, "");
+  s = s.replace(/,?\s*Bagmati/gi, "");
+  s = s.replace(/\bDistrict\b/gi, "");
+  s = s.replace(/\bZone\b/gi, "");
+  s = s.replace(/\s+/g, " ").trim();
+
+  // If clearly foreign and lacks explicit Nepal marker, do NOT append Nepal
+  if (FOREIGN_BLACKLIST.test(s) && !NEPAL_LOCATIONS.test(s)) return s;
+
+  if (/pokhara/i.test(s)) return "Pokhara, Nepal";
+  if (/biratnagar/i.test(s)) return "Biratnagar, Nepal";
+  if (/butwal/i.test(s)) return "Butwal, Nepal";
+  if (/chitwan|bharatpur|narayangarh/i.test(s)) return "Chitwan, Nepal";
+  if (/dharan/i.test(s)) return "Dharan, Nepal";
+  if (/itahari/i.test(s)) return "Itahari, Nepal";
+  if (/hetauda/i.test(s)) return "Hetauda, Nepal";
+  if (/birgunj/i.test(s)) return "Birgunj, Nepal";
+  if (/nepalgunj/i.test(s)) return "Nepalgunj, Nepal";
+  if (/dhangadhi/i.test(s)) return "Dhangadhi, Nepal";
+  if (/banepa|dhulikhel/i.test(s)) return "Kavre, Nepal";
+  if (/lalitpur|patan|sanepa|pulchowk|bakhundole|jhamsikhel|jawalakhel|kupondole/i.test(s)) return "Lalitpur, Nepal";
+  if (/bhaktapur/i.test(s)) return "Bhaktapur, Nepal";
+  if (/kathmandu|thamel|dillibazar|naxal|hattisar|baluwatar|baneshwor|sifal|tinkune|kamalpokhari|koteshwor|chabahil/i.test(s)) return "Kathmandu, Nepal";
+  if (/remote/i.test(s)) return "Remote (Nepal)";
+  if (/nepal/i.test(s)) return s.includes("Nepal") ? s : s + ", Nepal";
+  return s;
+}
+
+function nepalRelevant(location, text = "", forceNepal = false) {
+  const loc = String(location || "").trim();
+  const t = (loc + " " + text).toLowerCase();
+
+  if (FOREIGN_BLACKLIST.test(loc) && !/\bnepal\b/i.test(loc)) {
     return false;
   }
-  if (
-    /nepal|kathmandu|lalitpur|patan|bhaktapur|pokhara|butwal|biratnagar|chitwan|pulchowk|hattisar|naxal|baneshwor|kupondole/.test(
-      t
-    )
-  ) {
+
+  if (NEPAL_LOCATIONS.test(loc)) {
     return true;
   }
-  return Boolean(forceNepal);
+
+  if (NEPAL_LOCATIONS.test(t) && !FOREIGN_BLACKLIST.test(t)) {
+    return true;
+  }
+
+  return Boolean(forceNepal) && !FOREIGN_BLACKLIST.test(loc) && !FOREIGN_BLACKLIST.test(t);
 }
 
 function normalize(job) {
@@ -199,7 +233,7 @@ function normalize(job) {
     techStack: extractTech(`${job.title} ${job.department || ""} ${raw}`).slice(0, 8),
     employmentType: employmentType(job.employmentType || "", job.title),
     workType: workType({ ...job, rawText: raw }),
-    location: job.location || "Nepal",
+    location: cleanNepalLocation(job.location || "Nepal"),
     postedAt: job.postedAt || null,
     deadline: job.deadline || null,
     applyUrl: job.applyUrl,
@@ -522,7 +556,116 @@ const companies = JSON.parse(
   await readFile(join(ROOT, "data", "companies.json"), "utf8")
 );
 
+
+
+async function oracleHcm(company) {
+  const url = company.source?.apiUrl || `https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=${company.source?.siteNumber || "CX_1"},limit=155`;
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": UA,
+      Accept: "application/json",
+    },
+  });
+  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  const data = await res.json();
+  const searchObj = data.items?.[0] || {};
+  const list = searchObj.requisitionList || [];
+
+  return list
+    .filter((req) => {
+      if (req.PrimaryLocationCountry === "NP") return true;
+      const locStr = req.PrimaryLocation || "";
+      return nepalRelevant(locStr, req.Title || "", false);
+    })
+    .map((req) => {
+      const locStr = cleanNepalLocation(req.PrimaryLocation || "Kathmandu, Nepal");
+      const jobUrl = `https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/${company.source?.siteNumber || "CX_1"}/job/${req.Id}`;
+      return normalize({
+        id: `${company.id}-${req.Id}`,
+        companyId: company.id,
+        company: company.name,
+        title: req.Title,
+        department: req.JobFamily || "",
+        description: req.ShortDescriptionStr || "",
+        location: locStr,
+        employmentType: req.JobSchedule || "Full-time",
+        postedAt: req.PostedDate || null,
+        applyUrl: jobUrl,
+        careersUrl: company.careersUrl,
+        applyHow: `Apply on Verisk official Oracle Cloud career portal: ${jobUrl}`,
+        source: "Verisk Career Portal (Oracle Cloud)",
+      });
+    });
+}
+
+async function linkedinJobs(company) {
+  try {
+    const query = company.source?.keyword || company.name;
+    const filter = (company.source?.filter || company.name).toLowerCase();
+    const url = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodeURIComponent(query)}&location=Nepal&start=0`;
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        Accept: "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.9",
+      },
+    });
+    if (!res.ok) {
+      console.warn(`LinkedIn fetch returned ${res.status} for ${company.name}`);
+      return [];
+    }
+    const html = await res.text();
+    const cardRegex = /<div[^>]+class="[^"]*base-search-card[^"]*"[\s\S]*?<\/li>/gi;
+    const cards = html.match(cardRegex) || [];
+    const jobs = [];
+    const seen = new Set();
+
+    for (const card of cards) {
+      const title = (card.match(/<h3 class="base-search-card__title">([\s\S]*?)<\/h3>/i)?.[1] || "").trim();
+      const comp = (card.match(/<h4 class="base-search-card__subtitle">([\s\S]*?)<\/h4>/i)?.[1] || "").replace(/<[^>]+>/g, "").trim();
+      const link = card.match(/<a class="base-card__full-link[^"]*"\s+href="([^"?]+)/i)?.[1] || "";
+      const rawLoc = (card.match(/<span class="job-search-card__location">([\s\S]*?)<\/span>/i)?.[1] || "").trim();
+      if (!nepalRelevant(rawLoc, title, false)) continue;
+      const loc = cleanNepalLocation(rawLoc);
+      const date = card.match(/<time[^>]+datetime="([^"]+)"/i)?.[1] || null;
+
+      if (!title || !link || !comp) continue;
+      const compLower = comp.toLowerCase();
+      if (!compLower.includes(filter) && !filter.includes(compLower)) continue;
+
+      const slug = title.toLowerCase().replace(/\W+/g, "-").replace(/^-+|-+$/g, "");
+      if (seen.has(slug) || seen.has(link)) continue;
+      seen.add(slug);
+      seen.add(link);
+
+      jobs.push(
+        normalize({
+          id: `${company.id}-${slug}`,
+          companyId: company.id,
+          company: company.name,
+          title,
+          description: `${title} at ${company.name} (${loc || company.location}). View and apply directly on LinkedIn.`,
+          location: loc || company.location,
+          postedAt: date,
+          applyUrl: link,
+          careersUrl: company.careersUrl,
+          applyEmail: company.applyEmail,
+          applyHow: `Apply on LinkedIn: ${link}`,
+          source: "LinkedIn",
+        })
+      );
+    }
+    // Rate limit delay (1s) to be gentle on guest endpoint
+    await new Promise((r) => setTimeout(r, 1000));
+    return jobs;
+  } catch (err) {
+    console.error(`LinkedIn error for ${company.name}: ${err.message}`);
+    return [];
+  }
+}
+
 const fetchers = {
+  linkedin: (c) => linkedinJobs(c),
   recruitee: (c) => recruitee(c, c.source.url),
   workable: (c) => workable(c, c.source.account),
   bamboohr: (c) => bamboohr(c, c.source.subdomain),
@@ -533,6 +676,7 @@ const fetchers = {
       titleRe: c.source.titleRe ? new RegExp(c.source.titleRe, "gi") : null,
     }),
   "careers-page": (c) => parseCareersPage(c),
+  "oracle-hcm": (c) => oracleHcm(c),
   yarsalabs: (c) => yarsalabs(c),
 };
 

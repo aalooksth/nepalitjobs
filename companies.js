@@ -97,18 +97,80 @@ async function init() {
   }
 }
 
-// ── Theme ──────────────────────────────────────────────────────────
-function setupTheme() {
-  const btn  = document.getElementById("theme-toggle");
-  const root = document.documentElement;
-  const saved = localStorage.getItem("theme") || "dark";
-  root.setAttribute("data-theme", saved);
-  btn?.addEventListener("click", () => {
-    const next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
-    root.setAttribute("data-theme", next);
-    localStorage.setItem("theme", next);
-    if (state.map) state.map.invalidateSize();
+// ── Theme & Dropdowns ────────────────────────────────────────────────
+function applyTheme(mode) {
+  const isSystemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const resolved = mode === "system" ? (isSystemDark ? "dark" : "light") : mode;
+  document.documentElement.setAttribute("data-theme", resolved);
+  document.documentElement.setAttribute("data-theme-mode", mode);
+  localStorage.setItem("nij-theme-mode", mode);
+
+  document.querySelectorAll(".theme-opt").forEach(opt => {
+    opt.classList.toggle("active", opt.getAttribute("data-theme-val") === mode);
   });
+
+  if (state.map) setTimeout(() => state.map.invalidateSize(), 100);
+}
+
+function setupTheme() {
+  const savedMode = localStorage.getItem("nij-theme-mode") || localStorage.getItem("nij-theme") || localStorage.getItem("theme") || "system";
+  applyTheme(savedMode);
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if ((localStorage.getItem("nij-theme-mode") || "system") === "system") {
+      document.documentElement.setAttribute("data-theme", e.matches ? "dark" : "light");
+      if (state.map) state.map.invalidateSize();
+    }
+  });
+
+  const themeBtn = document.getElementById("theme-toggle");
+  const themeMenu = document.getElementById("theme-menu");
+
+  if (themeBtn && themeMenu) {
+    themeBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isExpanded = themeBtn.getAttribute("aria-expanded") === "true";
+      closeAllDropdowns();
+      if (!isExpanded) {
+        themeMenu.classList.add("show");
+        themeBtn.setAttribute("aria-expanded", "true");
+      }
+    });
+
+    themeMenu.querySelectorAll(".theme-opt").forEach(opt => {
+      opt.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const mode = opt.getAttribute("data-theme-val");
+        applyTheme(mode);
+        themeMenu.classList.remove("show");
+        themeBtn.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  // Setup network dropdown
+  const netBtn = document.getElementById("network-btn");
+  const netMenu = document.getElementById("network-menu");
+  if (netBtn && netMenu) {
+    netBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isExpanded = netBtn.getAttribute("aria-expanded") === "true";
+      closeAllDropdowns();
+      if (!isExpanded) {
+        netMenu.classList.add("show");
+        netBtn.setAttribute("aria-expanded", "true");
+      }
+    });
+  }
+
+  document.addEventListener("click", () => {
+    closeAllDropdowns();
+  });
+}
+
+function closeAllDropdowns() {
+  document.querySelectorAll(".network-dropdown-menu, .theme-dropdown-menu").forEach(m => m.classList.remove("show"));
+  document.querySelectorAll(".network-btn, .theme-toggle-btn").forEach(b => b.setAttribute("aria-expanded", "false"));
 }
 
 // ── Stats ──────────────────────────────────────────────────────────

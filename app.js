@@ -53,8 +53,10 @@ function domainClass(d) { return DOMAIN_CLASS[d] || "domain-default"; }
    INIT
 ══════════════════════════════════════════ */
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("year").textContent = new Date().getFullYear();
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
   initTheme();
+  initDropdowns();
   loadData();
   setupSearch();
   setupSortListener();
@@ -69,21 +71,89 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       document.getElementById("search-input").focus();
     }
-    if (e.key === "Escape") closeModal();
+    if (e.key === "Escape") {
+      closeModal();
+      closeAllDropdowns();
+    }
   });
 });
 
 /* ══════════════════════════════════════════
-   THEME
+   THEME & DROPDOWNS
 ══════════════════════════════════════════ */
-function initTheme() {
-  const saved = localStorage.getItem("nij-theme") || "dark";
-  document.documentElement.setAttribute("data-theme", saved);
-  document.getElementById("theme-toggle").addEventListener("click", () => {
-    const next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("nij-theme", next);
+function applyTheme(mode) {
+  const isSystemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const resolved = mode === "system" ? (isSystemDark ? "dark" : "light") : mode;
+  document.documentElement.setAttribute("data-theme", resolved);
+  document.documentElement.setAttribute("data-theme-mode", mode);
+  localStorage.setItem("nij-theme-mode", mode);
+
+  // Update active option
+  document.querySelectorAll(".theme-opt").forEach(opt => {
+    opt.classList.toggle("active", opt.getAttribute("data-theme-val") === mode);
   });
+}
+
+function initTheme() {
+  const savedMode = localStorage.getItem("nij-theme-mode") || localStorage.getItem("nij-theme") || "system";
+  applyTheme(savedMode);
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if ((localStorage.getItem("nij-theme-mode") || "system") === "system") {
+      document.documentElement.setAttribute("data-theme", e.matches ? "dark" : "light");
+    }
+  });
+
+  const themeBtn = document.getElementById("theme-toggle");
+  const themeMenu = document.getElementById("theme-menu");
+
+  if (themeBtn && themeMenu) {
+    themeBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isExpanded = themeBtn.getAttribute("aria-expanded") === "true";
+      closeAllDropdowns();
+      if (!isExpanded) {
+        themeMenu.classList.add("show");
+        themeBtn.setAttribute("aria-expanded", "true");
+      }
+    });
+
+    themeMenu.querySelectorAll(".theme-opt").forEach(opt => {
+      opt.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const mode = opt.getAttribute("data-theme-val");
+        applyTheme(mode);
+        themeMenu.classList.remove("show");
+        themeBtn.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+}
+
+function initDropdowns() {
+  const netBtn = document.getElementById("network-btn");
+  const netMenu = document.getElementById("network-menu");
+
+  if (netBtn && netMenu) {
+    netBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isExpanded = netBtn.getAttribute("aria-expanded") === "true";
+      closeAllDropdowns();
+      if (!isExpanded) {
+        netMenu.classList.add("show");
+        netBtn.setAttribute("aria-expanded", "true");
+      }
+    });
+  }
+
+  document.addEventListener("click", () => {
+    closeAllDropdowns();
+  });
+}
+
+function closeAllDropdowns() {
+  document.querySelectorAll(".network-dropdown-menu, .theme-dropdown-menu").forEach(m => m.classList.remove("show"));
+  document.querySelectorAll(".network-btn, .theme-toggle-btn").forEach(b => b.setAttribute("aria-expanded", "false"));
 }
 
 /* ══════════════════════════════════════════
@@ -107,10 +177,63 @@ async function loadData() {
     buildFilterOptions();
     applyFilters();
     renderCompanies();
+    injectJobPostingSchema(state.jobs, state.companies);
     showLoading(false);
   } catch (err) {
     console.error("Data load error:", err);
     showError(err.message);
+  }
+}
+
+function injectJobPostingSchema(jobs, companies) {
+  try {
+    const existing = document.getElementById("job-posting-schema");
+    if (existing) existing.remove();
+
+    const compMap = new Map((companies || []).map(c => [c.id, c]));
+    const topJobs = (jobs || []).slice(0, 30);
+
+    const schemaItems = topJobs.map((j, idx) => {
+      const comp = compMap.get(j.companyId) || { name: j.company || "Tech Employer in Nepal" };
+      return {
+        "@type": "JobPosting",
+        "@id": `https://nepalitjobs.aloks.com.np/#job-${j.id || idx}`,
+        "title": j.title,
+        "description": j.description || `${j.title} opening at ${comp.name} in Nepal. Tech stack: ${(j.skills || []).join(", ")}.`,
+        "datePosted": j.postedDate || "2026-09-10",
+        "employmentType": (j.workType || "FULL_TIME").toUpperCase().replace("-", "_"),
+        "hiringOrganization": {
+          "@type": "Organization",
+          "name": comp.name,
+          "sameAs": comp.website || undefined
+        },
+        "jobLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": comp.location || "Kathmandu",
+            "addressCountry": "NP"
+          }
+        },
+        "applicantLocationRequirements": {
+          "@type": "Country",
+          "name": "Nepal"
+        },
+        "directApply": true,
+        "url": j.applyUrl
+      };
+    });
+
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "job-posting-schema";
+    script.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": schemaItems
+    });
+    document.head.appendChild(script);
+  } catch (err) {
+    console.warn("Could not inject JobPosting schema:", err);
   }
 }
 
@@ -180,14 +303,29 @@ function buildCheckboxGroup(containerId, countMap, filterKey) {
   if (!container) return;
 
   const sorted = Object.entries(countMap).sort((a,b) => b[1]-a[1]);
+  const hasSearch = sorted.length > 5;
 
-  container.innerHTML = sorted.map(([label, count]) => `
-    <label class="filter-check">
-      <input type="checkbox" name="${filterKey}" value="${esc(label)}" />
-      ${esc(label)}
-      <span class="count">${count}</span>
-    </label>
-  `).join("");
+  const checkboxesHtml = sorted.map(([label, count]) =>
+    '<label class="filter-check" data-label="' + esc(label.toLowerCase()) + '">' +
+    '<input type="checkbox" name="' + filterKey + '" value="' + esc(label) + '" />' +
+    esc(label) +
+    '<span class="count">' + count + '</span>' +
+    '</label>'
+  ).join("");
+
+  container.innerHTML = (hasSearch
+    ? '<div class="filter-search-wrap"><input type="search" class="filter-search-input" placeholder="Search\u2026" aria-label="Search ' + filterKey + ' options" autocomplete="off" /></div>'
+    : "") + checkboxesHtml;
+
+  if (hasSearch) {
+    const si = container.querySelector(".filter-search-input");
+    si.addEventListener("input", () => {
+      const q = si.value.toLowerCase().trim();
+      container.querySelectorAll(".filter-check").forEach(el => {
+        el.style.display = (!q || el.dataset.label.includes(q)) ? "" : "none";
+      });
+    });
+  }
 
   container.querySelectorAll("input[type=checkbox]").forEach(cb => {
     cb.addEventListener("change", () => onFilterChange(filterKey, cb.value, cb.checked));
@@ -558,7 +696,7 @@ function openModal(job) {
           <a href="${esc(job.applyUrl)}" target="_blank" rel="noopener noreferrer" class="btn-apply-primary">
             Apply Now →
           </a>
-          <a href="${esc(job.careersUrl || job.applyUrl)}" target="_blank" rel="noopener noreferrer" class="btn-apply-secondary">
+          <a href="${esc(company.displayCareersUrl || job.careersUrl || job.applyUrl)}" target="_blank" rel="noopener noreferrer" class="btn-apply-secondary">
             All openings
           </a>
           ${job.applyEmail ? `<a href="mailto:${esc(job.applyEmail)}" class="btn-apply-secondary">✉️ ${esc(job.applyEmail)}</a>` : ""}
@@ -675,15 +813,34 @@ function renderCompanies() {
 /* ══════════════════════════════════════════
    MOBILE FILTER PANEL
 ══════════════════════════════════════════ */
+function closeMobileFilter() {
+  const panel   = document.getElementById("filters-panel");
+  const overlay = document.getElementById("filter-overlay");
+  const btn     = document.getElementById("mobile-filter-btn");
+  panel.classList.remove("open");
+  if (overlay) { overlay.classList.remove("active"); }
+  if (btn)     { btn.setAttribute("aria-expanded", "false"); }
+  document.body.style.overflow = "";
+}
+
 function setupMobileFilter() {
-  const btn   = document.getElementById("mobile-filter-btn");
-  const panel = document.getElementById("filters-panel");
+  const btn     = document.getElementById("mobile-filter-btn");
+  const panel   = document.getElementById("filters-panel");
+  const overlay = document.getElementById("filter-overlay");
 
   btn.addEventListener("click", () => {
     const open = panel.classList.toggle("open");
     btn.setAttribute("aria-expanded", String(open));
     document.body.style.overflow = open ? "hidden" : "";
+    if (overlay) { overlay.classList.toggle("active", open); }
   });
+
+  if (overlay) { overlay.addEventListener("click", closeMobileFilter); }
+
+  const cb1 = document.getElementById("filter-panel-close");
+  const cb2 = document.getElementById("filter-panel-close-2");
+  if (cb1) cb1.addEventListener("click", closeMobileFilter);
+  if (cb2) cb2.addEventListener("click", closeMobileFilter);
 }
 
 /* ══════════════════════════════════════════

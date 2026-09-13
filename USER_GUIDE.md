@@ -76,6 +76,15 @@ To suggest updates or add your company:
 
 ## 8. Version History
 
+### v1.1.0
+- Added comprehensive OpenGraph and Twitter/X social preview cards (`og:image`, `og:description`, `twitter:card`).
+- Embedded Google JobPosting structured JSON-LD data dynamically for live roles.
+- Embedded `FAQPage`, `WebSite`, and `BreadcrumbList` schema markup for answer engines (Perplexity, SearchGPT, Claude, Gemini).
+- Built crawlable semantic guide section with collapsible FAQ accordion for search bots.
+- Published rich machine-readable context files (`llms.txt`, `llms-full.txt`).
+- Upgraded theme switcher to 3-state Light / System / Dark with system preference auto-detection.
+- Integrated Alok Network dropdown switcher linking back to `aloks.com.np` and developer utilities.
+
 ### v1.0.0
 - Directory of 37 tech companies across Nepal.
 - Leaflet map integration with keyless OSM tiles.

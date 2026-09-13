@@ -26,6 +26,7 @@ Hosted on GitHub Pages at [https://nepalitjobs.aloks.com.np](https://nepalitjobs
 ## 🚀 Quick Start
 
 ### Running Locally
+
 1. Clone the repository:
    ```bash
    git clone git@github.com:aalooksth/nepalitjobs.git
@@ -38,12 +39,15 @@ Hosted on GitHub Pages at [https://nepalitjobs.aloks.com.np](https://nepalitjobs
 3. Open `http://localhost:3000` in your browser.
 
 ### Syncing Live Vacancies
+
 Run the automated multi-source job fetcher:
+
 ```bash
 npm run sync
 ```
 
 ### Running Automated Tests
+
 ```bash
 npm test
 ```
@@ -62,6 +66,7 @@ npm test
 ## 📜 Version History & Changelog
 
 ### v1.0.0
+
 - **Initial Production Release**:
   - Live job board with multi-source career scraping.
   - Interactive Leaflet map featuring company logo pins.
@@ -74,7 +79,8 @@ npm test
 ## 👤 Author & Attribution
 
 **Alok Shrestha**
+
 - Website: [aloks.com.np](https://aloks.com.np)
 - Email: [hello@aloks.com.np](mailto:hello@aloks.com.np)
 
-*Made with ❤️ in 🇳🇵 by Alok - hello@aloks.com.np*
+_Made with ❤️ in 🇳🇵 by Alok - hello@aloks.com.np_
