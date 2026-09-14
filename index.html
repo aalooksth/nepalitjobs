@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
   <meta charset="UTF-8" />
-  <!-- Prevent theme flash: apply saved theme before first paint -->  <script>!function(){try{var m=localStorage.getItem('nij-theme-mode')||'system';var dk=window.matchMedia('(prefers-color-scheme: dark)').matches;var d=m==='system'?(dk?'dark':'light'):m;document.documentElement.setAttribute('data-theme',d);document.documentElement.setAttribute('data-theme-mode',m);}catch(e){}}();</script>
+  <!-- Prevent theme flash: apply saved theme before first paint -->
+  <script>!function () { try { var m = localStorage.getItem('nij-theme-mode') || 'system'; var dk = window.matchMedia('(prefers-color-scheme: dark)').matches; var d = m === 'system' ? (dk ? 'dark' : 'light') : m; document.documentElement.setAttribute('data-theme', d); document.documentElement.setAttribute('data-theme-mode', m); } catch (e) { } }();</script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nepal IT Jobs — Live Vacancies &amp; Tech Companies in Nepal</title>
-  <meta name="description" content="Browse live IT job openings from Nepal's top tech companies. Real-time ATS aggregation from BambooHR, Workable, Recruitee and direct career portals. Updated daily." />
-  <meta name="keywords" content="Nepal IT jobs, tech jobs Nepal, software engineer Nepal, Kathmandu tech jobs, Lalitpur IT companies, Leapfrog jobs, F1Soft careers, CloudFactory vacancies, Pokhara tech, Nepal software vacancies" />
+  <meta name="description"
+    content="Browse live IT job openings from Nepal's top tech companies. Real-time ATS aggregation from BambooHR, Workable, Recruitee and direct career portals. Updated daily." />
+  <meta name="keywords"
+    content="Nepal IT jobs, tech jobs Nepal, software engineer Nepal, Kathmandu tech jobs, Lalitpur IT companies, Leapfrog jobs, F1Soft careers, CloudFactory vacancies, Pokhara tech, Nepal software vacancies" />
   <meta name="author" content="Alok Shrestha" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://nepalitjobs.aloks.com.np/" />
@@ -22,7 +26,9 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
 
   <!-- Open Graph / Facebook / LinkedIn -->
   <meta property="og:type" content="website" />
@@ -30,7 +36,8 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:url" content="https://nepalitjobs.aloks.com.np/" />
   <meta property="og:title" content="Nepal IT Jobs — Live Vacancies &amp; Tech Companies in Nepal" />
-  <meta property="og:description" content="Browse live IT job openings from Nepal's top tech companies. Direct ATS aggregation with zero recruiter spam. Updated daily." />
+  <meta property="og:description"
+    content="Browse live IT job openings from Nepal's top tech companies. Direct ATS aggregation with zero recruiter spam. Updated daily." />
   <meta property="og:image" content="https://nepalitjobs.aloks.com.np/og-image.png" />
   <meta property="og:image:secure_url" content="https://nepalitjobs.aloks.com.np/og-image.png" />
   <meta property="og:image:type" content="image/png" />
@@ -42,7 +49,8 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://nepalitjobs.aloks.com.np/" />
   <meta name="twitter:title" content="Nepal IT Jobs — Live Vacancies &amp; Tech Companies in Nepal" />
-  <meta name="twitter:description" content="Browse live IT job openings from Nepal's top tech companies. Direct ATS aggregation with zero recruiter spam." />
+  <meta name="twitter:description"
+    content="Browse live IT job openings from Nepal's top tech companies. Direct ATS aggregation with zero recruiter spam." />
   <meta name="twitter:image" content="https://nepalitjobs.aloks.com.np/og-image.png" />
   <meta name="twitter:image:alt" content="Nepal IT Jobs — Live Vacancies &amp; Companies" />
 
@@ -153,401 +161,519 @@
   }
   </script>
   <link rel="stylesheet" href="style.css" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K35TF6HZ3K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-K35TF6HZ3K');
+  </script>
 </head>
+
 <body>
 
-<!-- ═══════════════ NAVBAR ═══════════════ -->
-<header class="navbar" role="banner">
-  <div class="navbar-inner">
-    <a href="#" class="brand" aria-label="Nepal IT Jobs home">
-      <span class="brand-flag">🇳🇵</span>
-      <span class="brand-text">Nepal<strong>IT</strong>Jobs</span>
-    </a>
-    <nav class="navbar-links" aria-label="Primary navigation">
-      <a href="#jobs-section" class="nav-link">Jobs</a>
-      <a href="companies.html" class="nav-link">Companies</a>
-    </nav>
-    <div class="navbar-actions">
-      <span class="meta-badge" id="live-badge">
-        <span class="pulse-dot"></span><span id="job-count">—</span> live jobs
-      </span>
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <header class="navbar" role="banner">
+    <div class="navbar-inner">
+      <a href="#" class="brand" aria-label="Nepal IT Jobs home">
+        <span class="brand-flag">🇳🇵</span>
+        <span class="brand-text">Nepal<strong>IT</strong>Jobs</span>
+      </a>
+      <nav class="navbar-links" aria-label="Primary navigation">
+        <a href="#jobs-section" class="nav-link">Jobs</a>
+        <a href="companies.html" class="nav-link">Companies</a>
+      </nav>
+      <div class="navbar-actions">
+        <span class="meta-badge" id="live-badge">
+          <span class="pulse-dot"></span><span id="job-count">—</span> live jobs
+        </span>
 
-      <!-- Alok's Network Ecosystem Dropdown -->
-      <div class="network-dropdown-wrap" id="network-dropdown-wrap">
-        <button class="network-btn" id="network-btn" aria-haspopup="true" aria-expanded="false" title="Explore Alok's Tools &amp; Network">
-          <span>aloks.com.np</span>
-          <svg class="chevron-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </button>
-        <div class="network-dropdown-menu" id="network-menu" role="menu" aria-label="Alok Network Menu">
-          <div class="network-menu-header">
-            <span>Alok's Ecosystem</span>
-            <span class="network-badge">🇳🇵 Made in Nepal</span>
+        <!-- Alok's Network Ecosystem Dropdown -->
+        <div class="network-dropdown-wrap" id="network-dropdown-wrap">
+          <button class="network-btn" id="network-btn" aria-haspopup="true" aria-expanded="false"
+            title="Explore Alok's Tools &amp; Network">
+            <span>aloks.com.np</span>
+            <svg class="chevron-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="network-dropdown-menu" id="network-menu" role="menu" aria-label="Alok Network Menu">
+            <div class="network-menu-header">
+              <span>Alok's Ecosystem</span>
+              <span class="network-badge">🇳🇵 Made in Nepal</span>
+            </div>
+            <a href="https://aloks.com.np" target="_blank" rel="noopener" class="network-item" role="menuitem">
+              <span class="net-icon">🌐</span>
+              <div class="net-text">
+                <strong>Personal Portfolio &amp; Bio</strong>
+                <small>aloks.com.np ↗</small>
+              </div>
+            </a>
+            <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener" class="network-item" role="menuitem">
+              <span class="net-icon">🛠️</span>
+              <div class="net-text">
+                <strong>Web Utilities Suite</strong>
+                <small>Target image compressor, PDF tools, license checker</small>
+              </div>
+            </a>
+            <a href="https://github.com/aalooksth/edge-glance" target="_blank" rel="noopener" class="network-item"
+              role="menuitem">
+              <span class="net-icon">⏰</span>
+              <div class="net-text">
+                <strong>Edge Glance</strong>
+                <small>Windows 11 Fluent 2 screen-edge companion</small>
+              </div>
+            </a>
+            <a href="https://github.com/aalooksth/snap-shot" target="_blank" rel="noopener" class="network-item"
+              role="menuitem">
+              <span class="net-icon">✂️</span>
+              <div class="net-text">
+                <strong>SnapShot</strong>
+                <small>Standalone Python/PySide6 vector screen capture</small>
+              </div>
+            </a>
+            <a href="https://github.com/aalooksth/laptop-migrator" target="_blank" rel="noopener" class="network-item"
+              role="menuitem">
+              <span class="net-icon">💻</span>
+              <div class="net-text">
+                <strong>Laptop Migration Hub</strong>
+                <small>Windows profiles, buffers, and system settings syncer</small>
+              </div>
+            </a>
           </div>
-          <a href="https://aloks.com.np" target="_blank" rel="noopener" class="network-item" role="menuitem">
-            <span class="net-icon">🌐</span>
-            <div class="net-text">
-              <strong>Personal Portfolio &amp; Bio</strong>
-              <small>aloks.com.np ↗</small>
-            </div>
-          </a>
-          <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener" class="network-item" role="menuitem">
-            <span class="net-icon">🛠️</span>
-            <div class="net-text">
-              <strong>Web Utilities Suite</strong>
-              <small>Target image compressor, PDF tools, license checker</small>
-            </div>
-          </a>
-          <a href="https://github.com/aalooksth/edge-glance" target="_blank" rel="noopener" class="network-item" role="menuitem">
-            <span class="net-icon">⏰</span>
-            <div class="net-text">
-              <strong>Edge Glance</strong>
-              <small>Windows 11 Fluent 2 screen-edge companion</small>
-            </div>
-          </a>
-          <a href="https://github.com/aalooksth/snap-shot" target="_blank" rel="noopener" class="network-item" role="menuitem">
-            <span class="net-icon">✂️</span>
-            <div class="net-text">
-              <strong>SnapShot</strong>
-              <small>Standalone Python/PySide6 vector screen capture</small>
-            </div>
-          </a>
-          <a href="https://github.com/aalooksth/laptop-migrator" target="_blank" rel="noopener" class="network-item" role="menuitem">
-            <span class="net-icon">💻</span>
-            <div class="net-text">
-              <strong>Laptop Migration Hub</strong>
-              <small>Windows profiles, buffers, and system settings syncer</small>
-            </div>
-          </a>
+        </div>
+
+        <!-- Light / System / Dark Theme Toggle -->
+        <div class="theme-dropdown-wrap" id="theme-dropdown-wrap">
+          <button id="theme-toggle" class="theme-toggle-btn" aria-haspopup="true" aria-expanded="false"
+            aria-label="Select Theme (Light / System / Dark)" title="Theme: Light / System / Dark">
+            <svg class="icon-theme icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg class="icon-theme icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+            <svg class="icon-theme icon-system" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+              <line x1="8" y1="21" x2="16" y2="21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </button>
+          <div class="theme-dropdown-menu" id="theme-menu" role="menu" aria-label="Theme Options">
+            <button type="button" class="theme-opt" data-theme-val="light" role="menuitem">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="5" />
+                <line x1="12" y1="1" x2="12" y2="3" />
+                <line x1="12" y1="21" x2="12" y2="23" />
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                <line x1="1" y1="12" x2="3" y2="12" />
+                <line x1="21" y1="12" x2="23" y2="12" />
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              </svg>
+              <span>Light ☀️</span>
+            </button>
+            <button type="button" class="theme-opt" data-theme-val="system" role="menuitem">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+              <span>System 💻</span>
+            </button>
+            <button type="button" class="theme-opt" data-theme-val="dark" role="menuitem">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+              <span>Dark 🌑</span>
+            </button>
+          </div>
         </div>
       </div>
+    </div>
+  </header>
 
-      <!-- Light / System / Dark Theme Toggle -->
-      <div class="theme-dropdown-wrap" id="theme-dropdown-wrap">
-        <button id="theme-toggle" class="theme-toggle-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select Theme (Light / System / Dark)" title="Theme: Light / System / Dark">
-          <svg class="icon-theme icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-          <svg class="icon-theme icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          <svg class="icon-theme icon-system" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        </button>
-        <div class="theme-dropdown-menu" id="theme-menu" role="menu" aria-label="Theme Options">
-          <button type="button" class="theme-opt" data-theme-val="light" role="menuitem">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-            <span>Light ☀️</span>
-          </button>
-          <button type="button" class="theme-opt" data-theme-val="system" role="menuitem">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            <span>System 💻</span>
-          </button>
-          <button type="button" class="theme-opt" data-theme-val="dark" role="menuitem">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-            <span>Dark 🌑</span>
-          </button>
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <div class="hero-eyebrow">🔴 Live · Updated daily via GitHub Actions</div>
+      <h1 class="hero-title">IT Jobs in <span class="gradient-text">Nepal</span></h1>
+      <p class="hero-sub">Real-time vacancies scraped directly from company career portals. No recruiter spam. No
+        duplicates.</p>
+      <div class="hero-stats" id="hero-stats" aria-live="polite">
+        <div class="stat-card"><span class="stat-num" id="stat-jobs">—</span><span class="stat-label">Open roles</span>
         </div>
+        <div class="stat-card"><span class="stat-num" id="stat-companies">—</span><span
+            class="stat-label">Companies</span></div>
+        <div class="stat-card"><span class="stat-num" id="stat-synced">—</span><span class="stat-label">Last
+            synced</span></div>
       </div>
-    </div>
-  </div>
-</header>
-
-<!-- ═══════════════ HERO ═══════════════ -->
-<section class="hero" aria-label="Hero">
-  <div class="hero-glow" aria-hidden="true"></div>
-  <div class="container hero-content">
-    <div class="hero-eyebrow">🔴 Live · Updated daily via GitHub Actions</div>
-    <h1 class="hero-title">IT Jobs in <span class="gradient-text">Nepal</span></h1>
-    <p class="hero-sub">Real-time vacancies scraped directly from company career portals. No recruiter spam. No duplicates.</p>
-    <div class="hero-stats" id="hero-stats" aria-live="polite">
-      <div class="stat-card"><span class="stat-num" id="stat-jobs">—</span><span class="stat-label">Open roles</span></div>
-      <div class="stat-card"><span class="stat-num" id="stat-companies">—</span><span class="stat-label">Companies</span></div>
-      <div class="stat-card"><span class="stat-num" id="stat-synced">—</span><span class="stat-label">Last synced</span></div>
-    </div>
-    <div class="hero-search-wrap">
-      <label for="search-input" class="sr-only">Search jobs</label>
-      <span class="search-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      </span>
-      <input id="search-input" type="search" class="search-input" placeholder="Search by title, company, tech…" autocomplete="off" aria-label="Search jobs" />
-      <kbd class="search-kbd">⌘K</kbd>
-    </div>
-  </div>
-</section>
-
-<!-- ═══════════════ MAIN ═══════════════ -->
-<main class="container main-layout" id="jobs-section">
-
-  <!-- ── FILTERS SIDEBAR ── -->
-  <!-- Mobile filter backdrop -->
-  <div id="filter-overlay" class="filter-overlay" aria-hidden="true"></div>
-
-  <aside class="filters-panel" id="filters-panel" aria-label="Filter jobs">
-    <div class="filters-header">
-      <h2 class="filters-title">Filters</h2>
-      <div class="filters-header-actions">
-        <button id="clear-filters" class="btn-ghost-sm" aria-label="Clear all filters">Clear all</button>
-        <button id="filter-panel-close" class="filter-panel-close-btn" aria-label="Close filters">&times;</button>
+      <div class="hero-search-wrap">
+        <label for="search-input" class="sr-only">Search jobs</label>
+        <span class="search-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+        </span>
+        <input id="search-input" type="search" class="search-input" placeholder="Search by title, company, tech…"
+          autocomplete="off" aria-label="Search jobs" />
+        <kbd class="search-kbd">⌘K</kbd>
       </div>
-    </div>
-
-    <!-- Active filter pills -->
-    <div id="active-pills" class="active-pills" role="list" aria-label="Active filters"></div>
-
-    <!-- Sort -->
-    <div class="filter-group">
-      <label class="filter-label" for="sort-select">Sort by</label>
-      <select id="sort-select" class="filter-select" aria-label="Sort jobs">
-        <option value="newest">Newest first</option>
-        <option value="oldest">Oldest first</option>
-        <option value="company">Company A–Z</option>
-        <option value="title">Title A–Z</option>
-      </select>
-    </div>
-
-    <!-- Domain -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="true" aria-controls="filter-domain">
-        <span>Domain</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-domain" class="filter-checkboxes"></div>
-    </div>
-
-    <!-- Company -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="true" aria-controls="filter-company">
-        <span>Company</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-company" class="filter-checkboxes"></div>
-    </div>
-
-    <!-- Seniority -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="true" aria-controls="filter-seniority">
-        <span>Seniority</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-seniority" class="filter-checkboxes"></div>
-    </div>
-
-    <!-- Work type -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="true" aria-controls="filter-worktype">
-        <span>Work type</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-worktype" class="filter-checkboxes"></div>
-    </div>
-
-    <!-- Employment type -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="true" aria-controls="filter-emptype">
-        <span>Employment type</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-emptype" class="filter-checkboxes"></div>
-    </div>
-
-    <!-- Experience -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="true" aria-controls="filter-exp">
-        <span>Experience</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-exp" class="filter-checkboxes">
-        <label class="filter-check"><input type="checkbox" name="exp" value="0-1" /> 0–1 year</label>
-        <label class="filter-check"><input type="checkbox" name="exp" value="1-3" /> 1–3 years</label>
-        <label class="filter-check"><input type="checkbox" name="exp" value="3-5" /> 3–5 years</label>
-        <label class="filter-check"><input type="checkbox" name="exp" value="5-99" /> 5+ years</label>
-        <label class="filter-check"><input type="checkbox" name="exp" value="unspecified" /> Not specified</label>
-      </div>
-    </div>
-
-    <!-- Tech stack -->
-    <div class="filter-group">
-      <button class="filter-group-header" aria-expanded="false" aria-controls="filter-tech">
-        <span>Tech stack</span><span class="chevron">▾</span>
-      </button>
-      <div id="filter-tech" class="filter-checkboxes hidden"></div>
-    </div>
-  </aside>
-
-  <!-- ── JOBS FEED ── -->
-  <section class="jobs-feed" aria-label="Job listings">
-    <!-- Results bar -->
-    <div class="results-bar">
-      <span id="results-count" aria-live="polite">Loading…</span>
-      <div class="view-toggle" role="group" aria-label="View mode">
-        <button id="view-cards" class="view-btn active" aria-pressed="true" title="Card view">
-          <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
-        </button>
-        <button id="view-list" class="view-btn" aria-pressed="false" title="List view">
-          <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="2" width="14" height="2" rx="1"/><rect x="1" y="7" width="14" height="2" rx="1"/><rect x="1" y="12" width="14" height="2" rx="1"/></svg>
-        </button>
-      </div>
-    </div>
-
-    <!-- Loading skeleton -->
-    <div id="loading-state" class="skeleton-grid" aria-busy="true" aria-label="Loading jobs">
-      <div class="skeleton-card" aria-hidden="true"><div class="sk sk-top"></div><div class="sk sk-mid"></div><div class="sk sk-bot"></div></div>
-      <div class="skeleton-card" aria-hidden="true"><div class="sk sk-top"></div><div class="sk sk-mid"></div><div class="sk sk-bot"></div></div>
-      <div class="skeleton-card" aria-hidden="true"><div class="sk sk-top"></div><div class="sk sk-mid"></div><div class="sk sk-bot"></div></div>
-      <div class="skeleton-card" aria-hidden="true"><div class="sk sk-top"></div><div class="sk sk-mid"></div><div class="sk sk-bot"></div></div>
-      <div class="skeleton-card" aria-hidden="true"><div class="sk sk-top"></div><div class="sk sk-mid"></div><div class="sk sk-bot"></div></div>
-      <div class="skeleton-card" aria-hidden="true"><div class="sk sk-top"></div><div class="sk sk-mid"></div><div class="sk sk-bot"></div></div>
-    </div>
-
-    <!-- Error state -->
-    <div id="error-state" class="error-state hidden" role="alert">
-      <div class="error-icon">⚠️</div>
-      <h3>Could not load jobs</h3>
-      <p id="error-msg">Please try refreshing the page.</p>
-      <button id="retry-btn" class="btn-primary">Retry</button>
-    </div>
-
-    <!-- Empty state -->
-    <div id="empty-state" class="empty-state hidden" role="status">
-      <div class="empty-icon">🔍</div>
-      <h3>No jobs match your filters</h3>
-      <p>Try broadening your search or clearing some filters.</p>
-      <button id="clear-filters-2" class="btn-primary">Clear filters</button>
-        <button id="filter-panel-close-2" class="filter-panel-close-btn-bottom">&#10005; Close</button>
-    </div>
-
-    <!-- Jobs grid -->
-    <div id="jobs-grid" class="jobs-grid" aria-label="Job cards"></div>
-
-    <!-- Load more -->
-    <div class="load-more-wrap">
-      <button id="load-more-btn" class="btn-load-more hidden">Load more jobs</button>
     </div>
   </section>
-</main>
 
-<!-- ═══════════════ COMPANIES SECTION ═══════════════ -->
-<section class="companies-section container" id="companies-section" aria-labelledby="companies-heading">
-  <h2 id="companies-heading" class="section-heading">Companies hiring in Nepal</h2>
-  <p class="section-sub">Click any company to filter jobs.</p>
-  <div id="companies-grid" class="companies-grid"></div>
-</section>
+  <!-- ═══════════════ MAIN ═══════════════ -->
+  <main class="container main-layout" id="jobs-section">
 
-<!-- ═══════════════ JOB DETAIL MODAL ═══════════════ -->
-<div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-  <div class="modal" id="modal-panel">
-    <button class="modal-close" id="modal-close" aria-label="Close modal">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-    </button>
-    <div id="modal-body"></div>
+    <!-- ── FILTERS SIDEBAR ── -->
+    <!-- Mobile filter backdrop -->
+    <div id="filter-overlay" class="filter-overlay" aria-hidden="true"></div>
+
+    <aside class="filters-panel" id="filters-panel" aria-label="Filter jobs">
+      <div class="filters-header">
+        <h2 class="filters-title">Filters</h2>
+        <div class="filters-header-actions">
+          <button id="clear-filters" class="btn-ghost-sm" aria-label="Clear all filters">Clear all</button>
+          <button id="filter-panel-close" class="filter-panel-close-btn" aria-label="Close filters">&times;</button>
+        </div>
+      </div>
+
+      <!-- Active filter pills -->
+      <div id="active-pills" class="active-pills" role="list" aria-label="Active filters"></div>
+
+      <!-- Sort -->
+      <div class="filter-group">
+        <label class="filter-label" for="sort-select">Sort by</label>
+        <select id="sort-select" class="filter-select" aria-label="Sort jobs">
+          <option value="newest">Newest first</option>
+          <option value="oldest">Oldest first</option>
+          <option value="company">Company A–Z</option>
+          <option value="title">Title A–Z</option>
+        </select>
+      </div>
+
+      <!-- Domain -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="true" aria-controls="filter-domain">
+          <span>Domain</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-domain" class="filter-checkboxes"></div>
+      </div>
+
+      <!-- Company -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="true" aria-controls="filter-company">
+          <span>Company</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-company" class="filter-checkboxes"></div>
+      </div>
+
+      <!-- Seniority -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="true" aria-controls="filter-seniority">
+          <span>Seniority</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-seniority" class="filter-checkboxes"></div>
+      </div>
+
+      <!-- Work type -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="true" aria-controls="filter-worktype">
+          <span>Work type</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-worktype" class="filter-checkboxes"></div>
+      </div>
+
+      <!-- Employment type -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="true" aria-controls="filter-emptype">
+          <span>Employment type</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-emptype" class="filter-checkboxes"></div>
+      </div>
+
+      <!-- Experience -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="true" aria-controls="filter-exp">
+          <span>Experience</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-exp" class="filter-checkboxes">
+          <label class="filter-check"><input type="checkbox" name="exp" value="0-1" /> 0–1 year</label>
+          <label class="filter-check"><input type="checkbox" name="exp" value="1-3" /> 1–3 years</label>
+          <label class="filter-check"><input type="checkbox" name="exp" value="3-5" /> 3–5 years</label>
+          <label class="filter-check"><input type="checkbox" name="exp" value="5-99" /> 5+ years</label>
+          <label class="filter-check"><input type="checkbox" name="exp" value="unspecified" /> Not specified</label>
+        </div>
+      </div>
+
+      <!-- Tech stack -->
+      <div class="filter-group">
+        <button class="filter-group-header" aria-expanded="false" aria-controls="filter-tech">
+          <span>Tech stack</span><span class="chevron">▾</span>
+        </button>
+        <div id="filter-tech" class="filter-checkboxes hidden"></div>
+      </div>
+    </aside>
+
+    <!-- ── JOBS FEED ── -->
+    <section class="jobs-feed" aria-label="Job listings">
+      <!-- Results bar -->
+      <div class="results-bar">
+        <span id="results-count" aria-live="polite">Loading…</span>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button id="view-cards" class="view-btn active" aria-pressed="true" title="Card view">
+            <svg viewBox="0 0 16 16" fill="currentColor">
+              <rect x="1" y="1" width="6" height="6" rx="1" />
+              <rect x="9" y="1" width="6" height="6" rx="1" />
+              <rect x="1" y="9" width="6" height="6" rx="1" />
+              <rect x="9" y="9" width="6" height="6" rx="1" />
+            </svg>
+          </button>
+          <button id="view-list" class="view-btn" aria-pressed="false" title="List view">
+            <svg viewBox="0 0 16 16" fill="currentColor">
+              <rect x="1" y="2" width="14" height="2" rx="1" />
+              <rect x="1" y="7" width="14" height="2" rx="1" />
+              <rect x="1" y="12" width="14" height="2" rx="1" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Loading skeleton -->
+      <div id="loading-state" class="skeleton-grid" aria-busy="true" aria-label="Loading jobs">
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="sk sk-top"></div>
+          <div class="sk sk-mid"></div>
+          <div class="sk sk-bot"></div>
+        </div>
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="sk sk-top"></div>
+          <div class="sk sk-mid"></div>
+          <div class="sk sk-bot"></div>
+        </div>
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="sk sk-top"></div>
+          <div class="sk sk-mid"></div>
+          <div class="sk sk-bot"></div>
+        </div>
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="sk sk-top"></div>
+          <div class="sk sk-mid"></div>
+          <div class="sk sk-bot"></div>
+        </div>
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="sk sk-top"></div>
+          <div class="sk sk-mid"></div>
+          <div class="sk sk-bot"></div>
+        </div>
+        <div class="skeleton-card" aria-hidden="true">
+          <div class="sk sk-top"></div>
+          <div class="sk sk-mid"></div>
+          <div class="sk sk-bot"></div>
+        </div>
+      </div>
+
+      <!-- Error state -->
+      <div id="error-state" class="error-state hidden" role="alert">
+        <div class="error-icon">⚠️</div>
+        <h3>Could not load jobs</h3>
+        <p id="error-msg">Please try refreshing the page.</p>
+        <button id="retry-btn" class="btn-primary">Retry</button>
+      </div>
+
+      <!-- Empty state -->
+      <div id="empty-state" class="empty-state hidden" role="status">
+        <div class="empty-icon">🔍</div>
+        <h3>No jobs match your filters</h3>
+        <p>Try broadening your search or clearing some filters.</p>
+        <button id="clear-filters-2" class="btn-primary">Clear filters</button>
+        <button id="filter-panel-close-2" class="filter-panel-close-btn-bottom">&#10005; Close</button>
+      </div>
+
+      <!-- Jobs grid -->
+      <div id="jobs-grid" class="jobs-grid" aria-label="Job cards"></div>
+
+      <!-- Load more -->
+      <div class="load-more-wrap">
+        <button id="load-more-btn" class="btn-load-more hidden">Load more jobs</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════════ COMPANIES SECTION ═══════════════ -->
+  <section class="companies-section container" id="companies-section" aria-labelledby="companies-heading">
+    <h2 id="companies-heading" class="section-heading">Companies hiring in Nepal</h2>
+    <p class="section-sub">Click any company to filter jobs.</p>
+    <div id="companies-grid" class="companies-grid"></div>
+  </section>
+
+  <!-- ═══════════════ JOB DETAIL MODAL ═══════════════ -->
+  <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal" id="modal-panel">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <div id="modal-body"></div>
+    </div>
   </div>
-</div>
 
-<!-- ═══════════════ MOBILE FILTER BUTTON ═══════════════ -->
-<button id="mobile-filter-btn" class="mobile-filter-fab" aria-label="Open filters" aria-expanded="false">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
-  Filters
-</button>
+  <!-- ═══════════════ MOBILE FILTER BUTTON ═══════════════ -->
+  <button id="mobile-filter-btn" class="mobile-filter-fab" aria-label="Open filters" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="8" y1="12" x2="16" y2="12" />
+      <line x1="11" y1="18" x2="13" y2="18" />
+    </svg>
+    Filters
+  </button>
 
-<!-- ═══════════════ SEO & AEO TECH ECOSYSTEM & FAQ GUIDE ═══════════════ -->
-<section class="seo-guide-section container" id="tech-guide-section" aria-labelledby="seo-guide-title">
-  <div class="seo-guide-header">
-    <span class="seo-guide-tag">Comprehensive Career Guide</span>
-    <h2 id="seo-guide-title" class="seo-guide-title">Nepal IT Job Market, Tech Hubs &amp; Hiring FAQ</h2>
-    <p class="seo-guide-desc">Authoritative insights into software engineering roles, tech hubs across Nepal, and direct ATS application channels.</p>
-  </div>
-
-  <div class="seo-guide-grid">
-    <div class="seo-guide-card">
-      <div class="card-icon">🏢</div>
-      <h3>Tech Hubs Across Nepal</h3>
-      <p>While the <strong>Kathmandu Valley</strong> (including Kathmandu, Lalitpur hubs like Sanepa, Bakhundole, Pulchowk, Jhamsikhel, and Bhaktapur) houses the highest concentration of software exporters and FinTech headquarters, regional ecosystems are flourishing rapidly:</p>
-      <ul>
-        <li><strong>Pokhara</strong>: IoT, embedded hardware, and software engineering (e.g. Yarsa Tech &amp; Labs, Virtual Technology).</li>
-        <li><strong>Biratnagar</strong>: Enterprise field automation, logistics, and SaaS platforms (e.g. Delta Tech).</li>
-        <li><strong>Butwal</strong>: Hospitality software, ERP engines, and billing systems (e.g. Tuna Technology).</li>
-        <li><strong>Chitwan (Bharatpur)</strong>: Cloud services, web architecture, and offshore outsourcing (e.g. Nepsavvy).</li>
-      </ul>
+  <!-- ═══════════════ SEO & AEO TECH ECOSYSTEM & FAQ GUIDE ═══════════════ -->
+  <section class="seo-guide-section container" id="tech-guide-section" aria-labelledby="seo-guide-title">
+    <div class="seo-guide-header">
+      <span class="seo-guide-tag">Comprehensive Career Guide</span>
+      <h2 id="seo-guide-title" class="seo-guide-title">Nepal IT Job Market, Tech Hubs &amp; Hiring FAQ</h2>
+      <p class="seo-guide-desc">Authoritative insights into software engineering roles, tech hubs across Nepal, and
+        direct ATS application channels.</p>
     </div>
 
-    <div class="seo-guide-card">
-      <div class="card-icon">⚡</div>
-      <h3>High-Demand Tech Stacks &amp; Roles</h3>
-      <p>Nepali IT organizations service global clients across the US, Europe, and Asia-Pacific. Most requested skill sets include:</p>
-      <ul>
-        <li><strong>Frontend</strong>: React.js, Next.js, TypeScript, Vue.js, Tailwind CSS.</li>
-        <li><strong>Backend</strong>: Node.js, Python (Django, FastAPI), Java (Spring Boot), Go, .NET Core.</li>
-        <li><strong>Data &amp; AI</strong>: Python, PyTorch, LangChain, Azure Data Factory, Power BI, PostgreSQL.</li>
-        <li><strong>QA &amp; Reliability</strong>: Cypress, Playwright, Selenium, automated performance benchmarking.</li>
-        <li><strong>Cloud &amp; DevOps</strong>: AWS, Docker, Kubernetes, Terraform, GitHub Actions CI/CD.</li>
-      </ul>
+    <div class="seo-guide-grid">
+      <div class="seo-guide-card">
+        <div class="card-icon">🏢</div>
+        <h3>Tech Hubs Across Nepal</h3>
+        <p>While the <strong>Kathmandu Valley</strong> (including Kathmandu, Lalitpur hubs like Sanepa, Bakhundole,
+          Pulchowk, Jhamsikhel, and Bhaktapur) houses the highest concentration of software exporters and FinTech
+          headquarters, regional ecosystems are flourishing rapidly:</p>
+        <ul>
+          <li><strong>Pokhara</strong>: IoT, embedded hardware, and software engineering (e.g. Yarsa Tech &amp; Labs,
+            Virtual Technology).</li>
+          <li><strong>Biratnagar</strong>: Enterprise field automation, logistics, and SaaS platforms (e.g. Delta Tech).
+          </li>
+          <li><strong>Butwal</strong>: Hospitality software, ERP engines, and billing systems (e.g. Tuna Technology).
+          </li>
+          <li><strong>Chitwan (Bharatpur)</strong>: Cloud services, web architecture, and offshore outsourcing (e.g.
+            Nepsavvy).</li>
+        </ul>
+      </div>
+
+      <div class="seo-guide-card">
+        <div class="card-icon">⚡</div>
+        <h3>High-Demand Tech Stacks &amp; Roles</h3>
+        <p>Nepali IT organizations service global clients across the US, Europe, and Asia-Pacific. Most requested skill
+          sets include:</p>
+        <ul>
+          <li><strong>Frontend</strong>: React.js, Next.js, TypeScript, Vue.js, Tailwind CSS.</li>
+          <li><strong>Backend</strong>: Node.js, Python (Django, FastAPI), Java (Spring Boot), Go, .NET Core.</li>
+          <li><strong>Data &amp; AI</strong>: Python, PyTorch, LangChain, Azure Data Factory, Power BI, PostgreSQL.</li>
+          <li><strong>QA &amp; Reliability</strong>: Cypress, Playwright, Selenium, automated performance benchmarking.
+          </li>
+          <li><strong>Cloud &amp; DevOps</strong>: AWS, Docker, Kubernetes, Terraform, GitHub Actions CI/CD.</li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <!-- FAQ Accordion (Direct Answer Engine Optimization) -->
-  <div class="seo-faq-wrap" itemscope itemtype="https://schema.org/FAQPage">
-    <h3 class="faq-heading">Frequently Asked Questions (FAQ)</h3>
+    <!-- FAQ Accordion (Direct Answer Engine Optimization) -->
+    <div class="seo-faq-wrap" itemscope itemtype="https://schema.org/FAQPage">
+      <h3 class="faq-heading">Frequently Asked Questions (FAQ)</h3>
 
-    <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary class="faq-question" itemprop="name">How does Nepal IT Jobs find active tech job listings?</summary>
-      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p itemprop="text">Nepal IT Jobs aggregates openings directly from verified company ATS platforms (BambooHR, Workable, Recruitee, Next.js endpoints, and custom career APIs) across Nepal using automated daily synchronization via GitHub Actions. There are zero recruiters, no duplicate listings, and zero recruiter markup.</p>
-      </div>
-    </details>
+      <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="faq-question" itemprop="name">How does Nepal IT Jobs find active tech job listings?</summary>
+        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Nepal IT Jobs aggregates openings directly from verified company ATS platforms (BambooHR,
+            Workable, Recruitee, Next.js endpoints, and custom career APIs) across Nepal using automated daily
+            synchronization via GitHub Actions. There are zero recruiters, no duplicate listings, and zero recruiter
+            markup.</p>
+        </div>
+      </details>
 
-    <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary class="faq-question" itemprop="name">Which companies are hiring IT professionals in Nepal?</summary>
-      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p itemprop="text">Over 37 verified tech companies are tracked across Nepal, including Leapfrog Technology, F1Soft Group, CloudFactory, Guardsix (Logpoint), Cotiviti/Infinite, Verisk, Fusemachines, Ycotek, Spiralogics, Hamro Patro, Khalti by IME, Genese Solution, Proshore, Yarsa Tech, and Docsumo.</p>
-      </div>
-    </details>
+      <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="faq-question" itemprop="name">Which companies are hiring IT professionals in Nepal?</summary>
+        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Over 37 verified tech companies are tracked across Nepal, including Leapfrog Technology,
+            F1Soft Group, CloudFactory, Guardsix (Logpoint), Cotiviti/Infinite, Verisk, Fusemachines, Ycotek,
+            Spiralogics, Hamro Patro, Khalti by IME, Genese Solution, Proshore, Yarsa Tech, and Docsumo.</p>
+        </div>
+      </details>
 
-    <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary class="faq-question" itemprop="name">What tech stacks and roles are most in demand in Nepal?</summary>
-      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p itemprop="text">High-demand roles include Fullstack, Frontend (React, Next.js, TypeScript), Backend (Node.js, Python/Django, Java/Spring, Go, .NET), QA Automation (Cypress, Playwright, Selenium), DevOps/Cloud (AWS, Docker, Kubernetes, Terraform), and AI/Data Engineering (PyTorch, LangChain, Power BI, SQL).</p>
-      </div>
-    </details>
+      <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="faq-question" itemprop="name">What tech stacks and roles are most in demand in Nepal?</summary>
+        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">High-demand roles include Fullstack, Frontend (React, Next.js, TypeScript), Backend
+            (Node.js, Python/Django, Java/Spring, Go, .NET), QA Automation (Cypress, Playwright, Selenium), DevOps/Cloud
+            (AWS, Docker, Kubernetes, Terraform), and AI/Data Engineering (PyTorch, LangChain, Power BI, SQL).</p>
+        </div>
+      </details>
 
-    <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary class="faq-question" itemprop="name">Can I filter jobs by seniority and work arrangement?</summary>
-      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p itemprop="text">Yes. Users can filter live jobs by seniority (Intern, Junior, Mid-level, Senior, Lead/Architect), employment type (Full-time, Contract, Internship), and work arrangement (On-site, Hybrid, Remote).</p>
-      </div>
-    </details>
+      <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="faq-question" itemprop="name">Can I filter jobs by seniority and work arrangement?</summary>
+        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Yes. Users can filter live jobs by seniority (Intern, Junior, Mid-level, Senior,
+            Lead/Architect), employment type (Full-time, Contract, Internship), and work arrangement (On-site, Hybrid,
+            Remote).</p>
+        </div>
+      </details>
 
-    <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-      <summary class="faq-question" itemprop="name">Who developed Nepal IT Jobs?</summary>
-      <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <p itemprop="text">Nepal IT Jobs is developed and maintained by Alok Shrestha (<a href="https://aloks.com.np" target="_blank" rel="noopener">https://aloks.com.np</a>), an experienced data consultant and software engineer in Nepal, as part of his open-source developer tool ecosystem.</p>
-      </div>
-    </details>
-  </div>
-</section>
-
-<!-- ═══════════════ FOOTER ═══════════════ -->
-<footer class="footer" role="contentinfo">
-  <div class="container footer-inner">
-    <div class="footer-brand">
-      <span class="brand-flag">🇳🇵</span>
-      <strong>NepalITJobs</strong>
-      <span class="footer-badge">Direct ATS Aggregator</span>
+      <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <summary class="faq-question" itemprop="name">Who developed Nepal IT Jobs?</summary>
+        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+          <p itemprop="text">Nepal IT Jobs is developed and maintained by Alok Shrestha (<a href="https://aloks.com.np"
+              target="_blank" rel="noopener">https://aloks.com.np</a>), an experienced data consultant and software
+            engineer in Nepal, as part of his open-source developer tool ecosystem.</p>
+        </div>
+      </details>
     </div>
-    <p class="footer-note">
-      Real-time tech vacancy data aggregated directly from verified employer portals.
-      <br/>Made with ❤️ in 🇳🇵 by <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok</a> — <a href="mailto:hello@aloks.com.np">hello@aloks.com.np</a>
-    </p>
-    <div class="footer-nav-links">
-      <a href="https://nepalitjobs.aloks.com.np/">Live Jobs</a>
-      <span>·</span>
-      <a href="companies.html">Companies &amp; Map</a>
-      <span>·</span>
-      <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok's Portfolio</a>
-      <span>·</span>
-      <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener">Utilities Suite</a>
-      <span>·</span>
-      <a href="llms.txt" target="_blank">llms.txt</a>
-      <span>·</span>
-      <a href="llms-full.txt" target="_blank">llms-full.txt</a>
-      <span>·</span>
-      <a href="sitemap.xml" target="_blank">Sitemap</a>
-      <span>·</span>
-      <a href="https://github.com/aalooksth/nepalitjobs" target="_blank" rel="noopener">GitHub</a>
-    </div>
-    <p class="footer-copy">© <span id="year"></span> Alok Shrestha · Open Source Project</p>
-  </div>
-</footer>
+  </section>
 
-<script src="app.js"></script>
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-flag">🇳🇵</span>
+        <strong>NepalITJobs</strong>
+        <span class="footer-badge">Direct ATS Aggregator</span>
+      </div>
+      <p class="footer-note">
+        Real-time tech vacancy data aggregated directly from verified employer portals.
+        <br />Made with ❤️ in 🇳🇵 by <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok</a> — <a
+          href="mailto:hello@aloks.com.np">hello@aloks.com.np</a>
+      </p>
+      <div class="footer-nav-links">
+        <a href="https://nepalitjobs.aloks.com.np/">Live Jobs</a>
+        <span>·</span>
+        <a href="companies.html">Companies &amp; Map</a>
+        <span>·</span>
+        <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok's Portfolio</a>
+        <span>·</span>
+        <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener">Utilities Suite</a>
+        <span>·</span>
+        <a href="llms.txt" target="_blank">llms.txt</a>
+        <span>·</span>
+        <a href="llms-full.txt" target="_blank">llms-full.txt</a>
+        <span>·</span>
+        <a href="sitemap.xml" target="_blank">Sitemap</a>
+        <span>·</span>
+        <a href="https://github.com/aalooksth/nepalitjobs" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Alok Shrestha · Open Source Project</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
-</html>
 
+</html>
