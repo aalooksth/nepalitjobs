@@ -715,6 +715,57 @@ const companies = JSON.parse(
 
 
 
+/**
+ * Devfinity careers page (WordPress).
+ * Job titles live in <span class="career-title">, apply URLs in sibling <a> tags.
+ */
+async function devfinityJobs(company) {
+  const targetUrl = company.source?.url || company.careersUrl;
+  const html = await fetchText(targetUrl);
+  const jobs = [];
+  // Match each .career block: title span + optional link
+  const blockRe = /<div[^>]+class="[^"]*career[^"]*"[^>]*>([\/\s\S]*?)<\/div>/gi;
+  let block;
+  const seen = new Set();
+  while ((block = blockRe.exec(html))) {
+    const chunk = block[1];
+    // Extract all title + link pairs within this block
+    const titleRe = /<span[^>]+class="[^"]*career-title[^"]*"[^>]*>([^<]+)<\/span>/gi;
+    const linkRe = /href="(https?:\/\/devfinity\.com\/career\/[^"]+)"/gi;
+    let tm;
+    const titles = [];
+    while ((tm = titleRe.exec(chunk))) titles.push(tm[1].trim());
+    const links = [];
+    let lm;
+    while ((lm = linkRe.exec(chunk))) links.push(lm[1]);
+    for (let i = 0; i < titles.length; i++) {
+      const title = titles[i];
+      const applyUrl = links[i] || targetUrl;
+      const slug = title.toLowerCase().replace(/\W+/g, "-").replace(/^-+|-+$/g, "");
+      if (!title || seen.has(slug)) continue;
+      seen.add(slug);
+      // Extract location from career-location address if present
+      const locMatch = chunk.match(/<address[^>]+class="[^"]*career-location[^"]*"[^>]*>([^<]+)<\/address>/i);
+      const rawLoc = locMatch ? locMatch[1].replace(/\(.*?\)/g, "").trim() : company.location;
+      jobs.push(
+        normalize({
+          id: `${company.id}-${slug}`,
+          companyId: company.id,
+          company: company.name,
+          title,
+          location: cleanNepalLocation(rawLoc || company.location),
+          applyUrl,
+          careersUrl: company.careersUrl,
+          applyEmail: company.applyEmail,
+          applyHow: `Apply on the Devfinity careers portal: ${applyUrl}`,
+          source: "Devfinity careers",
+        })
+      );
+    }
+  }
+  return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
+}
+
 async function oracleHcm(company) {
   const url = company.source?.apiUrl || `https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=${company.source?.siteNumber || "CX_1"},limit=155`;
   const res = await fetch(url, {
@@ -923,6 +974,7 @@ const fetchers = {
   "zoho-recruit": (c) => zohoRecruit(c),
   homerun: (c) => homerun(c),
   yarsalabs: (c) => yarsalabs(c),
+  devfinity: (c) => devfinityJobs(c),
 };
 
 const results = [];

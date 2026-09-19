@@ -1274,7 +1274,7 @@
     "name": "Devfinity",
     "website": "https://devfinity.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://devfinity.com",
-    "careersUrl": "https://www.linkedin.com/company/devfinity/jobs/",
+    "careersUrl": "https://devfinity.com/careers/",
     "linkedinUrl": "https://www.linkedin.com/company/devfinity/",
     "applyEmail": "hrnepal@devfinity.com",
     "location": "New Baneshwor, Kathmandu, Nepal",
@@ -1304,11 +1304,10 @@
     "coordinates": [27.6915, 85.334],
     "forceNepal": true,
     "source": {
-      "kind": "linkedin",
-      "keyword": "Devfinity",
-      "filter": "Devfinity"
+      "kind": "devfinity",
+      "url": "https://devfinity.com/careers/"
     },
-    "displayCareersUrl": "https://devfinity.io/careers"
+    "displayCareersUrl": "https://devfinity.com/careers/"
   },
   {
     "id": "deltatech",
