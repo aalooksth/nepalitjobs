@@ -30,13 +30,17 @@
       "Silicon Valley SaaS companies",
       "Boston & Seattle tech firms"
     ],
-    "coordinates": [27.707319, 85.327424],
+    "coordinates": [
+      27.707319,
+      85.327424
+    ],
     "forceNepal": true,
     "source": {
       "kind": "recruitee",
       "url": "https://career.lftechnology.com/api/offers"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/leapfrog-technology"
+    "linkedinUrl": "https://www.linkedin.com/company/leapfrog-technology",
+    "tested": true
   },
   {
     "id": "f1soft",
@@ -70,12 +74,16 @@
       "Microfinance institutions",
       "Nepal Rastra Bank regulated entities"
     ],
-    "coordinates": [27.679367, 85.316272],
+    "coordinates": [
+      27.679367,
+      85.316272
+    ],
     "forceNepal": true,
     "source": {
       "kind": "f1soft"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/f1soft-international-pvt-ltd"
+    "linkedinUrl": "https://www.linkedin.com/company/f1soft-international-pvt-ltd",
+    "tested": true
   },
   {
     "id": "cloudfactory",
@@ -105,13 +113,17 @@
       "AI research labs",
       "Computer vision startups"
     ],
-    "coordinates": [27.651378, 85.305265],
+    "coordinates": [
+      27.651378,
+      85.305265
+    ],
     "forceNepal": false,
     "source": {
       "kind": "workable",
       "account": "cloudfactory"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/cloudfactory"
+    "linkedinUrl": "https://www.linkedin.com/company/cloudfactory",
+    "tested": true
   },
   {
     "id": "guardsix",
@@ -143,14 +155,18 @@
       "Financial services",
       "Government & critical infrastructure"
     ],
-    "coordinates": [27.729438, 85.324581],
+    "coordinates": [
+      27.729438,
+      85.324581
+    ],
     "forceNepal": false,
     "source": {
       "kind": "bamboohr",
       "subdomain": "logpoint"
     },
     "linkedinUrl": "https://www.linkedin.com/company/guardsix",
-    "displayCareersUrl": "https://logpoint.com/en/careers/"
+    "displayCareersUrl": "https://logpoint.com/en/careers/",
+    "tested": true
   },
   {
     "id": "hybridnews",
@@ -181,14 +197,18 @@
       "News organisations",
       "Content platforms"
     ],
-    "coordinates": [27.721, 85.329],
+    "coordinates": [
+      27.721,
+      85.329
+    ],
     "forceNepal": false,
     "source": {
       "kind": "recruitee",
       "url": "https://hybrid.recruitee.com/api/offers"
     },
     "linkedinUrl": "https://www.linkedin.com/company/hybrid-news",
-    "displayCareersUrl": "https://hybrid.news/careers"
+    "displayCareersUrl": "https://hybrid.news/careers",
+    "tested": true
   },
   {
     "id": "deerwalk",
@@ -219,13 +239,17 @@
       "Health plans",
       "ACOs and care management companies"
     ],
-    "coordinates": [27.711951, 85.341418],
+    "coordinates": [
+      27.711951,
+      85.341418
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "<h[23][^>]*>([^<]*(?:Engineer|Developer|Analyst|Manager|Designer|Intern)[^<]*)</h[23]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/deerwalk-inc."
+    "linkedinUrl": "https://www.linkedin.com/company/deerwalk-inc.",
+    "tested": true
   },
   {
     "id": "verisk",
@@ -259,7 +283,10 @@
       "Financial institutions",
       "Energy companies"
     ],
-    "coordinates": [27.711727, 85.322013],
+    "coordinates": [
+      27.711727,
+      85.322013
+    ],
     "forceNepal": true,
     "source": {
       "kind": "oracle-hcm",
@@ -267,7 +294,8 @@
       "apiUrl": "https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=CX_1,limit=155"
     },
     "linkedinUrl": "https://www.linkedin.com/company/verisk",
-    "displayCareersUrl": "https://www.verisk.com/company/careers/"
+    "displayCareersUrl": "https://www.verisk.com/company/careers/",
+    "tested": true
   },
   {
     "id": "cedargate",
@@ -301,14 +329,18 @@
       "Provider organisations",
       "Risk-bearing entities"
     ],
-    "coordinates": [27.68081, 85.305345],
+    "coordinates": [
+      27.68081,
+      85.305345
+    ],
     "forceNepal": true,
     "source": {
       "kind": "iqvia",
       "url": "https://jobs.iqvia.com/en/jobs?businesses=CEDAR+GATE+TECHNOLOGIES&locations=Nepal"
     },
     "linkedinUrl": "https://www.linkedin.com/company/cedar-gate-technologies",
-    "displayCareersUrl": "https://www.cedargate.com/careers/"
+    "displayCareersUrl": "https://www.cedargate.com/careers/",
+    "tested": true
   },
   {
     "id": "infinite",
@@ -340,7 +372,10 @@
       "Healthcare providers",
       "Health IT vendors"
     ],
-    "coordinates": [27.7122, 85.3218],
+    "coordinates": [
+      27.7122,
+      85.3218
+    ],
     "forceNepal": true,
     "source": {
       "kind": "linkedin",
@@ -348,7 +383,8 @@
       "filter": "Infinite"
     },
     "linkedinUrl": "https://www.linkedin.com/company/infinite-computer-solutions",
-    "displayCareersUrl": "https://www.infinite.com/careers/"
+    "displayCareersUrl": "https://www.infinite.com/careers/",
+    "tested": true
   },
   {
     "id": "maitri",
@@ -379,7 +415,10 @@
       "Healthcare data companies",
       "Health IT vendors"
     ],
-    "coordinates": [27.6842, 85.3115],
+    "coordinates": [
+      27.6842,
+      85.3115
+    ],
     "forceNepal": true,
     "source": {
       "kind": "linkedin",
@@ -387,7 +426,8 @@
       "filter": "Maitri Services"
     },
     "linkedinUrl": "https://www.linkedin.com/company/maitri-services",
-    "displayCareersUrl": "https://www.maitriservices.com/life-at-maitri"
+    "displayCareersUrl": "https://www.maitriservices.com/life-at-maitri",
+    "tested": true
   },
   {
     "id": "fusemachines",
@@ -420,18 +460,25 @@
       "US healthcare companies",
       "Financial services firms"
     ],
-    "coordinates": [27.693331, 85.336479],
+    "coordinates": [
+      27.693331,
+      85.336479
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "(?:Job Title|position)[^<]{0,40}|<h[23][^>]*>([^<]*(?:Engineer|Scientist|Developer|Manager)[^<]*)</h[23]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/fusemachines"
+    "linkedinUrl": "https://www.linkedin.com/company/fusemachines",
+    "tested": true
   },
   {
     "id": "ycotek",
     "name": "Ycotek",
-    "formerNames": ["LIS Nepal", "Yomari Computing"],
+    "formerNames": [
+      "LIS Nepal",
+      "Yomari Computing"
+    ],
     "website": "https://ycotek.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://ycotek.com",
     "careersUrl": "https://ycotek.com/careers-at-yco/",
@@ -460,13 +507,17 @@
       "Nepal enterprises",
       "Offshore clients in US & Australia"
     ],
-    "coordinates": [27.683594, 85.304341],
+    "coordinates": [
+      27.683594,
+      85.304341
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "<h[2-4][^>]*>([^<]*(?:Engineer|Developer|Officer|Intern|Manager|Analyst)[^<]*)</h[2-4]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/ycotek"
+    "linkedinUrl": "https://www.linkedin.com/company/ycotek",
+    "tested": true
   },
   {
     "id": "spiralogics",
@@ -498,7 +549,10 @@
       "Health IT companies",
       "US enterprises"
     ],
-    "coordinates": [27.685361, 85.335008],
+    "coordinates": [
+      27.685361,
+      85.335008
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -537,7 +591,10 @@
       "I/NGOs",
       "World Bank"
     ],
-    "coordinates": [27.664518, 85.319936],
+    "coordinates": [
+      27.664518,
+      85.319936
+    ],
     "forceNepal": true,
     "source": {
       "kind": "linkedin",
@@ -545,7 +602,8 @@
       "filter": "Young Innovations"
     },
     "linkedinUrl": "https://www.linkedin.com/company/younginnovations",
-    "displayCareersUrl": "https://younginnovations.com.np/vacancy"
+    "displayCareersUrl": "https://younginnovations.com.np/vacancy",
+    "tested": true
   },
   {
     "id": "genese",
@@ -578,7 +636,10 @@
       "Government",
       "International NGOs"
     ],
-    "coordinates": [27.684042, 85.312201],
+    "coordinates": [
+      27.684042,
+      85.312201
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -617,7 +678,10 @@
       "Cooperatives",
       "Microfinance institutions"
     ],
-    "coordinates": [27.6855, 85.3082],
+    "coordinates": [
+      27.6855,
+      85.3082
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -654,7 +718,10 @@
       "Nepal consumers",
       "Advertising partners"
     ],
-    "coordinates": [27.711892, 85.341927],
+    "coordinates": [
+      27.711892,
+      85.341927
+    ],
     "forceNepal": true,
     "source": {
       "kind": "linkedin",
@@ -662,7 +729,8 @@
       "filter": "Hamro Patro"
     },
     "linkedinUrl": "https://www.linkedin.com/company/hamropatro",
-    "displayCareersUrl": "https://hamropatro.com/careers"
+    "displayCareersUrl": "https://hamropatro.com/careers",
+    "tested": true
   },
   {
     "id": "khalti",
@@ -694,7 +762,10 @@
       "Banks & financial institutions",
       "Government agencies"
     ],
-    "coordinates": [27.729252, 85.324746],
+    "coordinates": [
+      27.729252,
+      85.324746
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -734,13 +805,17 @@
       "I/NGOs",
       "Humanitarian sector"
     ],
-    "coordinates": [27.693333, 85.347791],
+    "coordinates": [
+      27.693333,
+      85.347791
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "<h[2-4][^>]*>([^<]*(?:Engineer|Developer|Designer|Intern|Officer)[^<]*)</h[2-4]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/naxanepal"
+    "linkedinUrl": "https://www.linkedin.com/company/naxanepal",
+    "tested": true
   },
   {
     "id": "gts",
@@ -772,13 +847,17 @@
       "International clients",
       "E-commerce businesses"
     ],
-    "coordinates": [27.671, 85.338],
+    "coordinates": [
+      27.671,
+      85.338
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "<h[2-4][^>]*>([^<]*(?:Developer|Engineer|Designer)[^<]*)</h[2-4]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/geek-tech-solutions-pvt-ltd"
+    "linkedinUrl": "https://www.linkedin.com/company/geek-tech-solutions-pvt-ltd",
+    "tested": true
   },
   {
     "id": "zunkiree",
@@ -804,14 +883,21 @@
       "AWS",
       "Machine Learning"
     ],
-    "clientTypes": ["AI-first startups", "US tech companies"],
-    "coordinates": [27.718, 85.326],
+    "clientTypes": [
+      "AI-first startups",
+      "US tech companies"
+    ],
+    "coordinates": [
+      27.718,
+      85.326
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "<h[2-4][^>]*>([^<]*(?:Engineer|Designer|DevOps)[^<]*)</h[2-4]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/zunkireelabs"
+    "linkedinUrl": "https://www.linkedin.com/company/zunkireelabs",
+    "tested": true
   },
   {
     "id": "dignep",
@@ -843,13 +929,17 @@
       "Australian businesses",
       "US startups"
     ],
-    "coordinates": [27.714, 85.328],
+    "coordinates": [
+      27.714,
+      85.328
+    ],
     "forceNepal": true,
     "source": {
       "kind": "html",
       "titleRe": "<h[2-4][^>]*>([^<]*(?:Officer|Engineer|Developer|Designer|Intern)[^<]*)</h[2-4]>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/dignep-group"
+    "linkedinUrl": "https://www.linkedin.com/company/dignep-group",
+    "tested": true
   },
   {
     "id": "ebpearls",
@@ -881,13 +971,17 @@
       "Australian enterprise clients",
       "Startups across APAC"
     ],
-    "coordinates": [27.6895, 85.3135],
+    "coordinates": [
+      27.6895,
+      85.3135
+    ],
     "forceNepal": false,
     "source": {
       "kind": "html",
       "titleRe": "<h3[^>]*>([^<]*(?:Developer|Engineer|Analyst|Designer|Manager)[^<]*)</h3>"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/ebpearls"
+    "linkedinUrl": "https://www.linkedin.com/company/ebpearls",
+    "tested": true
   },
   {
     "id": "proshore",
@@ -920,13 +1014,17 @@
       "Dutch e-commerce businesses",
       "Nordic tech startups"
     ],
-    "coordinates": [27.6865, 85.3485],
+    "coordinates": [
+      27.6865,
+      85.3485
+    ],
     "forceNepal": true,
     "source": {
       "kind": "homerun",
       "url": "https://feed.homerun.co/proshore"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/proshore"
+    "linkedinUrl": "https://www.linkedin.com/company/proshore",
+    "tested": true
   },
   {
     "id": "techvortex",
@@ -952,8 +1050,15 @@
       "AWS",
       "MySQL"
     ],
-    "clientTypes": ["Nepal SMEs", "Startups", "International clients"],
-    "coordinates": [27.6812, 85.3055],
+    "clientTypes": [
+      "Nepal SMEs",
+      "Startups",
+      "International clients"
+    ],
+    "coordinates": [
+      27.6812,
+      85.3055
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -992,7 +1097,10 @@
       "Mortgage lenders",
       "Accounting firms"
     ],
-    "coordinates": [27.6865, 85.3125],
+    "coordinates": [
+      27.6865,
+      85.3125
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -1030,7 +1138,10 @@
       "Global remote-first companies",
       "HR and payroll service providers"
     ],
-    "coordinates": [27.6832, 85.309],
+    "coordinates": [
+      27.6832,
+      85.309
+    ],
     "forceNepal": true,
     "source": {
       "kind": "linkedin",
@@ -1038,7 +1149,8 @@
       "filter": "Niural"
     },
     "linkedinUrl": "https://www.linkedin.com/company/niural",
-    "displayCareersUrl": "https://www.niural.com/careers"
+    "displayCareersUrl": "https://www.niural.com/careers",
+    "tested": true
   },
   {
     "id": "bajra",
@@ -1072,13 +1184,17 @@
       "US enterprise clients",
       "North American digital platforms"
     ],
-    "coordinates": [27.706836, 85.325384],
+    "coordinates": [
+      27.706836,
+      85.325384
+    ],
     "forceNepal": true,
     "source": {
       "kind": "careers-page",
       "url": "https://bajratechnologies.com/careers"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/bajra-technologies"
+    "linkedinUrl": "https://www.linkedin.com/company/bajra-technologies",
+    "tested": true
   },
   {
     "id": "deerhold",
@@ -1110,13 +1226,17 @@
       "Health insurance companies",
       "Enterprise SaaS"
     ],
-    "coordinates": [27.7121, 85.3416],
+    "coordinates": [
+      27.7121,
+      85.3416
+    ],
     "forceNepal": true,
     "source": {
       "kind": "careers-page",
       "url": "https://deerhold.com/careers"
     },
-    "linkedinUrl": "https://www.linkedin.com/company/deerhold"
+    "linkedinUrl": "https://www.linkedin.com/company/deerhold",
+    "tested": true
   },
   {
     "id": "growbydata",
@@ -1148,12 +1268,16 @@
       "Global advertising agencies",
       "US eCommerce brands"
     ],
-    "coordinates": [27.6845, 85.3066],
+    "coordinates": [
+      27.6845,
+      85.3066
+    ],
     "forceNepal": true,
     "source": {
       "kind": "careers-page",
       "url": "https://growbydata.com/career-overview/"
-    }
+    },
+    "tested": true
   },
   {
     "id": "yarsatech",
@@ -1186,11 +1310,15 @@
       "Smart home devices",
       "Global hardware distributors"
     ],
-    "coordinates": [28.160315, 84.057005],
+    "coordinates": [
+      28.160315,
+      84.057005
+    ],
     "forceNepal": true,
     "source": {
       "kind": "yarsalabs"
-    }
+    },
+    "tested": true
   },
   {
     "id": "techkraft",
@@ -1224,12 +1352,16 @@
       "North American financial tech",
       "Global SaaS companies"
     ],
-    "coordinates": [27.6785, 85.3235],
+    "coordinates": [
+      27.6785,
+      85.3235
+    ],
     "forceNepal": true,
     "source": {
       "kind": "zoho-recruit",
       "url": "https://careers.techkraftinc.com/jobs/Careers"
-    }
+    },
+    "tested": true
   },
   {
     "id": "asterdio",
@@ -1261,7 +1393,10 @@
       "North American SaaS companies",
       "Global digital platforms"
     ],
-    "coordinates": [27.7082, 85.323],
+    "coordinates": [
+      27.7082,
+      85.323
+    ],
     "forceNepal": true,
     "directoryOnly": true,
     "source": {
@@ -1301,13 +1436,17 @@
       "North American fintechs",
       "Healthcare & logistics platforms"
     ],
-    "coordinates": [27.6915, 85.334],
+    "coordinates": [
+      27.6915,
+      85.334
+    ],
     "forceNepal": true,
     "source": {
       "kind": "devfinity",
       "url": "https://devfinity.com/careers/"
     },
-    "displayCareersUrl": "https://devfinity.com/careers/"
+    "displayCareersUrl": "https://devfinity.com/careers/",
+    "tested": true
   },
   {
     "id": "deltatech",
@@ -1341,7 +1480,10 @@
       "Wholesale distributors",
       "Retail brands in South Asia"
     ],
-    "coordinates": [26.4633, 87.2798],
+    "coordinates": [
+      26.4633,
+      87.2798
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -1379,7 +1521,10 @@
       "Dairy and agricultural enterprises",
       "Commercial businesses in Western Nepal"
     ],
-    "coordinates": [27.6865, 83.4663],
+    "coordinates": [
+      27.6865,
+      83.4663
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
@@ -1417,7 +1562,10 @@
       "E-commerce businesses",
       "SMEs across Central Nepal"
     ],
-    "coordinates": [27.6974, 84.4239],
+    "coordinates": [
+      27.6974,
+      84.4239
+    ],
     "directoryOnly": true,
     "forceNepal": true,
     "source": {
