@@ -404,7 +404,8 @@
     "name": "Fusemachines",
     "website": "https://www.fusemachines.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.fusemachines.com",
-    "careersUrl": "https://www.fusemachines.com/careers",
+    "careersUrl": "https://fusemachines.com/company/careers/",
+    "displayCareersUrl": "https://fusemachines.com/company/careers/",
     "applyEmail": "careers@fusemachines.com",
     "location": "Nava Srijana Marg, New Baneshwor, Kathmandu",
     "hq": "New Baneshwor, Kathmandu · New York, NY, USA",
@@ -433,8 +434,8 @@
     "coordinates": [27.693331, 85.336479],
     "forceNepal": true,
     "source": {
-      "kind": "html",
-      "titleRe": "(?:Job Title|position)[^<]{0,40}|<h[23][^>]*>([^<]*(?:Engineer|Scientist|Developer|Manager)[^<]*)</h[23]>"
+      "kind": "fusemachines",
+      "url": "https://api-website-v1.fusemachines.com/api/v1/careers?status=open&send_to_job_boards=Yes"
     },
     "linkedinUrl": "https://www.linkedin.com/company/fusemachines",
     "tested": true
@@ -442,7 +443,7 @@
   {
     "id": "ycotek",
     "name": "Ycotek",
-    "formerNames": ["LIS Nepal", "Yomari Computing"],
+    "formerNames": ["LIS Nepal", "Yomari"],
     "website": "https://ycotek.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://ycotek.com",
     "careersUrl": "https://ycotek.com/careers-at-yco/",

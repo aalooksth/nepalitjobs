@@ -895,6 +895,55 @@ async function veelappJobs(company) {
   return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
 }
 
+/**
+ * Fusemachines (fusemachines.com) — JazzHR custom API endpoint
+ */
+async function fusemachinesJobs(company) {
+  const apiUrl =
+    company.source?.url ||
+    company.source?.apiUrl ||
+    "https://api-website-v1.fusemachines.com/api/v1/careers?status=open&send_to_job_boards=Yes";
+  const data = await fetchText(apiUrl, { json: true });
+
+  const jobs = [];
+  for (const item of Array.isArray(data) ? data : []) {
+    const title = (item.title || "").trim();
+    if (!title) continue;
+
+    const country = item.country_id || "";
+    const city = item.city || "";
+    const rawLoc = [city, country].filter(Boolean).join(", ");
+    const location = cleanNepalLocation(rawLoc || company.location);
+
+    const applyUrl = item.board_code
+      ? `https://jobs.fusemachines.com/apply/${item.board_code}`
+      : company.careersUrl;
+
+    const descriptionHtml = item.description || "";
+
+    jobs.push(
+      normalize({
+        id: `${company.id}-${item.board_code || item.id}`,
+        companyId: company.id,
+        company: company.name,
+        title,
+        department: item.department || "",
+        location,
+        employmentType: item.type || "Full-time",
+        postedAt: item.original_open_date || null,
+        applyUrl,
+        careersUrl: company.careersUrl,
+        applyEmail: company.applyEmail,
+        applyHow: `Apply online via Fusemachines career portal: ${applyUrl}`,
+        descriptionHtml,
+        source: "Fusemachines careers",
+      })
+    );
+  }
+
+  return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
+}
+
 async function oracleHcm(company) {
   const url = company.source?.apiUrl || `https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=${company.source?.siteNumber || "CX_1"},limit=155`;
   const res = await fetch(url, {
@@ -1105,6 +1154,7 @@ const fetchers = {
   yarsalabs: (c) => yarsalabs(c),
   devfinity: (c) => devfinityJobs(c),
   veelapp: (c) => veelappJobs(c),
+  fusemachines: (c) => fusemachinesJobs(c),
 };
 
 const targetCompanyArg =
