@@ -727,5 +727,78 @@ function setupMapToggle() {
   });
 }
 
+function openPrivacyModal() {
+  const body = document.getElementById("modal-body");
+  if (!body) return;
+  body.innerHTML = `
+    <div class="modal-company-header">
+      <div class="modal-logo" style="background:rgba(124,58,237,0.15);color:var(--c-violet-l);border:1px solid rgba(124,58,237,0.3);font-size:1.4rem">🛡️</div>
+      <div>
+        <div class="modal-company-name">Project Philosophy &amp; Privacy Policy</div>
+        <div class="modal-title">Nepal IT Jobs — Built for Developers, By Developer</div>
+      </div>
+    </div>
+
+    <div class="modal-section" style="margin-top:16px">
+      <h3 class="modal-section-title">1. Why This Site Exists</h3>
+      <div class="modal-html-content">
+        <p>I created <strong>Nepal IT Jobs</strong> primarily for myself to search and stay updated on active software engineering vacancies in Nepal's tech market without having to jump across dozens of separate career portals. I do not intend to build a commercial business out of this platform — there are already plenty. Statically hosting it keeps the platform lightweight, fast, and completely free of custom domain or hosting hassles.</p>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h3 class="modal-section-title">2. Strict Privacy &amp; Zero-Spam Commitment</h3>
+      <div class="modal-html-content">
+        <p>Nepal IT Jobs is 100% statically hosted with <strong>zero Login, zero Sign-Up, and zero personal candidate data collection</strong>. We do not maintain candidate databases, nor do we collect phone numbers or email addresses. You will never receive promotional calls, sales pitches, or email spam from us.</p>
+        <p>The only tracking present is standard Google Analytics and Microsoft Clarity used solely to anonymously measure site traffic and performance.</p>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h3 class="modal-section-title">3. 'Apply Through Me' &amp; Genuine CV Review</h3>
+      <div class="modal-html-content">
+        <p>Job seekers may voluntarily choose to consult me directly for a CV review and apply through my personal network. Based on my availability, I genuinely review resumes, share actionable feedback, and offer honest candidate recommendations based on my knowledge of the Nepal tech industry.</p>
+        <p>This may give applicants tangible benefits such as a better structured CV or higher interview priority with hiring teams. This direct, voluntary consultation is the single point where job seekers and myself mutually connect.</p>
+      </div>
+    </div>
+  `;
+
+  const overlay = document.getElementById("modal-overlay");
+  if (overlay) {
+    overlay.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+    const panel = document.getElementById("modal-panel");
+    if (panel) panel.scrollTop = 0;
+  }
+}
+
+function setupPrivacyModalInCompanies() {
+  const closeBtn = document.getElementById("modal-close");
+  const overlay = document.getElementById("modal-overlay");
+  if (closeBtn) closeBtn.addEventListener("click", () => {
+    overlay?.classList.add("hidden");
+    document.body.style.overflow = "";
+  });
+  if (overlay) {
+    overlay.addEventListener("click", e => {
+      if (e.target === overlay) {
+        overlay.classList.add("hidden");
+        document.body.style.overflow = "";
+      }
+    });
+  }
+
+  const privacyLink = document.getElementById("privacy-link");
+  if (privacyLink) {
+    privacyLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      openPrivacyModal();
+    });
+  }
+}
+
 // ── Bootstrap ─────────────────────────────────────────────────────
-window.addEventListener("DOMContentLoaded", init);
+window.addEventListener("DOMContentLoaded", () => {
+  init();
+  setupPrivacyModalInCompanies();
+});

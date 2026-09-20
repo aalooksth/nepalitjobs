@@ -1593,6 +1593,8 @@
         <span>·</span>
         <a href="companies.html">Companies &amp; Map</a>
         <span>·</span>
+        <a href="#privacy" id="privacy-link">Privacy &amp; Philosophy</a>
+        <span>·</span>
         <a href="https://aloks.com.np" target="_blank" rel="noopener">Alok's Portfolio</a>
         <span>·</span>
         <a href="https://aloks.com.np/utils/" target="_blank" rel="noopener">Utilities Suite</a>
@@ -1608,6 +1610,19 @@
       <p class="footer-copy">© <span id="year"></span> Alok Shrestha · Open Source Project</p>
     </div>
   </footer>
+
+  <!-- Privacy & Philosophy Modal -->
+  <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal" id="modal-panel">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="companies.js"></script>
