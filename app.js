@@ -76,6 +76,9 @@ document.addEventListener("DOMContentLoaded", () => {
       closeAllDropdowns();
     }
   });
+
+  // Re-apply hash filter on browser back/forward navigation
+  window.addEventListener("hashchange", () => applyHashFilter());
 });
 
 /* ══════════════════════════════════════════
@@ -179,10 +182,49 @@ async function loadData() {
     renderCompanies();
     injectJobPostingSchema(state.jobs, state.companies);
     showLoading(false);
+    applyHashFilter();  // honour ?#company=id deep-links from companies directory
   } catch (err) {
     console.error("Data load error:", err);
     showError(err.message);
   }
+}
+
+/**
+ * Reads #company=<id> from the URL hash and activates the matching company filter.
+ * Called after data loads, and on every hashchange event.
+ */
+function applyHashFilter() {
+  const raw = location.hash.slice(1);  // strip leading #
+  if (!raw) return;
+  const params = new URLSearchParams(raw);
+  const companyId = params.get("company");
+  if (!companyId) return;
+
+  const company = state.companies.find(c => c.id === companyId);
+  if (!company) return;
+
+  // Activate company filter
+  state.activeCompanyFilter = companyId;
+  state.filters.companies.clear();
+  state.filters.companies.add(company.name);
+
+  // Highlight the matching card
+  document.querySelectorAll(".company-card").forEach(c => {
+    c.classList.toggle("active", c.dataset.id === companyId);
+  });
+
+  // Sync any visible checkbox
+  document.querySelectorAll(`input[name="company"]`).forEach(cb => {
+    cb.checked = cb.value === company.name;
+  });
+
+  state.page = 1;
+  applyFilters();
+  renderActivePills();
+
+  // Scroll jobs section into view smoothly
+  const jobsSection = document.getElementById("jobs-section");
+  if (jobsSection) jobsSection.scrollIntoView({ behavior: "smooth" });
 }
 
 function injectJobPostingSchema(jobs, companies) {
@@ -623,14 +665,14 @@ function setupViewToggle() {
 ══════════════════════════════════════════ */
 function openModal(job) {
   const company = state.companies.find(c => c.id === job.companyId) || {};
-  const initials = companyInitials(job.company);
+  const logo = getLogoSrc(company);
   const color    = companyColor(job.companyId || job.company);
   const tech     = job.techStack || [];
 
   const body = document.getElementById("modal-body");
   body.innerHTML = `
     <div class="modal-company-header">
-      <div class="modal-logo" style="background:${color}22;color:${color};border-color:${color}44">${initials}</div>
+      <div class="modal-logo" style="background:${color}22;color:${color};border-color:${color}44"><img src="${logo}" alt="${esc(job.company)}" onerror="this.style.display='none'"></div>
       <div>
         <div class="modal-company-name">${esc(job.company)}</div>
         <div class="modal-title">${esc(job.title)}</div>
@@ -702,6 +744,25 @@ function openModal(job) {
           ${job.applyEmail ? `<a href="mailto:${esc(job.applyEmail)}" class="btn-apply-secondary">✉️ ${esc(job.applyEmail)}</a>` : ""}
         </div>
       </div>
+    </div>
+
+    <!-- Apply through Alok referral section -->
+    <div class="referral-box">
+      <div class="referral-box-header">
+        <span class="referral-badge">🌟 Boost Your Chances</span>
+        <span class="referral-tag">Free</span>
+      </div>
+      <h4 class="referral-title">Apply Through Alok</h4>
+      <p class="referral-desc">Get a direct edge — Alok personally reviews your CV, provides tailored suggestions, and where possible, puts in a word with the hiring team. Referred applicants often rank higher in the screening process.</p>
+      <ul class="referral-benefits">
+        <li>📄 CV review &amp; targeted feedback</li>
+        <li>💬 Role-specific application tips</li>
+        <li>🔗 Warm introduction to the hiring team (where applicable)</li>
+        <li>📈 Higher interview shortlist likelihood</li>
+      </ul>
+      <a href="mailto:referme@aloks.com.np?subject=${encodeURIComponent('Referral: ' + job.title + ' @ ' + job.company)}&body=${encodeURIComponent('Hi Alok,\n\nI found this role on NepaliTJobs and would love your support to apply:\n\n  Role: ' + job.title + '\n  Company: ' + job.company + '\n  Job URL: ' + job.applyUrl + '\n\nPlease find my CV attached. Thank you!')}" class="btn-referral">
+        ✉️ Request Referral from Alok
+      </a>
     </div>
 
     ${company.about ? `

@@ -219,7 +219,9 @@ function nepalRelevant(location, text = "", forceNepal = false) {
 }
 
 function normalize(job) {
-  const raw = `${job.title} ${job.department || ""} ${stripHtml(job.description || "")} ${stripHtml(job.requirements || "")}`;
+  const desc = job.descriptionHtml || job.description || "";
+  const req = job.requirementsHtml || job.requirements || "";
+  const raw = `${job.title} ${job.department || ""} ${stripHtml(desc)} ${stripHtml(req)}`;
   const years = extractYears(raw);
   return {
     id: job.id,
@@ -240,9 +242,9 @@ function normalize(job) {
     careersUrl: job.careersUrl,
     applyEmail: job.applyEmail || null,
     applyHow: job.applyHow,
-    summary: stripHtml(job.description || job.requirements || "").slice(0, 420),
-    descriptionHtml: job.description || "",
-    requirementsHtml: job.requirements || "",
+    summary: job.summary || stripHtml(desc || req || "").slice(0, 420),
+    descriptionHtml: desc,
+    requirementsHtml: req,
     source: job.source,
     listingKind: isTalentPool(job.title) ? "talent-pool" : "vacancy",
   };
@@ -766,6 +768,133 @@ async function devfinityJobs(company) {
   return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
 }
 
+/**
+ * Veel (veelapp.com) — Next.js SSR page with Lexical CMS content.
+ * Job data is embedded in a Next.js RSC payload script block as double-encoded JSON.
+ * Each job object ends with: department, employmentType, location, slug, title,
+ * workArrangement, id — followed by description blocks with Lexical editor content.
+ */
+async function veelappJobs(company) {
+  const targetUrl = company.source?.url || company.careersUrl;
+  const html = await fetchText(targetUrl);
+
+  // Find the script block containing job data — detect by RSC schema structure,
+  // not job titles (structural keys are always present regardless of current listings)
+  const scripts = [...html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/gi)].map(m => m[1]);
+  const jobScript = scripts.find(s => /\"blockType\".*?\"aboutRole\".*?\"workArrangement\"/s.test(s) ||
+    /\\\"blockType\\\".*?\\\"workArrangement\\\"/s.test(s));
+  if (!jobScript) return [];
+
+  // Unescape the RSC double-escaped JSON
+  const unescaped = jobScript
+    .replace(/\\\\"/g, "\x01")
+    .replace(/\\"/g, '"')
+    .replace(/\x01/g, '\\"')
+    .replace(/\\n/g, "\n")
+    .replace(/\\t/g, "\t")
+    .replace(/\\\\/g, "\\");
+
+  /** Recursively extract plain text from a Lexical node tree. */
+  function lexicalText(node) {
+    if (!node) return "";
+    if (node.text !== undefined) return node.text;
+    if (node.children) return node.children.map(lexicalText).join("");
+    return "";
+  }
+
+  /** Convert Lexical node tree to HTML. */
+  function lexicalToHtml(node) {
+    if (!node) return "";
+    const ch = (node.children || []).map(lexicalToHtml).join("");
+    switch (node.type) {
+      case "root":      return ch;
+      case "paragraph": return ch ? `<p>${ch}</p>` : "";
+      case "heading":   return `<h${node.tag || 3}>${ch}</h${node.tag || 3}>`;
+      case "list":      return node.listType === "number" ? `<ol>${ch}</ol>` : `<ul>${ch}</ul>`;
+      case "listitem":  return `<li>${ch}</li>`;
+      case "text": {
+        let t = node.text || "";
+        if (node.format & 1) t = `<strong>${t}</strong>`;
+        if (node.format & 2) t = `<em>${t}</em>`;
+        return t;
+      }
+      default: return ch;
+    }
+  }
+
+  // Each job object ends with: "department":"...", "employmentType":"...",
+  // "location":"...", "slug":"...", "title":"...", "workArrangement":"...", "id":"uuid"
+  const jobRe = /\{"createdAt":"[^"]+","updatedAt":"[^"]+","description":(\[[\s\S]*?\]),"generateSlug":(?:false|true),"_status":"published","department":"([^"]*)","employmentType":"([^"]*)","location":"([^"]*)","slug":"([^"]*)","title":"([^"]*)","workArrangement":"([^"]*)","id":"([^"]*)"\}/g;
+
+  const jobs = [];
+  const seen = new Set();
+  let m;
+
+  while ((m = jobRe.exec(unescaped))) {
+    const [, descJson, department, employmentType, , , rawTitle, workArrangement, uuid] = m;
+    const title = rawTitle.replace(/\\u0026/g, "&").trim();
+    if (!title || seen.has(uuid)) continue;
+    seen.add(uuid);
+
+    // Parse Lexical description blocks → HTML + summary
+    let descriptionHtml = "";
+    let summary = "";
+    try {
+      const blocks = JSON.parse(descJson);
+      for (const block of blocks) {
+        const blockTitle = block.title || "";
+        const root = block.content?.root;
+        if (!root) continue;
+        const blockHtml = lexicalToHtml(root);
+        if (blockTitle) {
+          descriptionHtml += `<h3>${blockTitle}</h3>${blockHtml}`;
+        } else {
+          descriptionHtml += blockHtml;
+        }
+        // Use "Role Overview" block as summary; fall back to "About Veel"
+        if (!summary && block.blockType === "aboutRole" && /role overview/i.test(blockTitle)) {
+          summary = lexicalText(root).trim().slice(0, 450);
+        }
+      }
+      if (!summary) {
+        // Fall back to first non-empty block text
+        const blocks2 = JSON.parse(descJson);
+        for (const block of blocks2) {
+          const t = lexicalText(block.content?.root || {}).trim();
+          if (t) { summary = t.slice(0, 450); break; }
+        }
+      }
+    } catch (e) {
+      log(`[veelapp] desc parse error for "${title}": ${e.message}`);
+    }
+
+    // Map workArrangement field to our workType values
+    const workTypeMap = { "on-site": "On-site", "remote": "Remote", "hybrid": "Hybrid", "hybrid / on-site": "Hybrid" };
+    const workType = workTypeMap[workArrangement.toLowerCase()] || workArrangement;
+
+    jobs.push(
+      normalize({
+        id: `${company.id}-${uuid}`,
+        companyId: company.id,
+        company: company.name,
+        title,
+        department,
+        location: company.location,
+        workType,
+        employmentType,
+        applyUrl: targetUrl,
+        careersUrl: company.careersUrl,
+        applyEmail: company.applyEmail,
+        applyHow: `Visit the Veel careers page to read the full job description and apply: ${targetUrl}`,
+        summary,
+        descriptionHtml,
+        source: "Veel careers",
+      })
+    );
+  }
+  return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
+}
+
 async function oracleHcm(company) {
   const url = company.source?.apiUrl || `https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=${company.source?.siteNumber || "CX_1"},limit=155`;
   const res = await fetch(url, {
@@ -975,12 +1104,32 @@ const fetchers = {
   homerun: (c) => homerun(c),
   yarsalabs: (c) => yarsalabs(c),
   devfinity: (c) => devfinityJobs(c),
+  veelapp: (c) => veelappJobs(c),
 };
+
+const targetCompanyArg =
+  process.argv.find((a) => a.startsWith("--company="))?.split("=")[1] ||
+  (process.argv.includes("--company")
+    ? process.argv[process.argv.indexOf("--company") + 1]
+    : null);
+
+const companiesToRun = targetCompanyArg
+  ? companies.filter(
+      (c) =>
+        c.id.toLowerCase() === targetCompanyArg.toLowerCase() ||
+        c.name.toLowerCase().includes(targetCompanyArg.toLowerCase())
+    )
+  : companies;
+
+if (targetCompanyArg && companiesToRun.length === 0) {
+  console.error(`No company found matching "${targetCompanyArg}"`);
+  process.exit(1);
+}
 
 const results = [];
 const errors = [];
 
-for (const company of companies) {
+for (const company of companiesToRun) {
   // Skip companies flagged as directory-only (no public career API to scrape)
   if (company.directoryOnly || company.source?.kind === "none") {
     console.log(`${company.name}: directory-only, skipping`);
@@ -998,14 +1147,28 @@ for (const company of companies) {
   }
 }
 
-results.sort((a, b) => String(b.postedAt || "").localeCompare(String(a.postedAt || "")));
+let finalJobs = results;
+
+if (targetCompanyArg) {
+  // Merge scraped jobs with existing jobs in data/jobs.json
+  const targetIds = new Set(companiesToRun.map((c) => c.id));
+  try {
+    const existingData = JSON.parse(await readFile(join(ROOT, "data", "jobs.json"), "utf8"));
+    const existingJobs = (existingData.jobs || []).filter((j) => !targetIds.has(j.companyId));
+    finalJobs = [...existingJobs, ...results];
+  } catch (e) {
+    console.log("Could not load existing data/jobs.json, writing target company jobs only.");
+  }
+}
+
+finalJobs.sort((a, b) => String(b.postedAt || "").localeCompare(String(a.postedAt || "")));
 
 const payload = {
   generatedAt: new Date().toISOString(),
-  jobCount: results.length,
+  jobCount: finalJobs.length,
   companyCount: companies.length,
   errors,
-  jobs: results,
+  jobs: finalJobs,
 };
 
 // Detect any company IDs/names produced by scraping that aren't present in data/companies.json
@@ -1028,16 +1191,10 @@ for (const job of results) {
       continue;
     }
 
-    let newId = jid || slugify(jname);
-    let suffix = 1;
-    while (existingIds.has(newId) || newCompanies.some((c) => c.id === newId) || !newId) {
-      newId = `${slugify(jname) || 'company'}-${suffix++}`;
-    }
-
-    let website = null;
+    const newId = jid || slugify(jname);
+    let website = job.careersUrl || "";
     try {
-      const origin = job.careersUrl || job.applyUrl;
-      website = origin ? new URL(origin).origin : null;
+      if (website) website = new URL(website).origin;
     } catch {
       website = null;
     }
@@ -1081,4 +1238,4 @@ if (newCompanies.length) {
 
 await mkdir(join(ROOT, "data"), { recursive: true });
 await writeFile(join(ROOT, "data", "jobs.json"), JSON.stringify(payload, null, 2));
-console.log(`Wrote ${results.length} jobs`);
+console.log(`Wrote ${finalJobs.length} jobs (scraped ${results.length} jobs for ${companiesToRun.length} company)`);
