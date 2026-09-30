@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-29T11:59:03.917Z",
-  "jobCount": 84,
+  "generatedAt": "2026-09-30T11:46:40.421Z",
+  "jobCount": 75,
   "companyCount": 38,
   "errors": [
     {
@@ -17,6 +17,66 @@
     }
   ],
   "jobs": [
+    {
+      "id": "maitri-software-qa-engineer",
+      "companyId": "maitri",
+      "company": "Maitri Services",
+      "title": "Software QA Engineer",
+      "department": "QA / Testing",
+      "domain": "QA / Testing",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": "2026-09-30",
+      "deadline": null,
+      "applyUrl": "https://np.linkedin.com/jobs/view/software-qa-engineer-at-maitri-services-4473761590",
+      "careersUrl": "https://www.linkedin.com/company/maitri-services/jobs/",
+      "applyEmail": "contact@maitriservices.com",
+      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/software-qa-engineer-at-maitri-services-4473761590",
+      "summary": "Software QA Engineer at Maitri Services (Lalitpur, Nepal). View and apply directly on LinkedIn.",
+      "descriptionHtml": "Software QA Engineer at Maitri Services (Lalitpur, Nepal). View and apply directly on LinkedIn.",
+      "requirementsHtml": "",
+      "source": "LinkedIn",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "hamropatro-chief-executive-officer-hamro-pay",
+      "companyId": "hamropatro",
+      "company": "Hamro Patro",
+      "title": "Chief Executive Officer - Hamro Pay",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Kathmandu, Nepal",
+      "postedAt": "2026-09-30",
+      "deadline": null,
+      "applyUrl": "https://np.linkedin.com/jobs/view/chief-executive-officer-hamro-pay-at-hamro-patro-inc-4472152523",
+      "careersUrl": "https://www.linkedin.com/company/hamropatro/jobs",
+      "applyEmail": "career@hamropatro.com",
+      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/chief-executive-officer-hamro-pay-at-hamro-patro-inc-4472152523",
+      "summary": "Chief Executive Officer - Hamro Pay at Hamro Patro (Kathmandu, Nepal). View and apply directly on LinkedIn.",
+      "descriptionHtml": "Chief Executive Officer - Hamro Pay at Hamro Patro (Kathmandu, Nepal). View and apply directly on LinkedIn.",
+      "requirementsHtml": "",
+      "source": "LinkedIn",
+      "listingKind": "vacancy"
+    },
     {
       "id": "infinite-java-software-engineer",
       "companyId": "infinite",
@@ -44,6 +104,35 @@
       "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/java-software-engineer-at-infinite-computer-solutions-4473238354",
       "summary": "Java Software Engineer at Infinite (formerly Cotiviti Nepal) (Kathmandu, Nepal). View and apply directly on LinkedIn.",
       "descriptionHtml": "Java Software Engineer at Infinite (formerly Cotiviti Nepal) (Kathmandu, Nepal). View and apply directly on LinkedIn.",
+      "requirementsHtml": "",
+      "source": "LinkedIn",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "maitri-project-manager",
+      "companyId": "maitri",
+      "company": "Maitri Services",
+      "title": "Project Manager",
+      "department": "Delivery / PM",
+      "domain": "Delivery / PM",
+      "seniority": "Manager",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": "2026-09-29",
+      "deadline": null,
+      "applyUrl": "https://np.linkedin.com/jobs/view/project-manager-at-maitri-services-4471595602",
+      "careersUrl": "https://www.linkedin.com/company/maitri-services/jobs/",
+      "applyEmail": "contact@maitriservices.com",
+      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/project-manager-at-maitri-services-4471595602",
+      "summary": "Project Manager at Maitri Services (Lalitpur, Nepal). View and apply directly on LinkedIn.",
+      "descriptionHtml": "Project Manager at Maitri Services (Lalitpur, Nepal). View and apply directly on LinkedIn.",
       "requirementsHtml": "",
       "source": "LinkedIn",
       "listingKind": "vacancy"
@@ -254,6 +343,40 @@
       "listingKind": "vacancy"
     },
     {
+      "id": "fusemachines-CYDvfJqCBF",
+      "companyId": "fusemachines",
+      "company": "Fusemachines",
+      "title": "Sr. UI/UX Designer",
+      "department": "Internal",
+      "domain": "Design",
+      "seniority": "Senior",
+      "experience": {
+        "min": 5,
+        "max": null,
+        "label": "5+ years"
+      },
+      "techStack": [
+        "Next.js",
+        "AI",
+        "Figma",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Kathmandu, Nepal",
+      "postedAt": "2026-09-16",
+      "deadline": null,
+      "applyUrl": "https://jobs.fusemachines.com/apply/CYDvfJqCBF",
+      "careersUrl": "https://fusemachines.com/company/careers/",
+      "applyEmail": "careers@fusemachines.com",
+      "applyHow": "Apply online via Fusemachines career portal: https://jobs.fusemachines.com/apply/CYDvfJqCBF",
+      "summary": "About Fusemachines Founded in 2013, Fusemachines is a global provider of enterprise AI products and services, on a mission to democratize AI. Leveraging proprietary AI Studio and AI Engines, the company helps drive the clients&#8217; AI Enterprise Transformation, regardless of where they are in their Digital AI journeys. With offices in North America, Asia, and Latin America, Fusemachines provides a suite of enterpri",
+      "descriptionHtml": "<p><strong>About Fusemachines</strong><br><br>Founded in 2013, Fusemachines is a global provider of enterprise AI products and services, on a mission to democratize AI. Leveraging proprietary AI Studio and AI Engines, the company helps drive the clients&#8217; AI Enterprise Transformation, regardless of where they are in their Digital AI journeys. With offices in North America, Asia, and Latin America, Fusemachines provides a suite of enterprise AI offerings and specialty services that allow organizations of any size to implement and scale AI. Fusemachines serves companies in industries such as retail,&#160; manufacturing, and government.</p><p>Fusemachines continues to actively pursue the mission of democratizing AI for the masses by providing high-quality AI education in underserved communities and helping organizations achieve their full potential with AI.</p><strong>Type: Full-time</strong><br><br><strong>Key Objective:</strong><br><br>The Sr. UX/UI Designer sits on a product team and owns the design of a product area, connecting real user needs with business goals. This designer thinks like a product owner and understands how the product earns its keep. Craft and research fundamentals stay non negotiable, and AI is the working partner that makes it possible to explore more options and prove ideas faster.Key Objective:<br>&#160;<p><strong>Qualifications and Experience:</strong></p><ul><li><p>At least 5 years of UX/UI design experience, with a portfolio of products that shipped.</p></li><li><p>Demonstrated use of AI in real design work, with examples of what it changed.</p></li></ul><p><strong>Required skills/competencies:</strong></p><p><strong><em>AI fluency and vibe design</em></strong></p><ul><li><p>Fluent with current AI design, prototyping, and coding tools such as Figma Make, Claude, Cursor, v0, or Lovable, and quick to learn the next ones.</p></li><li><p>Vibe designs with intent, going from rough idea to working prototype in hours by steering AI with a trained eye.</p></li><li><p>Treats a prompt like a design brief, giving AI the context, constraints, and design system rules it needs.</p></li><li><p>Uses AI across the process, from research synthesis and UX copy to edge cases, accessibility checks, and QA.</p></li><li><p>Can tell a fast AI output from a good one, and sets the tool aside when doing it by hand is better.</p></li></ul><p><strong><em>Designing AI products</em></strong></p><ul><li><p>Designs for systems that do not give the same answer twice, handling uncertainty, wrong answers, and partial results without losing the user's trust.</p></li><li><p>Understands how models and agents behave well enough to set honest expectations and place human review where being wrong is costly.</p></li><li><p>Thinks past the chat box, designing agentic and assisted workflows rather than defaulting to conversation.</p></li></ul><p><strong><em>Product and business thinking</em></strong></p><ul><li><p>Knows how the product makes money, who it serves, and what the success metrics and constraints are, and designs with that in view.</p></li><li><p>Weighs desirability, feasibility, and viability, and can say no to an idea that is not worth what it costs.</p></li><li><p>Argues design decisions in terms stakeholders care about, such as conversion, retention, or time to ship.</p></li></ul><p><strong><em>Design fundamentals</em></strong></p><ul><li><p>Strong visual and interaction craft in Figma, and the judgment to run a design system rather than only work inside one.</p></li><li><p>Research and usability testing that ends in decisions, not decks.</p></li><li><p>Enough code literacy to read a component, change it, and steer an AI coding tool.</p></li><li><p>Clear communication in English, able to explain and defend decisions to non designers.</p></li><li><p>Owns the process end to end, scoping, prioritizing, and delivering independently.</p></li></ul><p><strong><em>Good to have</em></strong></p><ul><li><p>A degree in design, computer science, information technology, or a related field.</p></li><li><p>Production front end experience with HTML, CSS, SASS, or React.</p></li><li><p>Prompt libraries or reusable AI workflows built for a team.</p></li></ul><p><strong>Key responsibilities:</strong></p><ul><li><p>Own the design of a product area end to end, partnering with product and engineering on the goals and constraints behind the roadmap.</p></li><li><p>Take ideas to clickable prototypes quickly, and use them to drive decisions instead of slides.</p></li><li><p>Run research and usability testing, and bring the findings to the people making the calls.</p></li><li><p>Stay with the work after release, watching how it performs and iterating.</p></li><li><p>Maintain and extend the design system so people and AI tools produce on brand, accessible output by default.</p></li><li><p>Share prompts, workflows, and failed experiments to raise the team's AI fluency.</p></li><li><p>Own the quality of everything you deliver. Nothing ships without a designer's review, AI assisted or not.</p></li></ul><em>Fusemachines is an Equal Opportunities Employer, committed to diversity and inclusion. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or any other characteristic protected by applicable federal, state, or local.</em>",
+      "requirementsHtml": "",
+      "source": "Fusemachines careers",
+      "listingKind": "vacancy"
+    },
+    {
       "id": "fusemachines-ukb85E3mWQ",
       "companyId": "fusemachines",
       "company": "Fusemachines",
@@ -289,69 +412,6 @@
       "listingKind": "vacancy"
     },
     {
-      "id": "fusemachines-CYDvfJqCBF",
-      "companyId": "fusemachines",
-      "company": "Fusemachines",
-      "title": "Sr. UI/UX Designer",
-      "department": "Internal",
-      "domain": "Design",
-      "seniority": "Senior",
-      "experience": {
-        "min": 5,
-        "max": null,
-        "label": "5+ years"
-      },
-      "techStack": [
-        "Next.js",
-        "AI",
-        "Figma",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Kathmandu, Nepal",
-      "postedAt": "2026-09-16",
-      "deadline": null,
-      "applyUrl": "https://jobs.fusemachines.com/apply/CYDvfJqCBF",
-      "careersUrl": "https://fusemachines.com/company/careers/",
-      "applyEmail": "careers@fusemachines.com",
-      "applyHow": "Apply online via Fusemachines career portal: https://jobs.fusemachines.com/apply/CYDvfJqCBF",
-      "summary": "About Fusemachines Founded in 2013, Fusemachines is a global provider of enterprise AI products and services, on a mission to democratize AI. Leveraging proprietary AI Studio and AI Engines, the company helps drive the clients&#8217; AI Enterprise Transformation, regardless of where they are in their Digital AI journeys. With offices in North America, Asia, and Latin America, Fusemachines provides a suite of enterpri",
-      "descriptionHtml": "<p><strong>About Fusemachines</strong><br><br>Founded in 2013, Fusemachines is a global provider of enterprise AI products and services, on a mission to democratize AI. Leveraging proprietary AI Studio and AI Engines, the company helps drive the clients&#8217; AI Enterprise Transformation, regardless of where they are in their Digital AI journeys. With offices in North America, Asia, and Latin America, Fusemachines provides a suite of enterprise AI offerings and specialty services that allow organizations of any size to implement and scale AI. Fusemachines serves companies in industries such as retail,&#160; manufacturing, and government.</p><p>Fusemachines continues to actively pursue the mission of democratizing AI for the masses by providing high-quality AI education in underserved communities and helping organizations achieve their full potential with AI.</p><strong>Type: Full-time</strong><br><br><strong>Key Objective:</strong><br><br>The Sr. UX/UI Designer sits on a product team and owns the design of a product area, connecting real user needs with business goals. This designer thinks like a product owner and understands how the product earns its keep. Craft and research fundamentals stay non negotiable, and AI is the working partner that makes it possible to explore more options and prove ideas faster.Key Objective:<br>&#160;<p><strong>Qualifications and Experience:</strong></p><ul><li><p>At least 5 years of UX/UI design experience, with a portfolio of products that shipped.</p></li><li><p>Demonstrated use of AI in real design work, with examples of what it changed.</p></li></ul><p><strong>Required skills/competencies:</strong></p><p><strong><em>AI fluency and vibe design</em></strong></p><ul><li><p>Fluent with current AI design, prototyping, and coding tools such as Figma Make, Claude, Cursor, v0, or Lovable, and quick to learn the next ones.</p></li><li><p>Vibe designs with intent, going from rough idea to working prototype in hours by steering AI with a trained eye.</p></li><li><p>Treats a prompt like a design brief, giving AI the context, constraints, and design system rules it needs.</p></li><li><p>Uses AI across the process, from research synthesis and UX copy to edge cases, accessibility checks, and QA.</p></li><li><p>Can tell a fast AI output from a good one, and sets the tool aside when doing it by hand is better.</p></li></ul><p><strong><em>Designing AI products</em></strong></p><ul><li><p>Designs for systems that do not give the same answer twice, handling uncertainty, wrong answers, and partial results without losing the user's trust.</p></li><li><p>Understands how models and agents behave well enough to set honest expectations and place human review where being wrong is costly.</p></li><li><p>Thinks past the chat box, designing agentic and assisted workflows rather than defaulting to conversation.</p></li></ul><p><strong><em>Product and business thinking</em></strong></p><ul><li><p>Knows how the product makes money, who it serves, and what the success metrics and constraints are, and designs with that in view.</p></li><li><p>Weighs desirability, feasibility, and viability, and can say no to an idea that is not worth what it costs.</p></li><li><p>Argues design decisions in terms stakeholders care about, such as conversion, retention, or time to ship.</p></li></ul><p><strong><em>Design fundamentals</em></strong></p><ul><li><p>Strong visual and interaction craft in Figma, and the judgment to run a design system rather than only work inside one.</p></li><li><p>Research and usability testing that ends in decisions, not decks.</p></li><li><p>Enough code literacy to read a component, change it, and steer an AI coding tool.</p></li><li><p>Clear communication in English, able to explain and defend decisions to non designers.</p></li><li><p>Owns the process end to end, scoping, prioritizing, and delivering independently.</p></li></ul><p><strong><em>Good to have</em></strong></p><ul><li><p>A degree in design, computer science, information technology, or a related field.</p></li><li><p>Production front end experience with HTML, CSS, SASS, or React.</p></li><li><p>Prompt libraries or reusable AI workflows built for a team.</p></li></ul><p><strong>Key responsibilities:</strong></p><ul><li><p>Own the design of a product area end to end, partnering with product and engineering on the goals and constraints behind the roadmap.</p></li><li><p>Take ideas to clickable prototypes quickly, and use them to drive decisions instead of slides.</p></li><li><p>Run research and usability testing, and bring the findings to the people making the calls.</p></li><li><p>Stay with the work after release, watching how it performs and iterating.</p></li><li><p>Maintain and extend the design system so people and AI tools produce on brand, accessible output by default.</p></li><li><p>Share prompts, workflows, and failed experiments to raise the team's AI fluency.</p></li><li><p>Own the quality of everything you deliver. Nothing ships without a designer's review, AI assisted or not.</p></li></ul><em>Fusemachines is an Equal Opportunities Employer, committed to diversity and inclusion. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or any other characteristic protected by applicable federal, state, or local.</em>",
-      "requirementsHtml": "",
-      "source": "Fusemachines careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "niural-product-designer",
-      "companyId": "niural",
-      "company": "Niural",
-      "title": "Product Designer",
-      "department": "Design",
-      "domain": "Design",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": "2026-09-16",
-      "deadline": null,
-      "applyUrl": "https://np.linkedin.com/jobs/view/product-designer-at-niural-ai-4467989768",
-      "careersUrl": "https://www.niural.com/careers",
-      "applyEmail": "team@niural.com",
-      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/product-designer-at-niural-ai-4467989768",
-      "summary": "Product Designer at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
-      "descriptionHtml": "Product Designer at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
-      "requirementsHtml": "",
-      "source": "LinkedIn",
-      "listingKind": "vacancy"
-    },
-    {
       "id": "hybridnews-designer-2026",
       "companyId": "hybridnews",
       "company": "Hybrid News Limited",
@@ -381,10 +441,10 @@
       "listingKind": "vacancy"
     },
     {
-      "id": "hybridnews-senior-advertising-operations-manager",
+      "id": "hybridnews-senior-advertising-operations-manager-ktm",
       "companyId": "hybridnews",
       "company": "Hybrid News Limited",
-      "title": "Senior Advertising Operations Manager",
+      "title": "Senior Advertising Operations Manager - KTM",
       "department": "Finance",
       "domain": "Finance",
       "seniority": "Manager",
@@ -403,7 +463,7 @@
       "location": "Kathmandu, Nepal",
       "postedAt": "2026-09-14 13:56:51 UTC",
       "deadline": null,
-      "applyUrl": "https://hybrid.recruitee.com/o/senior-advertising-operations-manager/c/new",
+      "applyUrl": "https://hybrid.recruitee.com/o/senior-advertising-operations-manager-ktm/c/new",
       "careersUrl": "https://hybrid.recruitee.com",
       "applyEmail": null,
       "applyHow": "Apply on the Hybrid News Limited careers portal. The posting opens their Recruitee form — attach your CV and answer the screening questions.",
@@ -411,37 +471,6 @@
       "descriptionHtml": "<p class=\"MsoNormal\"><strong>Senior Ad Operations Manager</strong></p><p class=\"MsoNormal\"><strong>Location:</strong>&nbsp;Nepal</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Support large-scale digital advertising more accurate, controlled, and scalable.</p><p class=\"MsoNormal\">Are you highly analytical and comfortable working across media platforms, data, and financial controls? This is an opportunity to help govern digital advertising delivery for world-leading universities.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><strong>Why Hybrid?</strong></p><p class=\"MsoNormal\">Hybrid is a global, full-service marketing partner dedicated to the education sector - combining creativity, data, and AI-powered insights to help universities grow worldwide and part of EAB. With offices in six countries and partnerships with some of the most prestigious universities.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><strong>The opportunity:</strong></p><p class=\"MsoNormal\">We are looking for a Senior Ad Operations Manager to own spend pacing, campaign QA, and platform controls across a large digital advertising portfolio. Working across Paid Media, Data, Tech, and Finance, you will identify issues early and turn repeatable checks into scalable automation.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><strong>What you’ll do</strong></p><p class=\"MsoNormal\">&nbsp;</p><ul><li><p>Own financial pacing and spend controls across digital advertising accounts</p></li><li><p>Monitor planned vs. actual spend and flag under- or overspend early</p></li><li><p>Conduct regular campaign audits to ensure targeting, setup and delivery remain fully compliant with agreed standards and controls.</p></li><li><p>Build and manage automated pacing, reconciliation, and anomaly alerts</p></li><li><p>Investigate discrepancies across media plans, platforms, and financial data</p></li><li><p>Own campaign QA across Google, Meta, Bing, Snap, TikTok, and other platforms</p></li><li><p>Monitor platforms and leveraging automated platforms to ensure changes are made, following best practices on placements, domains, inventory, exclusions, and brand safety</p></li></ul><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><strong>What you’ll bring</strong></p><ul><li><p>Experience in ad operations, paid media operations, or a similar digital advertising role</p></li><li><p>Strong knowledge of Google Ads and other major advertising platforms, including automated campaign types</p></li><li><p>Strong numerical skills and experience with budget pacing, reconciliation, and large datasets</p></li><li><p>A detail-focused approach to campaign setup, delivery, placements, and financial discrepancies</p></li><li><p>Comfort with dashboards, spreadsheets, platform data, and APIs; SQL knowledge is advantageous</p></li><li><p>A process-driven, collaborative mindset with the ability to turn operational knowledge into scalable controls</p></li></ul><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><strong>What’s in It for You</strong></p><ul><li><p>Work closely with global Paid Media, Data, Technology, and Finance teams.</p></li><li><p>Improve accuracy and control across a high-volume advertising portfolio.</p></li><li><p>Team rewards and away days.</p></li><li><p>Opportunities to develop your technical and platform expertise.</p></li><li><p>Hybrid working arrangements.</p></li></ul><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Join us in driving innovation in how education brands reach and inspire the students who will shape tomorrow.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">We welcome applications from all qualified individuals and believe that a diverse team brings richer perspectives, stronger creativity, and better outcomes for our people and our clients.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">If you’re excited about this role but feel you don’t meet every single requirement, we’d still love to hear from you. Please reach out to our Recruitment Team (recruitment@hybrid.co) to discuss your experience or to enquire about other opportunities across our growing business.</p><p class=\"MsoNormal\">&nbsp;</p><p style=\"min-height: 1.7em;\"></p>",
       "requirementsHtml": "",
       "source": "Recruitee",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "cedargate-R1562618",
-      "companyId": "cedargate",
-      "company": "Cedar Gate Technologies",
-      "title": "Senior .NET Software Engineer",
-      "department": "IT Design and Development; Software Development Engineering",
-      "domain": "Design",
-      "seniority": "Senior",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        ".NET"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Kathmandu, Nepal",
-      "postedAt": "2026-09-14",
-      "deadline": null,
-      "applyUrl": "https://jobs.iqvia.com/en/job/R1562618/senior-net-software-engineer",
-      "careersUrl": "https://jobs.iqvia.com/en/jobs?businesses=CEDAR+GATE+TECHNOLOGIES&locations=Nepal",
-      "applyEmail": "careers@cedargate.com",
-      "applyHow": "Apply on the IQVIA careers portal: https://jobs.iqvia.com/en/job/R1562618/senior-net-software-engineer",
-      "summary": "",
-      "descriptionHtml": "",
-      "requirementsHtml": "",
-      "source": "IQVIA Career Portal",
       "listingKind": "vacancy"
     },
     {
@@ -853,43 +882,6 @@
       "listingKind": "vacancy"
     },
     {
-      "id": "leapfrog-senior-full-stack-engineer-golang",
-      "companyId": "leapfrog",
-      "company": "Leapfrog Technology",
-      "title": "Senior Full-Stack Engineer- Golang",
-      "department": "Development/QA/DevOps/IT",
-      "domain": "DevOps / Platform",
-      "seniority": "Senior",
-      "experience": {
-        "min": 3,
-        "max": null,
-        "label": "3+ years"
-      },
-      "techStack": [
-        "Go",
-        "GCP",
-        "Docker",
-        "Kubernetes",
-        "PostgreSQL",
-        "MongoDB",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "Hybrid",
-      "location": "Kathmandu, Nepal",
-      "postedAt": "2026-05-21 05:32:58 UTC",
-      "deadline": null,
-      "applyUrl": "https://career.lftechnology.com/o/senior-full-stack-engineer-golang/c/new",
-      "careersUrl": "https://career.lftechnology.com",
-      "applyEmail": null,
-      "applyHow": "Apply on the Leapfrog Technology careers portal. The posting opens their Recruitee form — attach your CV and answer the screening questions.",
-      "summary": "Leapfrog is on a mission to be a role model technology company. Since 2010, we have relentlessly worked on crafting better digital products with our team of superior engineers. We’re a full-stack company specializing in SaaS products and have served over 100 clients with our mastery of emerging technologies. We’re thinkers and doers, creatives and coders, makers and builders— but most importantly, we are trusted part",
-      "descriptionHtml": "<p>Leapfrog is on a mission to be a role model technology company. Since 2010, we have relentlessly worked on crafting better digital products with our team of superior engineers. We’re a full-stack company specializing in SaaS products and have served over 100 clients with our mastery of emerging technologies.</p><p>We’re thinkers and doers, creatives and coders, makers and builders— but most importantly, we are trusted partners with world-class engineers. Hundreds of companies in Boston, Seattle, Silicon Valley, and San Francisco choose us to gain speed, agility, quality, and stability, giving them an edge over their competitors.</p><p style=\"min-height: 1.7em;\"></p><p><strong>About the role</strong></p><p>We are looking for a Senior Engineer to join our engineering team. In this role, you will be responsible for solving complex technical and business challenges. You will have the opportunity to design and develop large-scale applications, contributing to the architecture and implementation of new products. Additionally, you will play a key role in shaping the technical strategy and providing thought leadership in software engineering.</p><ul><li><p><span style=\"color:#000000\">Design, develop, and maintain scalable microservices and APIs using Golang</span></p></li><li><p><span style=\"color:#000000\">Build fault-tolerant, secure, and high-performance backend systems</span></p></li><li><p><span style=\"color:#000000\">Collaborate with product managers, designers, and engineers in a cross-functional environment</span></p></li><li><p><span style=\"color:#000000\">Implement new platform features, integrations, and internal tooling</span></p></li><li><p><span style=\"color:#000000\">Participate in system architecture discussions and technical decision-making</span></p></li><li><p><span style=\"color:#000000\">Write clean, maintainable, and well-tested code following engineering best practices</span></p></li><li><p><span style=\"color:#000000\">Perform code reviews and contribute to improving development standards</span></p></li><li><p><span style=\"color:#000000\">Develop automated unit and integration tests using TDD practices</span></p></li><li><p><span style=\"color:#000000\">Optimize application performance, reliability, and scalability</span></p></li><li><p><span style=\"color:#000000\">Contribute to CI/CD pipelines and deployment automation</span></p></li><li><p><span style=\"color:#000000\">Monitor production systems and troubleshoot complex technical issues</span></p></li><li><p><span style=\"color:#000000\">Mentor junior engineers and provide technical guidance</span></p></li><li><p><span style=\"color:#000000\">Align engineering solutions with business goals and customer needs</span></p></li></ul>",
-      "requirementsHtml": "<ul><li><p><span style=\"color:#000000\">5+ years of software engineering experience, with at least 3+ years focused on Golang development</span></p></li><li><p><span style=\"color:#000000\">Strong experience building scalable distributed systems, RESTful APIs, and backend services</span></p></li><li><p><span style=\"color:#000000\">Proficiency with Go frameworks and tools such as Gin, Echo, Fiber, GORM, or similar</span></p></li><li><p><span style=\"color:#000000\">Strong understanding of concurrency, multithreading, and Go internals</span></p></li><li><p><span style=\"color:#000000\">Experience with relational and NoSQL databases, especially MongoDB and PostgreSQL</span></p></li><li><p><span style=\"color:#000000\">Familiarity with event-driven architecture, message queues, and asynchronous processing</span></p></li><li><p><span style=\"color:#000000\">Experience working with cloud platforms, preferably Google Cloud Platform (GCP)</span></p></li><li><p><span style=\"color:#000000\">Experience with Docker, Kubernetes, and containerized deployments</span></p></li><li><p><span style=\"color:#000000\">Familiarity with CI/CD tools such as Concourse, GitHub Actions, Jenkins, or GitLab CI</span></p></li><li><p><span style=\"color:#000000\">Strong understanding of software design principles, clean architecture, and system design</span></p></li><li><p><span style=\"color:#000000\">Experience with unit testing, integration testing, and Test Driven Development (TDD)</span></p></li><li><p><span style=\"color:#000000\">Strong debugging, problem-solving, and communication skills</span></p></li><li><p><span style=\"color:#000000\">Experience working in Agile/Scrum development environments</span></p></li></ul><h4><span style=\"color:#102B7B\">🎁 </span><strong><span style=\"color:#102B7B\">Benefits and perks:</span></strong></h4><p><span style=\"color:#000000\">We believe our people are our greatest strength. With perks and benefits, we intend to offer everything our people need to do their best while maintaining a healthy balance between work and personal life.</span></p><h4><strong><span style=\"color:#102B7B\">Daily Work Support</span></strong></h4><ul><li><p><span style=\"color:#000000\">💻 Support for resources: Receive a monthly internet and laptop allowance, and request resources for convenient WFH.</span></p></li><li><p><span style=\"color:#000000\">📆 5-day workweek: Enjoy weekends off and return refreshed on Mondays.</span></p></li><li><p><span style=\"color:#000000\">🍔 Food: Access to healthy meals while on-site.</span></p></li></ul><h4><strong><span style=\"color:#102B7B\">Professional Growth</span></strong></h4><ul><li><p><span style=\"color:#000000\">📚 'Growth mindset' fund: Investment in your post-grad degree, learning opportunities, and career growth.</span></p></li><li><p><span style=\"color:#000000\">👶 Child scholarship: Scholarships for your child in selected schools.</span></p></li><li><p><span style=\"color:#000000\">📈 Bi-annual bonus: Get timely festival and company bonuses.</span></p></li><li><p><span style=\"color:#000000\">💸 Advance salary: Request salary in advance.</span></p></li></ul><h4><strong><span style=\"color:#102B7B\">Work/Life Balance</span></strong></h4><ul><li><p><span style=\"color:#000000\">✈️ Paid time-offs: Annual, sick, compensation, and bereavement leaves.</span></p></li><li><p><span style=\"color:#000000\">🍼 Maternity leave: 3 months of paid leave, 1 month of unpaid leave, and 90 days of reduced workload.</span></p></li><li><p><span style=\"color:#000000\">🐣 Paternity leave: 11 days of paid paternity leave and reduced workload after.</span></p></li><li><p><span style=\"color:#000000\">💊 Menstruation leave: 6 days of paid menstruation leave annually.</span></p></li></ul><h4><strong><span style=\"color:#102B7B\">We take care of you</span></strong></h4><ul><li><p><span style=\"color:#000000\">🌿 Your well-being: Company-funded counseling services from certified therapists as well as COVID care services.</span></p></li><li><p><span style=\"color:#000000\">💰 Retirement fund: Social security fund with health and accidental insurance.</span></p></li></ul><h4><strong><span style=\"color:#102B7B\">Celebrating your efforts</span></strong></h4><ul><li><p><span style=\"color:#000000\">🎉 Engagement and Events: Team lunch/dinner, company outings, and festival celebrations with your favorite co-workers!</span></p></li><li><p><span style=\"color:#000000\">😎 Exposure: Visit and work in the States and build better client rapport.</span></p></li><li><p><span style=\"color:#000000\">💖 Recognition: In-house awards, appreciation platforms, and 5th-anniversary gifts!</span></p></li></ul>",
-      "source": "Recruitee",
-      "listingKind": "vacancy"
-    },
-    {
       "id": "fusemachines-9vIpSQxR3D",
       "companyId": "fusemachines",
       "company": "Fusemachines",
@@ -948,35 +940,6 @@
       "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/senior-software-engineer-in-test-at-niural-ai-4413204680",
       "summary": "Senior Software Engineer in Test at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
       "descriptionHtml": "Senior Software Engineer in Test at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
-      "requirementsHtml": "",
-      "source": "LinkedIn",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "niural-senior-software-engineer-i-frontend",
-      "companyId": "niural",
-      "company": "Niural",
-      "title": "Senior Software Engineer I - Frontend",
-      "department": "Frontend",
-      "domain": "Frontend",
-      "seniority": "Senior",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": "2026-05-14",
-      "deadline": null,
-      "applyUrl": "https://np.linkedin.com/jobs/view/senior-software-engineer-i-frontend-at-niural-ai-4409534833",
-      "careersUrl": "https://www.niural.com/careers",
-      "applyEmail": "team@niural.com",
-      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/senior-software-engineer-i-frontend-at-niural-ai-4409534833",
-      "summary": "Senior Software Engineer I - Frontend at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
-      "descriptionHtml": "Senior Software Engineer I - Frontend at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
       "requirementsHtml": "",
       "source": "LinkedIn",
       "listingKind": "vacancy"
@@ -1102,7 +1065,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1114,8 +1076,8 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Busines",
-      "descriptionHtml": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Product Owner F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 25, 2026 Last Updated: 6 days ago Full Time Mid Level Product Management Apply Now We are seeking a detail-oriented Product Owner to drive product success through backlog prioritization, user issue resolution, and seamless collaboration with cross-functional teams. This role involves defining clear product specifications, conducting functional and user testing, coordinating with stakeholders, and facilitating Agile/Scrum processes to ensure continuous value delivery. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering, BIM, BIT are any relevant technical discipline. Minimum 4 years of prior work experience as Business Analyst/Product Owner Strong business acumen and good communication skills. Detail oriented, analytical and inquisitive. Critical thinking and problem-solving skills. Job Description Prioritize and escalate users&#39; issues. Assist engineering and product management with backlog prioritization. Enable us to continuously ship value through our continuous disco",
+      "summary": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Man",
+      "descriptionHtml": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Product Owner F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 25, 2026 Last Updated: 1 week ago Full Time Mid Level Product Management Apply Now We are seeking a detail-oriented Product Owner to drive product success through backlog prioritization, user issue resolution, and seamless collaboration with cross-functional teams. This role involves defining clear product specifications, conducting functional and user testing, coordinating with stakeholders, and facilitating Agile/Scrum processes to ensure continuous value delivery. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering, BIM, BIT are any relevant technical discipline. Minimum 4 years of prior work experience as Business Analyst/Product Owner Strong business acumen and good communication skills. Detail oriented, analytical and inquisitive. Critical thinking and problem-solving skills. Job Description Prioritize and escalate users&#39; issues. Assist engineering and product management with backlog prioritization. Enable us to continuously ship value through our continuous discovery and delivery process. Write detailed Product Specifications with clarity and transparency & provide intricate details using UML diagram & Wireframe. Analyze the solution&#39;s practicality, feasibility, and desirability. Conduct functional, exploratory, and user testing as and when situation persists. Coordinate with 3rd-party vendors, internal business, DevOps , Support Engineers for addressing application related queries and concerns. Conduct functional, exploratory and user testi",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1135,7 +1097,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1147,8 +1108,8 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Business Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Busi",
-      "descriptionHtml": "Business Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Business Analyst F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Product Management Apply Now A dedicated Business Analyst will institutionalize research and documentation practices, improve the quality and speed of deliverables, and provide structured analytical support across both project and product initiatives. Qualification and Experience Bachelor&#39;s Degree in IT, Computer Science, Computer Engineering and related technical discipline 2-3 years of prior work experience in BA roles. Job Description Conduct research and feasibility studies - market analysis, vendor evaluation, regulatory review, and benchmarking. Conduct structured requirement workshops, interviews, and walkthroughs with stakeholders to capture, refine, and sign off on business and functional requirements. Prepare and maintain BRDs, FRDs, process flows, use cases, and gap analysis reports. Write user stories and acceptance criteria in collaboration with the Product and Engineering teams for sprint-ready backlog items. Support feature and audit gap ",
+      "summary": "Business Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project ",
+      "descriptionHtml": "Business Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Business Analyst F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Product Management Apply Now A dedicated Business Analyst will institutionalize research and documentation practices, improve the quality and speed of deliverables, and provide structured analytical support across both project and product initiatives. Qualification and Experience Bachelor&#39;s Degree in IT, Computer Science, Computer Engineering and related technical discipline 2-3 years of prior work experience in BA roles. Job Description Conduct research and feasibility studies - market analysis, vendor evaluation, regulatory review, and benchmarking. Conduct structured requirement workshops, interviews, and walkthroughs with stakeholders to capture, refine, and sign off on business and functional requirements. Prepare and maintain BRDs, FRDs, process flows, use cases, and gap analysis reports. Write user stories and acceptance criteria in collaboration with the Product and Engineering teams for sprint-ready backlog items. Support feature and audit gap analysis by mapping capabilities against target requirements. Define in-scope/out-of-scope boundaries for new initiatives and vendor engagements. Translate business requirements into structured specifications for product and engineering teams. Support pre-sales activities with value proposition documents, capability matrices, and solution summaries. Create dashboards and reporting templates using BI tools to validate requirements and track initiative outcomes. Required Skills Proficiency",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1168,7 +1129,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1180,8 +1140,8 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Product Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Busin",
-      "descriptionHtml": "Product Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Product Analyst F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 15, 2026 Last Updated: 6 days ago Full Time Associate Level Product Management Apply Now The role of Product Analyst is to support data-driven decision-making by analyzing user behavior, product performance, and market trends. This role is critical in identifying insights that guide feature development, optimize user experience, and measure product success. Qualification and Experience Bachelors Degree in Computer Science, Engineering or related technical discipline. 2+ years of prior work experience in financial technology projects Job Description Analyze User Behavior and Engagement Patterns: Track and interpret user interactions on the mobile banking app to identify usage trends, drop-off points, and improvement opportunities. Monitor and Report Product KPIs: Define, monitor, and report key performance indicators (e.g., active users, transaction success rate, app load time) to measure product health and effectiveness. Conduct Market and Competitor Analysis: Research industry trends and competitiv",
+      "summary": "Product Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project M",
+      "descriptionHtml": "Product Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Product Analyst F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 15, 2026 Last Updated: 1 week ago Full Time Associate Level Product Management Apply Now The role of Product Analyst is to support data-driven decision-making by analyzing user behavior, product performance, and market trends. This role is critical in identifying insights that guide feature development, optimize user experience, and measure product success. Qualification and Experience Bachelors Degree in Computer Science, Engineering or related technical discipline. 2+ years of prior work experience in financial technology projects Job Description Analyze User Behavior and Engagement Patterns: Track and interpret user interactions on the mobile banking app to identify usage trends, drop-off points, and improvement opportunities. Monitor and Report Product KPIs: Define, monitor, and report key performance indicators (e.g., active users, transaction success rate, app load time) to measure product health and effectiveness. Conduct Market and Competitor Analysis: Research industry trends and competitive mobile banking features to provide insights for enhancing the product roadmap. Support Feature Evaluation and Prioritization: Use data insights to assess the impact of proposed features or changes and assist the product team in prioritizing the backlog. Collaborate with Cross-functional Teams: Work closely with Product Managers, UX Designers, Developers, and QA teams to ensure that data is accurately captured and leveraged for decision-making. Required Skills Data Analytics Tools, Goog",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1201,7 +1161,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1213,118 +1172,19 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Busines",
-      "descriptionHtml": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eXtensoData Product Owner F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 30, 2026 Last Updated: 6 days ago Full Time Mid Level Product Management Apply Now The role of Product Owner is crucial to support requirement management for ongoing projects, backlog prioritization, stakeholder coordination, and timely product delivery. Qualification and Experience Bachelor&#39;s Degree in IT or Computer Science related field or equivalent degree 3+ years of experience is required as a BA, PO or related role in software development, product management, compliance or operational risk domain. Job Description Understand business problems and elicit business requirements through stakeholder discussions, workshops, research, and requirement-gathering sessions. Document product and business requirements clearly in standardized master requirement documents and ensure they are complete, updated, and accessible to relevant teams. Act as the primary Product Owner for a cross-functional Scrum team. Own, manage, prioritize, and continuously refine the product backlog to ensure alignment with product vision",
+      "summary": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Man",
+      "descriptionHtml": "Product Owner - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eXtensoData Product Owner F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 30, 2026 Last Updated: 1 week ago Full Time Mid Level Product Management Apply Now The role of Product Owner is crucial to support requirement management for ongoing projects, backlog prioritization, stakeholder coordination, and timely product delivery. Qualification and Experience Bachelor&#39;s Degree in IT or Computer Science related field or equivalent degree 3+ years of experience is required as a BA, PO or related role in software development, product management, compliance or operational risk domain. Job Description Understand business problems and elicit business requirements through stakeholder discussions, workshops, research, and requirement-gathering sessions. Document product and business requirements clearly in standardized master requirement documents and ensure they are complete, updated, and accessible to relevant teams. Act as the primary Product Owner for a cross-functional Scrum team. Own, manage, prioritize, and continuously refine the product backlog to ensure alignment with product vision, business objectives, stakeholder expectations, and delivery timelines. Ensure the development team&rsquo;s output remains aligned with the strategic product roadmap. Work closely with the Product Manager and leadership team to understand product strategy, roadmap, and business priorities. Translate product goals into epics, features, user stories, acceptance criteria, and sprint-level deliverables. Maintain backlog transparency across teams and stakeholders, ensuring backlog items are ",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
     },
     {
-      "id": "f1soft-business-development-officer-HB",
+      "id": "f1soft-data-engineer-extensodata",
       "companyId": "f1soft",
       "company": "F1Soft Group",
-      "title": "Business Development Officer",
-      "department": "Sales / BD",
-      "domain": "Sales / BD",
-      "seniority": "Mid",
-      "experience": {
-        "min": 2,
-        "max": null,
-        "label": "2+ years"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/business-development-officer-HB",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Business Development Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Developme",
-      "descriptionHtml": "Business Development Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Hamro Bazar Ventures Business Development Officer Pulchowk, Lalitpur District, Nepal Application Deadline: Sep 30, 2026 Last Updated: 3 weeks ago Full Time Mid Level Business Development Apply Now The Business Development Officer is responsible for expanding Hamrobazar&#39;s seller network, building strategic partnerships, and driving revenue through the platform&#39;s monetization products. The role focuses on seller acquisition, business development, and achieving revenue targets while supporting Hamrobazar&#39;s marketplace growth. Qualification and Experience Bachelor&#39;s degree in Business Administration, Marketing, or a related field. 2+ years of experience in Business Development, Sales, Management, or E-commerce. Job Description Acquire, onboard, and manage sellers, brands, and business partners on Hamrobazar. Build and maintain strong relationships with sellers, advertisers, and strategic partners. Generate revenue through Listing Fees, Seller Subscription Plans, Product Boost, Banner Advertisements, and Seller Verification Badge services. Identify and onboard advertisers for website a",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-business-outreach-officer-chitwan",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Business Outreach Officer - Chitwan",
-      "department": "Engineering",
-      "domain": "Engineering",
-      "seniority": "Mid",
-      "experience": {
-        "min": 2,
-        "max": null,
-        "label": "2+ years"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/business-outreach-officer-chitwan",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Business Outreach Officer - Chitwan - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Engineering Available Engineering Jobs Bac",
-      "descriptionHtml": "Business Outreach Officer - Chitwan - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Business Outreach Officer - Chitwan Chitwan, Nepal Application Deadline: Sep 30, 2026 Last Updated: 2 weeks ago Full Time Entry Level Business Development Apply Now The Business Outreach Officer will play a key role in expanding eSewa&rsquo;s market presence and driving business growth in the Chitwan region. This position focuses on developing strategic partnerships, strengthening agent and merchant networks, and executing market expansion initiatives across eSewa&rsquo;s digital services portfolio. The role requires a proactive professional with strong field execution capability, market intelligence skills, and a results-oriented approach to achieving growth targets while upholding eSewa&rsquo;s service and brand standards. Qualification and Experience Bachelor&rsquo;s Degree in Business, Marketing, Management, or a related field (Master&rsquo;s running preferred). 1&ndash;2 years of experience in business development, sales, or market expansion roles, preferably in fintech, digital services, FMCG, or banking sectors. Job Description Business Development & Market Expansion Identify,",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-marketing-assistant-nepalgunj",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Marketing Assistant - Nepalgunj",
-      "department": "Engineering",
-      "domain": "Engineering",
-      "seniority": "Mid",
-      "experience": {
-        "min": 1,
-        "max": null,
-        "label": "1+ years"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/marketing-assistant-nepalgunj",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Marketing Assistant - Nepalgunj - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Develo",
-      "descriptionHtml": "Marketing Assistant - Nepalgunj - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Marketing Assistant - Nepalgunj Nepalgunj, Nepal Application Deadline: Sep 30, 2026 Last Updated: 2 weeks ago Full Time Entry Level Business Development Apply Now The Marketing Assistant will support the execution of eSewa&#39;s marketing initiatives to strengthen brand visibility, enhance customer engagement, and support business growth in the assigned region. This role focuses on assisting with promotional campaigns, coordinating branding activities, supporting field marketing operations, and maintaining effective communication with internal teams and external partners. The ideal candidate should be proactive, organized, creative, and capable of working in a dynamic, field-oriented environment. Qualification and Experience Bachelor&#39;s Degree in Marketing, Business Administration, Management, or a related field. 6 months&ndash;1 year of experience in marketing, brand promotion, field marketing, event coordination, or related roles. Experience in fintech, telecom, FMCG, banking, or digital services will be an advantage. Job Description Marketing Campaign Support Assist in planning and",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-backend-developer-001",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Backend Developer",
-      "department": "Backend",
-      "domain": "Backend",
+      "title": "Data Engineer",
+      "department": "Data",
+      "domain": "Data",
       "seniority": "Mid",
       "experience": {
         "min": null,
@@ -1332,147 +1192,9 @@
         "label": "Not specified"
       },
       "techStack": [
-        "PHP",
-        "Laravel",
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/backend-developer-001",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Backend Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Bus",
-      "descriptionHtml": "Backend Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Travels and Tours Backend Developer Pulchowk, lalitpur Application Deadline: Sep 30, 2026 Last Updated: 2 weeks ago Full Time Mid Level Engineering Apply Now The backend developer is required to design, develop, maintain, and optimize secure, scalable, and high-performance backend applications and services. The Backend Developer will take ownership of backend projects, database architecture, APIs, integrations, and server-side infrastructure while ensuring system reliability, security, and performance. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering, Information Technology, or a related technical discipline. 4+ years of professional experience as a Backend Developer, PHP Developer, or Laravel Developer. Proven hands-on experience in PHP and Laravel development. Experience designing and developing RESTful APIs and integrating third-party APIs/services Job Description Take ownership of existing projects and lead the enhancement, optimization, and maintenance of database schemas and backend infrastructure. Design, develop, and maintain scalable, secure, and ",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-senior-qa-engineer-1",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Senior QA Engineer",
-      "department": "QA / Testing",
-      "domain": "QA / Testing",
-      "seniority": "Senior",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/senior-qa-engineer-1",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Senior QA Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Bu",
-      "descriptionHtml": "Senior QA Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Travels and Tours Senior QA Engineer Pulchowk, lalitpur Application Deadline: Sep 30, 2026 Last Updated: 2 weeks ago Full Time Senior Level Engineering Apply Now Senior QA Engineer is responsible to lead and drive software quality assurance across the organization by establishing robust testing strategies, automation frameworks, quality standards, and continuous testing practices. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering, Information Technology, or a related technical discipline. 5+ years of professional experience in Software Quality Assurance, Software Testing, or Quality Job Description Test Strategy & Quality Ownership Own and drive the overall QA strategy for assigned products and projects. Define appropriate testing approaches, methodologies, tools, environments, and quality standards based on product requirements and risk. Review requirements, user stories, specifications, and technical design documents to identify ambiguities, quality risks, and potential defects at an early stage. Establish quality gates and ensure appropriate testing is ",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-full-stack-developer1",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Full Stack Developer",
-      "department": "Full Stack",
-      "domain": "Full Stack",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "React",
-        "Angular",
         "Python",
-        "Java",
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/full-stack-developer1",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Full Stack Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs ",
-      "descriptionHtml": "Full Stack Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Full Stack Developer Pulchowk Application Deadline: Sep 30, 2026 Last Updated: 2 weeks ago Full Time Entry Level Engineering Apply Now We are seeking a highly skilled Full Stack Developer to design, develop, and maintain scalable and high-performance web applications. The ideal candidate should have expertise in both frontend (Angular/React) and backend (Java/Python) technologies, ensuring seamless integration between the two. Qualification and Experience Bachelor&rsquo;s Degree in Computer Science, Software Engineering, or a related field. 1-2 of experience in full-stack development. Job Description Design and implement high-quality, user-friendly interfaces using Angular or React. Ensure responsive design, accessibility, and optimal performance across devices. Collaborate with UI/UX designers to improve user experience. Optimize frontend applications for maximum speed and scalability. Develop robust, secure, and scalable backend systems using Java or Python. Design and implement RESTful APIs to integrate with frontend applications. Ensure data security, authentication, and authorization mechanism",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-ai-engineer",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "AI Engineer",
-      "department": "AI / Machine Learning",
-      "domain": "AI / Machine Learning",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
         "SQL",
         "Machine Learning",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/ai-engineer",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "AI Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business ",
-      "descriptionHtml": "AI Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT AI Engineer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Sep 30, 2026 Last Updated: 3 weeks ago Full Time Mid Level Software Engineer Apply Now As a mid-level AI Engineer, you&#39;ll build and deploy smart models that power both real-time and batch applications. You&rsquo;ll work with product and engineering teams to bring AI features to life, cleaning data, training models, integrating with APIs, and continuously improving performance. Qualification and Experience Minimum Bachelor&#39;s degree in Computer Science, Computer Engineering, or a related field. Preferably 3-4 years of hands-on work experience in AI role. Job Description Design, develop, and deploy AI/ML models for real-time and batch applications. Clean, preprocess, and analyze structured and unstructured data Collaborate with product and engineering teams to integrate AI features into scalable backend systems and APIs. Monitor and evaluate model performance and retrain/update models as needed. Stay current with trends and advancements in machine learning, AI ethics, and fintech-specific applications. Document experim",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-operational-dba-and-sql-developer",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Operational DBA and SQL Developer",
-      "department": "Engineering",
-      "domain": "Engineering",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1480,45 +1202,12 @@
       "location": "Lalitpur, Nepal",
       "postedAt": null,
       "deadline": "Oct 02, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/operational-dba-and-sql-developer",
+      "applyUrl": "https://career.f1soft.com/jobs/data-engineer-extensodata",
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Operational DBA and SQL Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Engineering Available Engineering Jobs Backe",
-      "descriptionHtml": "Operational DBA and SQL Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Operational DBA and SQL Developer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Associate Level Software Engineer Apply Now The ideal candidate will join the Core Banking team to perform and monitor regular End-of-Day (EOD) and Beginning-of-Day (BOD) activities in the Core Banking System and ensure completion of scheduled jobs and operational activities, troubleshooting and escalating issue during processing. Qualification and Experience Bachelor&#39;s degree in Computer Science, Information Technology, or a related field. 2+ years of prior work experience in related roles. Hands-on experience with Oracle Database and SQL. Job Description Perform routine CBS operational activities and provide timely production support. Monitor database performance, availability, storage, sessions, jobs, logs, and database-related alerts. Troubleshoot SQL and database-related issues in coordination with application and infrastructure teams and manage backups. Develop, maintain, and optimize SQL queries, scripts, and database proc",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-associate-software-engineer-qa",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Associate Software Engineer - QA",
-      "department": "QA / Testing",
-      "domain": "QA / Testing",
-      "seniority": "Junior / Associate",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/associate-software-engineer-qa",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Associate Software Engineer - QA - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Devel",
-      "descriptionHtml": "Associate Software Engineer - QA - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Foneloan Associate Software Engineer - QA Pulchowk, Lalitpur District, Nepal Application Deadline: Sep 30, 2026 Last Updated: 3 weeks ago Full Time Associate Level Quality Assurance (QA) Apply Now The role involves designing and executing test cases, building automation scripts, performing API, UI, and performance testing, and validating data integrity to ensure the quality, performance, and reliability of our products. The ideal candidate will have hands-on experience with tools like Selenium, RestAssured, JMeter, Git, and SQL, with a strong understanding of test design techniques and CI/CD integration. Qualification and Experience Bachelors degree in Computer Science or any related discipline. 2+ years of Software QA experience. Job Description Design, document, and execute manual test cases and test scenarios. Test software products following standard testing practices, tools and techniques. Participate in sprint activities including stand-ups and planning meetings. Gain in-depth project and product knowledge to ensure effective test coverage Gaining proficiency in testing tools and framew",
+      "summary": "Data Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Man",
+      "descriptionHtml": "Data Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eXtensoData Data Engineer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Data Analytics/Data Engineer Apply Now We are seeking a versatile and highly motivated data professional who can bridge the gap between Data Engineering, Data Analytics, and Data Science. This role is ideal for candidates who enjoy building data pipelines, analyzing business data, and developing predictive models to solve real-world fintech challenges. Qualification and Experience Bachelor&rsquo;s degree in computer engineering, Computer Science, Data Science, Statistics, Mathematics or a related field. 3&ndash;5 years of relevant experience in Data Engineering, Analytics, Data Science, or Big Data platforms. Graduates from TU or KU recognized universities are highly encouraged to apply. Job Description Design, develop, and maintain scalable data pipelines. Build and optimize ETL/ELT workflows. Work with Data Lakehouse and Data Warehouse architectures. Ensure data quality, reliability, and governance. Process large-scale structured and unstructured datasets. Perform exploratory data analysis and business intelligence reporting. Create dashboards, KPIs, and executive reports. Analyze customer behavior, transaction trends, and business performance. Generate actionable insights to support decision-making. Develop predictive models and machine learning solutions. Build customer segmentation, recommendation, and personalization models. Evaluate and improve model performance and business impact. Required Skills Advanced proficiency in Python (Pand",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1538,7 +1227,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1550,41 +1238,8 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Software Engineer - QA - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Job",
-      "descriptionHtml": "Software Engineer - QA - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Software Engineer - QA F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Quality Assurance (QA) Apply Now Software QA Engineer will be responsible for carrying out both automation and manual testing across web/ mobile environments and overseeing all aspects of software and product testing. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering or related technical discipline Preferrable; 3+ years of experience as a QA Engineer Familiarity with Capital Market operations, Stock Trading, Brokerage workflows, and IPO/FPO processes is highly desirable. Job Description Create detailed, comprehensive and well-structured test plans and test cases. Estimate, Prioritize and co-ordinate testing activities. Perform thorough regression testing when bugs are resolved. Analyse product requirements and system requirements. Ensure quality of the product and product documentation Discover, report and manage the life cycle of issues and bugs. Work in Scrum/Kanban team environment to size and plan",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-copywriter-brand-storyteller",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Copywriter / Brand Storyteller",
-      "department": "Engineering",
-      "domain": "Engineering",
-      "seniority": "Mid",
-      "experience": {
-        "min": 3,
-        "max": null,
-        "label": "3+ years"
-      },
-      "techStack": [
-        "SQL",
-        "AI",
-        "QA"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Sep 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/copywriter-brand-storyteller",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Copywriter / Brand Storyteller - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Develop",
-      "descriptionHtml": "Copywriter / Brand Storyteller - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Copywriter / Brand Storyteller Pulchowk, lalitpur Application Deadline: Sep 30, 2026 Last Updated: 2 weeks ago Full Time Entry Level Brand and Marketing Apply Now The Copywriter is responsible for bringing eSewa brand to life through impactful storytelling and compelling copy that inspires action and builds emotional connections with customers. The role goes beyond writing as it requires translating marketing strategies into meaningful narratives that seamlessly connect visuals with words, ensuring every communication reflects eSewa&#39;s brand promise. Working closely with designers, marketers, product teams, and business stakeholders, the Copywriter will create audience-centric communication that resonates across customer segments, occasions, and platforms. Qualification and Experience Bachelor&#39;s degree in Marketing, Mass Communication, Journalism, English, Business Administration, or a related field. 1&ndash;3 years of experience in copywriting, content writing, advertising, digital marketing, or brand communication. Experience in fintech, banking, technology, consumer brands, or a",
+      "summary": "Software Engineer - QA - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Pr",
+      "descriptionHtml": "Software Engineer - QA - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Software Engineer - QA F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Quality Assurance (QA) Apply Now Software QA Engineer will be responsible for carrying out both automation and manual testing across web/ mobile environments and overseeing all aspects of software and product testing. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering or related technical discipline Preferrable; 3+ years of experience as a QA Engineer Familiarity with Capital Market operations, Stock Trading, Brokerage workflows, and IPO/FPO processes is highly desirable. Job Description Create detailed, comprehensive and well-structured test plans and test cases. Estimate, Prioritize and co-ordinate testing activities. Perform thorough regression testing when bugs are resolved. Analyse product requirements and system requirements. Ensure quality of the product and product documentation Discover, report and manage the life cycle of issues and bugs. Work in Scrum/Kanban team environment to size and plan the requirements. Research on the new technology and techniques for continuous improvements of the product. Automate web and mobile applications. Required Skills Test Cases and Testing Activities. Manual/Automation QA API Testing Knowledge in Cypress or any other automation frameworks. Task Ownership Dedication and Communication Benefits of Working at FoneNXT Stellar opportunity to work with the rising company. The amazing and passionate young team, beautiful office space. Trust of bigg",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1604,7 +1259,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1616,19 +1270,19 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Project Manager - Growth Team - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Developm",
-      "descriptionHtml": "Project Manager - Growth Team - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Project Manager - Growth Team F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Project Management Apply Now We&#39;re looking for an experienced Project Manager to plan, manage, and deliver our cross-vertical initiatives from start to finish. This is a role for someone who can get results without formal authority; you won&#39;t manage the people on your projects directly, so your ability to lead through influence, build trust, and align stakeholders is what will make you successful in the role. Qualification and Experience Bachelor&#39;s Degree (or Master&#39;s Degree) in IT, Business or related discipline. 4 years of proven experience as a Project Manager with a track record of delivering projects on time. Job Description Work with teams to develop clear project plans, take full ownership of those plans, and execute them successfully through completion. Own the end-to-end delivery of collaboration projects between our verticals, on time and within agreed scope and budget. Manage the core project",
+      "summary": "Project Manager - Growth Team - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Software Engineer Available Software Engineer Jo",
+      "descriptionHtml": "Project Manager - Growth Team - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Project Manager - Growth Team F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Project Management Apply Now We&#39;re looking for an experienced Project Manager to plan, manage, and deliver our cross-vertical initiatives from start to finish. This is a role for someone who can get results without formal authority; you won&#39;t manage the people on your projects directly, so your ability to lead through influence, build trust, and align stakeholders is what will make you successful in the role. Qualification and Experience Bachelor&#39;s Degree (or Master&#39;s Degree) in IT, Business or related discipline. 4 years of proven experience as a Project Manager with a track record of delivering projects on time. Job Description Work with teams to develop clear project plans, take full ownership of those plans, and execute them successfully through completion. Own the end-to-end delivery of collaboration projects between our verticals, on time and within agreed scope and budget. Manage the core project constraints: scope, cost, and time, and clearly communicate the trade-offs when any one of them shifts. Build strong working relationships across teams and companies, and keep stakeholders informed, aligned, and engaged throughout each project. Coordinate cross-functional teams you don&#39;t have direct authority over, using influence, clarity, and momentum to keep everyone moving toward shared goals. Work closely with technical teams through the software development lifecycle, from pla",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
     },
     {
-      "id": "f1soft-data-engineer-extensodata",
+      "id": "f1soft-operational-dba-and-sql-developer",
       "companyId": "f1soft",
       "company": "F1Soft Group",
-      "title": "Data Engineer",
-      "department": "Data",
-      "domain": "Data",
+      "title": "Operational DBA and SQL Developer",
+      "department": "Engineering",
+      "domain": "Engineering",
       "seniority": "Mid",
       "experience": {
         "min": null,
@@ -1637,7 +1291,6 @@
       },
       "techStack": [
         "SQL",
-        "AI",
         "QA"
       ],
       "employmentType": "Full-time",
@@ -1645,12 +1298,12 @@
       "location": "Lalitpur, Nepal",
       "postedAt": null,
       "deadline": "Oct 02, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/data-engineer-extensodata",
+      "applyUrl": "https://career.f1soft.com/jobs/operational-dba-and-sql-developer",
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Data Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Busines",
-      "descriptionHtml": "Data Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Business Development Available Business Development Jobs Business Development Officer Hamro Bazar Ventures Business Outreach Officer - Chitwan eSewa Marketing Assistant - Nepalgunj eSewa Engineering Available Engineering Jobs Backend Developer eSewa Travels and Tours Senior QA Engineer eSewa Travels and Tours Full Stack Developer eSewa Software Engineer Available Software Engineer Jobs AI Engineer FoneNXT Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Associate Software Engineer - QA Foneloan Software Engineer - QA FoneNXT Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eXtensoData Data Engineer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Mid Level Data Analytics/Data Engineer Apply Now We are seeking a versatile and highly motivated data professional who can bridge the gap between Data Engineering, Data Analytics, and Data Science. This role is ideal for candidates who enjoy building data pipelines, analyzing business data, and developing predictive models to solve real-world fintech challenges. Qualification and Experience Bachelor&rsquo;s degree in computer engineering, Computer Science, Data Science, Statistics, Mathematics or a related field. 3&ndash;5 years of relevant experience in Data Engineering, Analytics, Data Science, or Big Data platforms. Graduates from TU or KU recognized universities are highly encouraged to apply. Job Description Design, develop, and maintain scalable data pipelines. Build and optimize ETL/ELT workflows. Work with Data Lakehouse and Data Warehouse architectures. Ensure data quality, reliability, and governance. Process large-scale structured and unstructured datasets. ",
+      "summary": "Operational DBA and SQL Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Software Engineer Available Software Enginee",
+      "descriptionHtml": "Operational DBA and SQL Developer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Product Management Available Product Management Jobs Product Owner FoneNXT Business Analyst FoneNXT Product Analyst F1Soft International Product Owner eXtensoData Software Engineer Available Software Engineer Jobs Operational DBA and SQL Developer FoneNXT Quality Assurance (QA) Available Quality Assurance (QA) Jobs Software Engineer - QA FoneNXT Data Analytics/Data Engineer Available Data Analytics/Data Engineer Jobs Data Engineer eXtensoData Project Management Available Project Management Jobs Project Manager - Growth Team F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV FoneNXT Operational DBA and SQL Developer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Oct 02, 2026 Last Updated: 1 week ago Full Time Associate Level Software Engineer Apply Now The ideal candidate will join the Core Banking team to perform and monitor regular End-of-Day (EOD) and Beginning-of-Day (BOD) activities in the Core Banking System and ensure completion of scheduled jobs and operational activities, troubleshooting and escalating issue during processing. Qualification and Experience Bachelor&#39;s degree in Computer Science, Information Technology, or a related field. 2+ years of prior work experience in related roles. Hands-on experience with Oracle Database and SQL. Job Description Perform routine CBS operational activities and provide timely production support. Monitor database performance, availability, storage, sessions, jobs, logs, and database-related alerts. Troubleshoot SQL and database-related issues in coordination with application and infrastructure teams and manage backups. Develop, maintain, and optimize SQL queries, scripts, and database procedures for operational and management reporting. Generate regular, ad-hoc, and business-critical reports from CBS databases. Validate report data and ensure accuracy and consistency of generated reports. Analyze database information to support operational, reconciliation, audit, and business requirements. Optimize SQL queries and reporting processes for improved performance. Provide database and CBS support during application deployments, releases, patches, and production changes and coo",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -2332,6 +1985,35 @@
       "descriptionHtml": "This is a full-time position for a Frappe ERPNext Developer with 2 years of experience in Python and Javascript. Salary ranges from 60,000.",
       "requirementsHtml": "",
       "source": "Yarsa Labs careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "techkraft-608735000012788036",
+      "companyId": "techkraft",
+      "company": "Techkraft Inc.",
+      "title": "Information Security Associate",
+      "department": "IT Services",
+      "domain": "Security",
+      "seniority": "Junior / Associate",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Kathmandu, Nepal",
+      "postedAt": null,
+      "deadline": null,
+      "applyUrl": "https://careers.techkraftinc.com/jobs/Careers/608735000012788036",
+      "careersUrl": "https://careers.techkraftinc.com/jobs/Careers",
+      "applyEmail": "careers@techkraftinc.com",
+      "applyHow": "Apply on the Techkraft careers portal: https://careers.techkraftinc.com/jobs/Careers/608735000012788036",
+      "summary": "",
+      "descriptionHtml": "",
+      "requirementsHtml": "",
+      "source": "Zoho Recruit",
       "listingKind": "vacancy"
     },
     {
