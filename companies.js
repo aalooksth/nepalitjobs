@@ -509,6 +509,7 @@ function openDetail(company) {
       <div>
         <div class="detail-name">${company.name}</div>
         ${formerNote}
+        ${company.parentCompany ? `<div class="detail-former" style="margin-top:2px">Parent: ${company.parentCompany}</div>` : ""}
       </div>
     </div>
 

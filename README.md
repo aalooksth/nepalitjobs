@@ -15,7 +15,7 @@ Hosted on GitHub Pages at [https://nepalitjobs.aloks.com.np](https://nepalitjobs
 
 - **Live Vacancies**: Aggregated automatically from company career boards, BambooHR, Recruitee, Workable, and Next.js career endpoints.
 - **Interactive OpenStreetMap**: Keyless, high-resolution Leaflet map rendering customized company logo badges with dark mode support.
-- **Rich Company Profiles**: Explore 37+ verified IT companies with tech stacks, industries, client domains, employee sizes, and headquarters.
+- **Rich Company Profiles**: Explore 39 verified IT companies with tech stacks, industries, client domains, employee sizes, and headquarters.
 - **Company Comparison**: Side-by-side comparison modal evaluating tech stacks, company size, founded years, and active roles.
 - **Multi-Factor Filtering**: Filter by location (Kathmandu, Pokhara, Biratnagar, Butwal, Chitwan), company type (Product vs. Services), seniority, domain, and tech keywords.
 - **Quick Links Toolbar**: Direct, verified one-click buttons for Website, Careers portal, and LinkedIn.
@@ -64,6 +64,13 @@ npm test
 ---
 
 ## 📜 Version History & Changelog
+
+### v1.2.0
+
+- **Zakipoint Health Integration**:
+  - Added Zakipoint Health to verified company directory with Sanepa, Lalitpur headquarters coordinates.
+  - Implemented custom scraper for Zakipoint Health's career portal (`zakipointhealth.com/careers`).
+  - Added location-based filtering for Cambridge, MA headquarters to isolate Nepal-based engineering and design vacancies.
 
 ### v1.0.0
 

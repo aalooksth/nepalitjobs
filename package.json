@@ -2,7 +2,7 @@
   "name": "nepal-it-jobs",
   "private": true,
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Live IT job vacancies from Nepal's top tech companies",
   "scripts": {
     "sync": "node scripts/sync-jobs.mjs",

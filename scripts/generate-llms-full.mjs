@@ -21,7 +21,7 @@ Nepal IT Jobs is an open, high-performance tech careers aggregator and IT compan
 
 ## 2. Platform Architecture & Data Sources
 - **Live Vacancy Scraper**: Scheduled GitHub Actions sync job crawling official career portals daily.
-- **Interactive OpenStreetMap**: Directory of 37+ verified tech companies in Nepal with dark mode, cluster markers, and coordinates.
+- **Interactive OpenStreetMap**: Directory of 39 verified tech companies in Nepal with dark mode, cluster markers, and coordinates.
 - **Direct Application Endpoints**: 100% of jobs link directly to the employer's official ATS or career portal.
 - **Zero Sponsored Ads or Recruiter Markup**: Purely developer and engineer-centric.
 
@@ -42,22 +42,29 @@ Nepal IT Jobs is an open, high-performance tech careers aggregator and IT compan
 6. **Chitwan (Bharatpur / Narayangarh)**:
    - Core Domains: Cloud engineering, custom web applications, outsourcing (e.g. Nepsavvy).
 
-## 4. Complete Directory of 37+ Verified Tech Companies in Nepal
+## 4. Complete Directory of Verified Tech Companies in Nepal
 
 `;
 
 for (const c of companies) {
+  const lat = c.coordinates ? c.coordinates[0] : (c.lat || "N/A");
+  const lng = c.coordinates ? c.coordinates[1] : (c.lng || "N/A");
+  const clientBase = Array.isArray(c.clientTypes) ? c.clientTypes.join(", ") : (c.clientType || "Global / US / Europe");
+  const careers = c.careersUrl || c.careers || c.website;
+  const linkedin = c.linkedinUrl || c.linkedin;
+  const overview = c.about || c.description;
+
   content += `### ${c.name}\n`;
-  content += `- **Location**: ${c.location}, Nepal\n`;
-  content += `- **Coordinates**: Latitude ${c.lat}, Longitude ${c.lng}\n`;
+  content += `- **Location**: ${c.location}\n`;
+  content += `- **Coordinates**: Latitude ${lat}, Longitude ${lng}\n`;
   content += `- **Company Size**: ${c.size || "50-200"} employees\n`;
   content += `- **Founding Year**: ${c.founded || "N/A"}\n`;
-  content += `- **Client Base / Focus**: ${c.clientType || "Global / US / Europe"}\n`;
+  content += `- **Client Base / Focus**: ${clientBase}\n`;
   content += `- **Tech Stack**: ${Array.isArray(c.techStack) ? c.techStack.join(", ") : c.techStack || "JavaScript, Python, Cloud"}\n`;
   content += `- **Official Website**: ${c.website}\n`;
-  content += `- **Careers Page**: ${c.careers}\n`;
-  if (c.linkedin) content += `- **LinkedIn**: ${c.linkedin}\n`;
-  if (c.description) content += `- **Overview**: ${c.description}\n`;
+  content += `- **Careers Page**: ${careers}\n`;
+  if (linkedin) content += `- **LinkedIn**: ${linkedin}\n`;
+  if (overview) content += `- **Overview**: ${overview}\n`;
   content += `\n`;
 }
 

@@ -128,7 +128,7 @@
             "name": "Which top IT companies in Nepal are included?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Over 37 verified tech companies are tracked across Nepal, including Leapfrog Technology, F1Soft Group, CloudFactory, Guardsix (Logpoint), Cotiviti/Infinite, Verisk, Fusemachines, Ycotek, Spiralogics, Hamro Patro, Khalti by IME, Genese Solution, Proshore, Yarsa Tech, and Docsumo."
+              "text": "Over 39 verified tech companies are tracked across Nepal, including Leapfrog Technology, F1Soft Group, CloudFactory, Guardsix, Cotiviti/Infinite, Verisk, Fusemachines, Ycotek, Spiralogics, Hamro Patro, Khalti by IME, Genese Solution, Proshore, Yarsa Tech, and Docsumo."
             }
           },
           {
@@ -184,6 +184,7 @@
       <nav class="navbar-links" aria-label="Primary navigation">
         <a href="#jobs-section" class="nav-link">Jobs</a>
         <a href="companies.html" class="nav-link">Companies</a>
+        <a href="#trends-section" class="nav-link">Trends</a>
       </nav>
       <div class="navbar-actions">
         <span class="meta-badge" id="live-badge">
@@ -520,6 +521,60 @@
     <div id="companies-grid" class="companies-grid"></div>
   </section>
 
+  <!-- ═══════════════ JOB MARKET TRENDS & ANALYTICS ═══════════════ -->
+  <section class="trends-section container" id="trends-section" aria-labelledby="trends-heading">
+    <div class="trends-header">
+      <div>
+        <span class="trends-tag">Ecosystem Intelligence</span>
+        <h2 id="trends-heading" class="section-heading">Nepal Tech Hiring Trends &amp; Velocity</h2>
+        <p class="section-sub">Historical vacancy trajectory split by experience level, tech domain, and hiring companies.</p>
+      </div>
+      <div class="trends-controls">
+        <div class="trends-control-group">
+          <label for="trend-split-by" class="trends-label">Split By:</label>
+          <select id="trend-split-by" class="filter-select trends-select">
+            <option value="seniority" selected>Experience Level</option>
+            <option value="domain">Tech Domain</option>
+            <option value="company">Top Company</option>
+            <option value="location">Location Hub</option>
+          </select>
+        </div>
+        <div class="trends-control-group">
+          <label for="trend-category-filter" class="trends-label">Category Filter:</label>
+          <select id="trend-category-filter" class="filter-select trends-select">
+            <option value="all">All Values</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="trends-card">
+      <div class="trends-chart-header">
+        <div class="trends-chart-title" id="trends-chart-title">Vacancy Trajectory over 30 Days</div>
+        <div class="trends-legend" id="trends-legend"></div>
+      </div>
+      <div class="trends-chart-container" id="trends-chart-container">
+        <!-- Dynamic SVG Chart rendered via app.js -->
+      </div>
+    </div>
+
+    <!-- Breakdown Cards Grid -->
+    <div class="trends-grid">
+      <div class="trend-breakdown-card">
+        <h3 class="trend-card-title">Seniority Level Distribution</h3>
+        <div id="seniority-breakdown-bars" class="breakdown-list"></div>
+      </div>
+      <div class="trend-breakdown-card">
+        <h3 class="trend-card-title">Top Hiring Domains</h3>
+        <div id="domain-breakdown-bars" class="breakdown-list"></div>
+      </div>
+      <div class="trend-breakdown-card">
+        <h3 class="trend-card-title">Top Hiring Companies</h3>
+        <div id="company-breakdown-bars" class="breakdown-list"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- ═══════════════ JOB DETAIL MODAL ═══════════════ -->
   <div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal" id="modal-panel">
@@ -604,8 +659,8 @@
       <details class="faq-accordion-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <summary class="faq-question" itemprop="name">Which companies are hiring IT professionals in Nepal?</summary>
         <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-          <p itemprop="text">Over 37 verified tech companies are tracked across Nepal, including Leapfrog Technology,
-            F1Soft Group, CloudFactory, Guardsix (Logpoint), Cotiviti/Infinite, Verisk, Fusemachines, Ycotek,
+          <p itemprop="text">Over 39 verified tech companies are tracked across Nepal, including Leapfrog Technology,
+            F1Soft Group, CloudFactory, Guardsix, Cotiviti/Infinite, Verisk, Fusemachines, Ycotek,
             Spiralogics, Hamro Patro, Khalti by IME, Genese Solution, Proshore, Yarsa Tech, and Docsumo.</p>
         </div>
       </details>

@@ -76,6 +76,12 @@ To suggest updates or add your company:
 
 ## 8. Version History
 
+### v1.2.0
+- Added Zakipoint Health (`https://www.zakipointhealth.com/careers`) to the verified companies directory and interactive map.
+- Implemented dedicated live job portal scraper for Zakipoint Health.
+- Expanded directory to 39 verified tech companies across Nepal.
+- Added Cambridge, MA location filtering to ensure only Nepal-based job vacancies are surfaced.
+
 ### v1.1.0
 - Added comprehensive OpenGraph and Twitter/X social preview cards (`og:image`, `og:description`, `twitter:card`).
 - Embedded Google JobPosting structured JSON-LD data dynamically for live roles.

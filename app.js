@@ -181,6 +181,7 @@ async function loadData() {
     applyFilters();
     renderCompanies();
     injectJobPostingSchema(state.jobs, state.companies);
+    loadTrendsData();
     showLoading(false);
     applyHashFilter();  // honour ?#company=id deep-links from companies directory
   } catch (err) {
@@ -771,14 +772,16 @@ function openModal(job) {
 
     ${company.about ? `
     <div class="modal-section">
-      <h3 class="modal-section-title">About ${esc(job.company)}</h3>
+      <h3 class="modal-section-title">About ${esc(company.name || job.company)}</h3>
       <div class="company-about-box">
         <p>${esc(company.about)}</p>
+        ${company.formerNames?.length ? `<p style="font-size:0.82rem;color:var(--text-3);font-style:italic;margin-top:8px">Formerly: ${company.formerNames.map(n => esc(n)).join(" · ")}</p>` : ""}
         <div class="company-detail-pills">
           ${company.hq       ? `<span class="company-detail-pill">🏢 ${esc(company.hq)}</span>` : ""}
           ${company.size     ? `<span class="company-detail-pill">👥 ${esc(company.size)} people</span>` : ""}
           ${company.founded  ? `<span class="company-detail-pill">📅 Founded ${company.founded}</span>` : ""}
           ${company.industry ? `<span class="company-detail-pill">🔖 ${esc(company.industry)}</span>` : ""}
+          ${company.parentCompany ? `<span class="company-detail-pill" style="color:var(--c-violet-l)">🏛️ ${esc(company.parentCompany)}</span>` : ""}
           ${company.website  ? `<a href="${esc(company.website)}" target="_blank" rel="noopener" class="company-detail-pill" style="color:var(--c-violet-l)">🌐 Website</a>` : ""}
         </div>
       </div>
@@ -1062,4 +1065,262 @@ function getLogoSrc(company) {
     const domain = new URL(company.website).hostname;
     return `https://www.google.com/s2/favicons?sz=128&domain_url=https://${domain}`;
   } catch { return ""; }
+}
+
+/* ══════════════════════════════════════════
+   JOB MARKET TRENDS & ANALYTICS MODULE
+══════════════════════════════════════════ */
+async function loadTrendsData() {
+  try {
+    const res = await fetch("data/job-trends.json");
+    if (!res.ok) return;
+    state.trends = await res.json();
+    initTrendsUI();
+  } catch (e) {
+    console.warn("Could not load job trends data", e);
+  }
+}
+
+function initTrendsUI() {
+  if (!state.trends || !state.trends.length) return;
+
+  const splitSelect = document.getElementById("trend-split-by");
+  const catSelect = document.getElementById("trend-category-filter");
+
+  if (splitSelect) {
+    splitSelect.addEventListener("change", () => {
+      populateCategoryDropdown();
+      renderTrendsView();
+    });
+  }
+
+  if (catSelect) {
+    catSelect.addEventListener("change", () => {
+      renderTrendsView();
+    });
+  }
+
+  populateCategoryDropdown();
+  renderTrendsView();
+  renderBreakdownBars();
+}
+
+function populateCategoryDropdown() {
+  const splitBy = document.getElementById("trend-split-by")?.value || "seniority";
+  const catSelect = document.getElementById("trend-category-filter");
+  if (!catSelect) return;
+
+  const categories = new Set();
+  state.trends.forEach((snap) => {
+    let targetObj = {};
+    if (splitBy === "seniority") targetObj = snap.bySeniority || {};
+    else if (splitBy === "domain") targetObj = snap.byDomain || {};
+    else if (splitBy === "company") targetObj = snap.byCompany || {};
+    else if (splitBy === "location") targetObj = snap.byLocation || {};
+
+    Object.keys(targetObj).forEach((k) => categories.add(k));
+  });
+
+  catSelect.innerHTML = `<option value="all">All ${splitBy === "seniority" ? "Seniority Levels" : splitBy === "domain" ? "Domains" : splitBy === "company" ? "Companies" : "Locations"}</option>` +
+    Array.from(categories).sort().map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
+}
+
+function renderTrendsView() {
+  const container = document.getElementById("trends-chart-container");
+  const legendEl = document.getElementById("trends-legend");
+  const titleEl = document.getElementById("trends-chart-title");
+  if (!container || !state.trends || !state.trends.length) return;
+
+  const splitBy = document.getElementById("trend-split-by")?.value || "seniority";
+  const catFilter = document.getElementById("trend-category-filter")?.value || "all";
+
+  // Filter trends data sorted by date
+  const sortedTrends = [...state.trends].sort((a, b) => new Date(a.date) - new Date(b.date));
+  const dates = sortedTrends.map((t) => formatDate(t.date));
+
+  let series = [];
+  const COLORS = ["#dc2646", "#7c3aed", "#38bdf8", "#22c55e", "#f59e0b", "#ec4899", "#8b5cf6"];
+
+  if (catFilter !== "all") {
+    // Single line curve
+    const seriesData = sortedTrends.map((t) => {
+      let mapObj = {};
+      if (splitBy === "seniority") mapObj = t.bySeniority || {};
+      else if (splitBy === "domain") mapObj = t.byDomain || {};
+      else if (splitBy === "company") mapObj = t.byCompany || {};
+      else if (splitBy === "location") mapObj = t.byLocation || {};
+      return mapObj[catFilter] || 0;
+    });
+    series = [{ name: catFilter, color: COLORS[0], data: seriesData }];
+    if (titleEl) titleEl.textContent = `Open Roles Trajectory: ${catFilter}`;
+  } else {
+    // Multi-series lines for top categories
+    const catCounts = {};
+    sortedTrends.forEach((t) => {
+      let mapObj = {};
+      if (splitBy === "seniority") mapObj = t.bySeniority || {};
+      else if (splitBy === "domain") mapObj = t.byDomain || {};
+      else if (splitBy === "company") mapObj = t.byCompany || {};
+      else if (splitBy === "location") mapObj = t.byLocation || {};
+
+      Object.entries(mapObj).forEach(([k, v]) => { catCounts[k] = (catCounts[k] || 0) + v; });
+    });
+
+    const topCats = Object.entries(catCounts).sort((a, b) => b[1] - a[1]).slice(0, 5).map((x) => x[0]);
+
+    series = topCats.map((catName, idx) => {
+      const data = sortedTrends.map((t) => {
+        let mapObj = {};
+        if (splitBy === "seniority") mapObj = t.bySeniority || {};
+        else if (splitBy === "domain") mapObj = t.byDomain || {};
+        else if (splitBy === "company") mapObj = t.byCompany || {};
+        else if (splitBy === "location") mapObj = t.byLocation || {};
+        return mapObj[catName] || 0;
+      });
+      return { name: catName, color: COLORS[idx % COLORS.length], data };
+    });
+
+    if (titleEl) titleEl.textContent = `Vacancy Trajectory by ${splitBy === "seniority" ? "Seniority Level" : splitBy === "domain" ? "Tech Domain" : splitBy === "company" ? "Top Company" : "Location"}`;
+  }
+
+  // Render Legend
+  if (legendEl) {
+    legendEl.innerHTML = series.map((s) => `
+      <div class="legend-item">
+        <span class="legend-dot" style="background:${s.color}"></span>
+        <span>${esc(s.name)}</span>
+      </div>
+    `).join("");
+  }
+
+  // Calculate SVG Dimensions & Scales
+  const width = 800;
+  const height = 240;
+  const padL = 40;
+  const padR = 20;
+  const padT = 20;
+  const padB = 30;
+
+  const chartW = width - padL - padR;
+  const chartH = height - padT - padB;
+
+  let maxVal = 1;
+  series.forEach((s) => {
+    s.data.forEach((v) => { if (v > maxVal) maxVal = v; });
+  });
+  maxVal = Math.ceil(maxVal * 1.1);
+
+  const numPoints = dates.length;
+  const stepX = numPoints > 1 ? chartW / (numPoints - 1) : chartW;
+
+  let svgHtml = `<svg viewBox="0 0 ${width} ${height}" class="trends-chart-svg" preserveAspectRatio="none">`;
+
+  // Grid Lines
+  const gridTicks = 4;
+  for (let i = 0; i <= gridTicks; i++) {
+    const yVal = Math.round((maxVal / gridTicks) * i);
+    const yPos = padT + chartH - (i / gridTicks) * chartH;
+    svgHtml += `<line x1="${padL}" y1="${yPos}" x2="${width - padR}" y2="${yPos}" stroke="var(--border)" stroke-dasharray="4 4" stroke-width="1"/>`;
+    svgHtml += `<text x="${padL - 8}" y="${yPos + 4}" fill="var(--text-3)" font-size="10" text-anchor="end" font-family="Inter">${yVal}</text>`;
+  }
+
+  // X Axis Dates
+  const dateStep = Math.max(1, Math.floor(dates.length / 6));
+  dates.forEach((d, idx) => {
+    if (idx % dateStep === 0 || idx === dates.length - 1) {
+      const xPos = padL + idx * stepX;
+      svgHtml += `<text x="${xPos}" y="${height - 6}" fill="var(--text-3)" font-size="10" text-anchor="middle" font-family="Inter">${d}</text>`;
+    }
+  });
+
+  // Render Series Curves
+  series.forEach((s) => {
+    const points = s.data.map((val, idx) => {
+      const x = padL + idx * stepX;
+      const y = padT + chartH - (val / maxVal) * chartH;
+      return { x, y, val };
+    });
+
+    const pathD = points.map((p, i) => `${i === 0 ? "M" : "L"} ${p.x.toFixed(1)} ${p.y.toFixed(1)}`).join(" ");
+
+    // Gradient Area for single series
+    if (series.length === 1) {
+      const areaD = `${pathD} L ${points[points.length - 1].x.toFixed(1)} ${padT + chartH} L ${padL} ${padT + chartH} Z`;
+      svgHtml += `
+        <defs>
+          <linearGradient id="area-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="${s.color}" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="${s.color}" stop-opacity="0.0"/>
+          </linearGradient>
+        </defs>
+        <path d="${areaD}" fill="url(#area-grad)"/>
+      `;
+    }
+
+    svgHtml += `<path d="${pathD}" fill="none" stroke="${s.color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>`;
+
+    // Data Circles
+    points.forEach((p, idx) => {
+      svgHtml += `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="${s.color}" stroke="var(--surface)" stroke-width="1.5">
+        <title>${dates[idx]}: ${p.val} ${s.name} roles</title>
+      </circle>`;
+    });
+  });
+
+  svgHtml += `</svg>`;
+  container.innerHTML = svgHtml;
+}
+
+function renderBreakdownBars() {
+  if (!state.jobs || !state.jobs.length) return;
+
+  const total = state.jobs.length;
+
+  // Seniority
+  const senCounts = {};
+  state.jobs.forEach((j) => {
+    const sen = j.seniority || "Mid";
+    senCounts[sen] = (senCounts[sen] || 0) + 1;
+  });
+  renderBarList("seniority-breakdown-bars", senCounts, total);
+
+  // Domains
+  const domCounts = {};
+  state.jobs.forEach((j) => {
+    const dom = j.domain || "Engineering";
+    domCounts[dom] = (domCounts[dom] || 0) + 1;
+  });
+  renderBarList("domain-breakdown-bars", domCounts, total);
+
+  // Companies
+  const compCounts = {};
+  state.jobs.forEach((j) => {
+    const comp = j.company || "Other";
+    compCounts[comp] = (compCounts[comp] || 0) + 1;
+  });
+  renderBarList("company-breakdown-bars", compCounts, total);
+}
+
+function renderBarList(containerId, countMap, total) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  const items = Object.entries(countMap)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5);
+
+  container.innerHTML = items.map(([name, count]) => {
+    const pct = Math.round((count / total) * 100);
+    return `
+      <div class="breakdown-item">
+        <div class="breakdown-meta">
+          <span class="breakdown-name">${esc(name)}</span>
+          <span class="breakdown-val">${count} roles (${pct}%)</span>
+        </div>
+        <div class="breakdown-bar-bg">
+          <div class="breakdown-bar-fill" style="width: ${pct}%"></div>
+        </div>
+      </div>
+    `;
+  }).join("");
 }

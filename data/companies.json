@@ -118,10 +118,12 @@
   },
   {
     "id": "guardsix",
-    "name": "Guardsix (formerly Logpoint)",
+    "name": "Guardsix",
+    "formerNames": ["Logpoint"],
+    "parentCompany": null,
     "website": "https://www.guardsix.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.guardsix.com",
-    "careersUrl": "https://logpoint.bamboohr.com/careers",
+    "careersUrl": "https://guardsix.com/join-us",
     "applyEmail": "careers@logpoint.com",
     "location": "Panipokhari Heights, Lazimpat, Kathmandu",
     "hq": "Panipokhari, Kathmandu · Copenhagen, Denmark",
@@ -153,7 +155,6 @@
       "subdomain": "logpoint"
     },
     "linkedinUrl": "https://www.linkedin.com/company/guardsix",
-    "displayCareersUrl": "https://logpoint.com/en/careers/",
     "tested": true
   },
   {
@@ -320,7 +321,9 @@
   },
   {
     "id": "infinite",
-    "name": "Infinite (formerly Cotiviti Nepal)",
+    "name": "Infinite Computer Solutions",
+    "formerNames": ["Cotiviti Nepal"],
+    "parentCompany": null,
     "website": "https://www.infinite.com",
     "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.infinite.com",
     "careersUrl": "https://www.infinite.com/careers/",
@@ -356,7 +359,6 @@
       "filter": "Infinite"
     },
     "linkedinUrl": "https://www.linkedin.com/company/infinite-computer-solutions",
-    "displayCareersUrl": "https://www.infinite.com/careers/",
     "tested": true
   },
   {
@@ -1489,6 +1491,46 @@
     "source": {
       "kind": "veelapp",
       "url": "https://veelapp.com/careers"
+    }
+  },
+  {
+    "id": "zakipoint",
+    "name": "Zakipoint Health",
+    "website": "https://www.zakipointhealth.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.zakipointhealth.com",
+    "careersUrl": "https://www.zakipointhealth.com/careers",
+    "displayCareersUrl": "https://www.zakipointhealth.com/careers",
+    "linkedinUrl": "https://www.linkedin.com/company/zakipointhealth",
+    "applyEmail": null,
+    "location": "Sanepa, Lalitpur, Nepal",
+    "hq": "Sanepa, Lalitpur · Cambridge, MA, USA",
+    "size": "51–200",
+    "employeeRange": "51-200",
+    "founded": 2014,
+    "industry": "Digital Health · HealthTech SaaS · Healthcare Analytics",
+    "type": "Product",
+    "about": "Zakipoint Health is an AI-powered healthcare analytics and member engagement platform bringing transparency, direction, and cost containment to self-funded employers, TPAs, and brokers to guide members to higher quality care.",
+    "techStack": [
+      "React",
+      "Node.js",
+      "Python",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL",
+      "Docker",
+      "Figma"
+    ],
+    "clientTypes": [
+      "US self-funded employers",
+      "Third Party Administrators (TPAs)",
+      "Health plans and brokers"
+    ],
+    "coordinates": [27.6852, 85.3085],
+    "forceNepal": true,
+    "tested": true,
+    "source": {
+      "kind": "zakipoint",
+      "url": "https://www.zakipointhealth.com/careers"
     }
   }
 ]

@@ -164,7 +164,7 @@ function employmentType(code, title) {
   return "Full-time";
 }
 
-const FOREIGN_BLACKLIST = /\b(india|united states|usa|u\.s\.a|u\.s\.|united kingdom|uk|u\.k\.|england|scotland|wales|ireland|poland|germany|canada|australia|singapore|netherlands|spain|france|italy|philippines|brazil|mexico|colombia|portugal|sweden|denmark|norway|finland|switzerland|austria|belgium|romania|bulgaria|czech|slovakia|hungary|greece|turkey|dubai|uae|saudi|qatar|japan|malaysia|vietnam|thailand|indonesia|pakistan|bangladesh|sri lanka|kenya|uganda|nigeria|south africa|pune|bengaluru|bangalore|hyderabad|mumbai|chennai|gurugram|noida|delhi|kolkata|kerala|ahmedabad|jaipur|coimbatore|kochi|indore|chandigarh|boston|new york|jersey city|chicago|austin|seattle|san francisco|california|texas|massachusetts|london|bristol|manchester|woburn|karlsruhe|oldenburg|nairobi|kampala|reading|berlin|sydney|melbourne|toronto|vancouver)\b/i;
+const FOREIGN_BLACKLIST = /\b(india|united states|usa|u\.s\.a|u\.s\.|united kingdom|uk|u\.k\.|england|scotland|wales|ireland|poland|germany|canada|australia|singapore|netherlands|spain|france|italy|philippines|brazil|mexico|colombia|portugal|sweden|denmark|norway|finland|switzerland|austria|belgium|romania|bulgaria|czech|slovakia|hungary|greece|turkey|dubai|uae|saudi|qatar|japan|malaysia|vietnam|thailand|indonesia|pakistan|bangladesh|sri lanka|kenya|uganda|nigeria|south africa|pune|bengaluru|bangalore|hyderabad|mumbai|chennai|gurugram|noida|delhi|kolkata|kerala|ahmedabad|jaipur|coimbatore|kochi|indore|chandigarh|boston|cambridge|new york|jersey city|chicago|austin|seattle|san francisco|california|texas|massachusetts|london|bristol|manchester|woburn|karlsruhe|oldenburg|nairobi|kampala|reading|berlin|sydney|melbourne|toronto|vancouver)\b/i;
 
 const NEPAL_LOCATIONS = /\b(nepal|kathmandu|lalitpur|patan|bhaktapur|pokhara|butwal|biratnagar|chitwan|bharatpur|narayangarh|dharan|itahari|birgunj|nepalgunj|hetauda|dhangadhi|banepa|dhulikhel|sanepa|pulchowk|bakhundole|jhamsikhel|jawalakhel|kupondole|thamel|dillibazar|naxal|hattisar|baluwatar|baneshwor|sifal|tinkune|kamalpokhari|koteshwor|chabahil)\b/i;
 
@@ -944,6 +944,84 @@ async function fusemachinesJobs(company) {
   return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
 }
 
+/**
+ * Zakipoint Health (zakipointhealth.com/careers) — Hubspot custom job portal module
+ */
+async function zakipointJobs(company) {
+  const targetUrl =
+    company.source?.url || company.careersUrl || "https://www.zakipointhealth.com/careers";
+  const html = await fetchText(targetUrl);
+
+  const start = html.indexOf('class="cjv-canvas"');
+  const end = html.indexOf('class="pjo-canvas"');
+  const cjvSection =
+    start !== -1 ? (end !== -1 ? html.slice(start, end) : html.slice(start)) : html;
+
+  const rawCards = cjvSection
+    .split(/<div[^>]+class="[^"]*filled-pjo-canvas[^"]*"/i)
+    .slice(1);
+  const jobs = [];
+  const seen = new Set();
+
+  for (const card of rawCards) {
+    const titleMatch = card.match(
+      /class="[^"]*mjp-job-title[^"]*"[^>]*>([\s\S]*?)<\/div>\s*<\/div>/i
+    );
+    const title = titleMatch
+      ? titleMatch[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim()
+      : "";
+    if (!title || isTalentPool(title)) continue;
+
+    const descMatch = card.match(
+      /class="[^"]*mjp-job-description[^"]*"[^>]*>([\s\S]*?)<div[^>]+class="[^"]*mjp-job-link/i
+    );
+    const descHtml = descMatch ? descMatch[1] : "";
+    const plainDesc = descHtml.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+
+    const locMatch = plainDesc.match(/Location:\s*([^📅➡️\n]+)/i);
+    let rawLoc = locMatch ? locMatch[1].trim() : company.location;
+    rawLoc = rawLoc.replace(/\s*(?:We’re|We're|Join|Apply)[\s\S]*/i, "").trim();
+
+    const linkMatch = card.match(
+      /<div[^>]+class="[^"]*mjp-job-link[^"]*"[\s\S]*?<a\b[^>]*\bhref=["']([^"']+)["']/i
+    );
+    let applyLink = linkMatch ? linkMatch[1].trim() : targetUrl;
+    let applyEmail = company.applyEmail;
+
+    if (applyLink.startsWith("mailto:")) {
+      applyEmail = applyLink.replace(/^mailto:/i, "").trim();
+    }
+
+    const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+
+    const location = cleanNepalLocation(rawLoc);
+
+    jobs.push(
+      normalize({
+        id: `${company.id}-${slug}`,
+        companyId: company.id,
+        company: company.name,
+        title,
+        department: domainFrom(title, ""),
+        location,
+        applyUrl: applyLink.startsWith("mailto:") ? targetUrl : applyLink,
+        careersUrl: company.careersUrl,
+        applyEmail,
+        applyHow: applyEmail
+          ? `Send your resume and cover letter to ${applyEmail}, or apply on ${targetUrl}.`
+          : `Apply online via ${targetUrl}`,
+        summary: plainDesc.slice(0, 420),
+        descriptionHtml: descHtml,
+        source: "Zakipoint careers",
+      })
+    );
+  }
+
+  return jobs.filter((j) => nepalRelevant(j.location, j.summary, company.forceNepal));
+}
+
 async function oracleHcm(company) {
   const url = company.source?.apiUrl || `https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=${company.source?.siteNumber || "CX_1"},limit=155`;
   const res = await fetch(url, {
@@ -1155,6 +1233,7 @@ const fetchers = {
   devfinity: (c) => devfinityJobs(c),
   veelapp: (c) => veelappJobs(c),
   fusemachines: (c) => fusemachinesJobs(c),
+  zakipoint: (c) => zakipointJobs(c),
 };
 
 const targetCompanyArg =
@@ -1287,5 +1366,75 @@ if (newCompanies.length) {
 }
 
 await mkdir(join(ROOT, "data"), { recursive: true });
+
+// Read old jobs dataset for email diff
+let oldJobs = [];
+try {
+  const oldContent = await readFile(join(ROOT, "data", "jobs.json"), "utf8");
+  oldJobs = JSON.parse(oldContent).jobs || [];
+} catch {}
+
 await writeFile(join(ROOT, "data", "jobs.json"), JSON.stringify(payload, null, 2));
 console.log(`Wrote ${finalJobs.length} jobs (scraped ${results.length} jobs for ${companiesToRun.length} company)`);
+
+// Update job-trends.json
+try {
+  let trends = [];
+  const trendPath = join(ROOT, "data", "job-trends.json");
+  try {
+    const trendData = await readFile(trendPath, "utf8");
+    trends = JSON.parse(trendData);
+  } catch {}
+
+  const todayStr = new Date().toISOString().split("T")[0];
+  const seniorities = {};
+  const domains = {};
+  const comps = {};
+  const locations = {};
+  const workTypes = {};
+
+  finalJobs.forEach((j) => {
+    const sen = j.seniority || "Mid";
+    seniorities[sen] = (seniorities[sen] || 0) + 1;
+    const dom = j.domain || "Engineering";
+    domains[dom] = (domains[dom] || 0) + 1;
+    const comp = j.company || "Other";
+    comps[comp] = (comps[comp] || 0) + 1;
+    const loc = j.location || "Kathmandu, Nepal";
+    locations[loc] = (locations[loc] || 0) + 1;
+    const wt = j.workType || "On-site";
+    workTypes[wt] = (workTypes[wt] || 0) + 1;
+  });
+
+  const snapshot = {
+    date: todayStr,
+    totalJobs: finalJobs.length,
+    companyCount: companies.length,
+    bySeniority: seniorities,
+    byDomain: domains,
+    byCompany: comps,
+    byLocation: locations,
+    byWorkType: workTypes,
+  };
+
+  const idx = trends.findIndex((t) => t.date === todayStr);
+  if (idx >= 0) {
+    trends[idx] = snapshot;
+  } else {
+    trends.push(snapshot);
+  }
+
+  await writeFile(trendPath, JSON.stringify(trends, null, 2));
+  console.log(`Updated trend snapshot in data/job-trends.json for ${todayStr}`);
+} catch (e) {
+  console.error("Warning: Failed to update job-trends.json:", e.message);
+}
+
+// Trigger Email Notification Digest
+try {
+  const { checkAndSendNewJobsNotification } = await import("./notify-new-jobs.mjs");
+  await checkAndSendNewJobsNotification(oldJobs, finalJobs);
+} catch (e) {
+  console.error("Warning: Email notification failed:", e.message);
+}
+

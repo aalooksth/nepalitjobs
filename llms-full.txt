@@ -3,7 +3,7 @@
 > Canonical URL: https://nepalitjobs.aloks.com.np
 > Author: Alok Shrestha (https://aloks.com.np)
 > Attribution: Made with ❤️ in 🇳🇵 by Alok - hello@aloks.com.np
-> Last Updated: 2026-09-10
+> Last Updated: 2026-09-30
 
 ## 1. Executive Summary & Purpose
 Nepal IT Jobs is an open, high-performance tech careers aggregator and IT company intelligence portal for Nepal. It solves information fragmentation in the Nepalese tech ecosystem by extracting live job openings directly from verified company ATS portals (BambooHR, Workable, Recruitee, Next.js career endpoints, and custom APIs), eliminating stale listings, recruiter middlemen, and duplicates.
@@ -31,377 +31,475 @@ Nepal IT Jobs is an open, high-performance tech careers aggregator and IT compan
 6. **Chitwan (Bharatpur / Narayangarh)**:
    - Core Domains: Cloud engineering, custom web applications, outsourcing (e.g. Nepsavvy).
 
-## 4. Complete Directory of 37+ Verified Tech Companies in Nepal
+## 4. Complete Directory of Verified Tech Companies in Nepal
 
 ### Leapfrog Technology
-- **Location**: Thirbam Sadak, Dillibazar, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Thirbam Sadak, Dillibazar, Kathmandu
+- **Coordinates**: Latitude 27.707319, Longitude 85.327424
 - **Company Size**: 450+ employees
 - **Founding Year**: 2010
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US healthcare startups, Silicon Valley SaaS companies, Boston & Seattle tech firms
 - **Tech Stack**: React, Node.js, Python, TypeScript, AWS, Docker, Kubernetes, PostgreSQL, React Native
 - **Official Website**: https://www.lftechnology.com
-- **Careers Page**: undefined
+- **Careers Page**: https://career.lftechnology.com
+- **LinkedIn**: https://www.linkedin.com/company/leapfrog-technology
+- **Overview**: Leapfrog builds digital products with world-class engineering teams across Nepal, the US, and Europe. Specialises in healthcare SaaS, cloud-native applications, and applied AI for Boston and Silicon Valley clients.
 
 ### F1Soft Group
-- **Location**: F1Soft Tower, Pulchowk, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: F1Soft Tower, Pulchowk, Lalitpur
+- **Coordinates**: Latitude 27.679367, Longitude 85.316272
 - **Company Size**: 1000+ employees
 - **Founding Year**: 2004
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Commercial banks, Development banks, Microfinance institutions, Nepal Rastra Bank regulated entities
 - **Tech Stack**: Java, Spring Boot, Android, iOS, React, PHP, MySQL, Kafka, Redis
 - **Official Website**: https://f1soft.com
-- **Careers Page**: undefined
+- **Careers Page**: https://career.f1soft.com/jobs
+- **LinkedIn**: https://www.linkedin.com/company/f1soft-international-pvt-ltd
+- **Overview**: Nepal's largest fintech group, operating eSewa (the country's dominant digital wallet), and supplying core banking, payment switching, and digital finance infrastructure to 100+ financial institutions nationwide.
 
 ### CloudFactory
-- **Location**: Bhaisepati, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Bhaisepati, Lalitpur
+- **Coordinates**: Latitude 27.651378, Longitude 85.305265
 - **Company Size**: 400+ employees
 - **Founding Year**: 2010
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Autonomous vehicle companies, AI research labs, Computer vision startups
 - **Tech Stack**: Python, Machine Learning, AWS, React, Node.js, PostgreSQL
 - **Official Website**: https://www.cloudfactory.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.cloudfactory.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/cloudfactory
+- **Overview**: Mission-driven AI data company powering machine learning pipelines for leading AI labs and autonomous systems companies. Its Kathmandu hub handles annotation, QA, and training-data operations at scale.
 
-### Guardsix (formerly Logpoint)
-- **Location**: Panipokhari Heights, Lazimpat, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+### Guardsix
+- **Location**: Panipokhari Heights, Lazimpat, Kathmandu
+- **Coordinates**: Latitude 27.729438, Longitude 85.324581
 - **Company Size**: 100–150 employees
 - **Founding Year**: 2001
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: European enterprises, Financial services, Government & critical infrastructure
 - **Tech Stack**: Python, Go, Elasticsearch, Kafka, React, Docker, Kubernetes, Linux
 - **Official Website**: https://www.guardsix.com
-- **Careers Page**: undefined
+- **Careers Page**: https://guardsix.com/join-us
+- **LinkedIn**: https://www.linkedin.com/company/guardsix
+- **Overview**: European cybersecurity vendor (rebranded from Logpoint) building SIEM, SOAR, and threat-intelligence platforms. Kathmandu hosts a long-standing product and engineering office delivering core platform features.
 
 ### Hybrid News Limited
-- **Location**: Baluwatar, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Baluwatar, Kathmandu
+- **Coordinates**: Latitude 27.721, Longitude 85.329
 - **Company Size**: 50–200 employees
 - **Founding Year**: 2013
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: UK media publishers, News organisations, Content platforms
 - **Tech Stack**: PHP, Laravel, React, Node.js, MySQL, AWS, Elasticsearch
 - **Official Website**: https://hybrid.co.uk
-- **Careers Page**: undefined
+- **Careers Page**: https://hybrid.recruitee.com
+- **LinkedIn**: https://www.linkedin.com/company/hybrid-news
+- **Overview**: Builds publishing, content management, and media analytics platforms with a Kathmandu-based delivery team serving UK media groups.
 
 ### Deerwalk
-- **Location**: Jaya Bagheshwori Marg, Sifal, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Jaya Bagheshwori Marg, Sifal, Kathmandu
+- **Coordinates**: Latitude 27.711951, Longitude 85.341418
 - **Company Size**: 300+ employees
 - **Founding Year**: 2008
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US health insurance payers, Health plans, ACOs and care management companies
 - **Tech Stack**: Java, Python, Spark, Hadoop, PostgreSQL, React, AWS
 - **Official Website**: https://www.deerwalk.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.deerwalk.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/deerwalk-inc.
+- **Overview**: US–Nepal healthcare analytics company with a major Kathmandu campus, processing claims, HEDIS, and population health data for US payers. Also operates Deerwalk Institute of Technology (DWIT).
 
 ### Verisk
-- **Location**: Hattisar Sadak, Kamalpokhari, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Hattisar Sadak, Kamalpokhari, Kathmandu
+- **Coordinates**: Latitude 27.711727, Longitude 85.322013
 - **Company Size**: 500+ employees
 - **Founding Year**: 1971
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US insurance carriers, Reinsurance companies, Financial institutions, Energy companies
 - **Tech Stack**: Java, Python, SQL, Hadoop, Spark, R, Tableau, AWS, Azure
 - **Official Website**: https://www.verisk.com
-- **Careers Page**: undefined
+- **Careers Page**: https://fa-ewmy-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs
+- **LinkedIn**: https://www.linkedin.com/company/verisk
+- **Overview**: S&P 500 data analytics and risk intelligence company with a major Nepal engineering and analytics centre. The Nepal hub supports Verisk's insurance underwriting, catastrophe modelling, claims analytics, and financial services data platforms.
 
 ### Cedar Gate Technologies
-- **Location**: Shanti Bhawan Marg, Sanepa, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Shanti Bhawan Marg, Sanepa, Lalitpur
+- **Coordinates**: Latitude 27.68081, Longitude 85.305345
 - **Company Size**: 200+ employees
 - **Founding Year**: 2016
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US health plans, ACOs, Provider organisations, Risk-bearing entities
 - **Tech Stack**: Java, Python, React, SQL, AWS, Spark, PostgreSQL, FHIR, HL7
 - **Official Website**: https://www.cedargate.com
-- **Careers Page**: undefined
+- **Careers Page**: https://jobs.iqvia.com/en/jobs?businesses=CEDAR+GATE+TECHNOLOGIES&locations=Nepal
+- **LinkedIn**: https://www.linkedin.com/company/cedar-gate-technologies
+- **Overview**: US healthcare analytics platform company with a significant Nepal engineering presence. Builds value-based care analytics, population health management, and care coordination tools used by health plans, provider groups, and ACOs across the US.
 
-### Infinite (formerly Cotiviti Nepal)
-- **Location**: Amrit Bhawan, Hattisar, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+### Infinite Computer Solutions
+- **Location**: Amrit Bhawan, Hattisar, Kathmandu
+- **Coordinates**: Latitude 27.7122, Longitude 85.3218
 - **Company Size**: 300+ employees
 - **Founding Year**: 1999
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US health insurance payers, Healthcare providers, Health IT vendors
 - **Tech Stack**: Java, Python, SQL, Oracle, AWS, React, Hadoop, .NET
 - **Official Website**: https://www.infinite.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.infinite.com/careers/
+- **LinkedIn**: https://www.linkedin.com/company/infinite-computer-solutions
+- **Overview**: Formerly operated as Cotiviti Nepal, the Kathmandu centre continues as Infinite Computer Solutions, delivering healthcare data analytics, IT services, and business process management for US payers and providers.
 
 ### Maitri Services
-- **Location**: Bakhundole, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Bakhundole, Lalitpur
+- **Coordinates**: Latitude 27.6842, Longitude 85.3115
 - **Company Size**: 50–150 employees
 - **Founding Year**: 2015
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US health plans, Healthcare data companies, Health IT vendors
 - **Tech Stack**: Python, Java, SQL, React, AWS, PostgreSQL, FHIR
 - **Official Website**: https://maitriservices.com/
-- **Careers Page**: undefined
+- **Careers Page**: https://www.linkedin.com/company/maitri-services/jobs/
+- **LinkedIn**: https://www.linkedin.com/company/maitri-services
+- **Overview**: Nepal-based technology company delivering healthcare data engineering, analytics, and software development services for the US healthcare market. Operates as a dedicated development centre for US healthcare clients.
 
 ### Fusemachines
-- **Location**: Nava Srijana Marg, New Baneshwor, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Nava Srijana Marg, New Baneshwor, Kathmandu
+- **Coordinates**: Latitude 27.693331, Longitude 85.336479
 - **Company Size**: 200+ employees
 - **Founding Year**: 2013
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Fortune 500 enterprises, US healthcare companies, Financial services firms
 - **Tech Stack**: Python, TensorFlow, PyTorch, LLM, Machine Learning, FastAPI, React, AWS, GCP
 - **Official Website**: https://www.fusemachines.com
-- **Careers Page**: undefined
+- **Careers Page**: https://fusemachines.com/company/careers/
+- **LinkedIn**: https://www.linkedin.com/company/fusemachines
+- **Overview**: AI company delivering enterprise AI solutions and talent development. Runs the Fusemachines AI Fellowship and Microdegree programmes, with a large Nepal engineering and AI research presence.
 
 ### Ycotek
-- **Location**: Sanepa Marg, Sanepa, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Sanepa Marg, Sanepa, Lalitpur
+- **Coordinates**: Latitude 27.683594, Longitude 85.304341
 - **Company Size**: 200+ employees
 - **Founding Year**: 1996
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Nepal government agencies, INGOs and development organisations, Nepal enterprises, Offshore clients in US & Australia
 - **Tech Stack**: .NET, Java, Python, React, SQL Server, PostgreSQL, Azure, Power BI
 - **Official Website**: https://ycotek.com
-- **Careers Page**: undefined
+- **Careers Page**: https://ycotek.com/careers-at-yco/
+- **LinkedIn**: https://www.linkedin.com/company/ycotek
+- **Overview**: One of Nepal's longest-running software firms (est. 1996), formerly known as LIS Nepal and Yomari Computing. Now rebranded as Ycotek, delivering enterprise ERP, custom software, and offshore development services.
 
 ### Spiralogics
-- **Location**: Sankhamul Marg, New Baneshwor, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Sankhamul Marg, New Baneshwor, Kathmandu
+- **Coordinates**: Latitude 27.685361, Longitude 85.335008
 - **Company Size**: 100+ employees
 - **Founding Year**: 2011
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US healthcare providers, Health IT companies, US enterprises
 - **Tech Stack**: React, Angular, .NET, Node.js, Python, AWS, SQL Server, PostgreSQL
 - **Official Website**: https://spiralogics.com
-- **Careers Page**: undefined
+- **Careers Page**: https://career.spiralogics.com
+- **LinkedIn**: https://www.linkedin.com/company/spiralogics
+- **Overview**: US–Nepal software company building healthcare applications, custom software solutions, and cloud-native platforms. The Nepal team works as an integrated engineering centre for US healthcare and enterprise clients.
 
 ### Young Innovations (YIPL)
-- **Location**: Mahalaxmisthan Road, Kumaripati, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Mahalaxmisthan Road, Kumaripati, Lalitpur
+- **Coordinates**: Latitude 27.664518, Longitude 85.319936
 - **Company Size**: 30–60 employees
 - **Founding Year**: 2011
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: UN agencies, USAID, Government of Nepal, I/NGOs, World Bank
 - **Tech Stack**: Python, Django, React, PostgreSQL, OpenStreetMap, Docker, CKAN
 - **Official Website**: https://younginnovations.com.np
-- **Careers Page**: undefined
+- **Careers Page**: https://www.linkedin.com/company/younginnovations/jobs/
+- **LinkedIn**: https://www.linkedin.com/company/younginnovations
+- **Overview**: Leading Nepal civic-tech company building open-data platforms, e-government tools, and development-sector digital systems. Core contributors to OCHA's Humanitarian Data Exchange and digital governance initiatives across South Asia.
 
 ### Genese Solution
-- **Location**: Bakhundole, Lalitpur, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Bakhundole, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.684042, Longitude 85.312201
 - **Company Size**: 100+ employees
 - **Founding Year**: 2010
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Nepal enterprises, Banks and financial institutions, Government, International NGOs
 - **Tech Stack**: AWS, Terraform, Docker, Kubernetes, Python, Node.js, React, Ansible
 - **Official Website**: https://www.genesesolution.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.genesesolution.com/careers/
+- **LinkedIn**: https://www.linkedin.com/company/genese-solution
+- **Overview**: Nepal's leading AWS Advanced Consulting Partner, delivering cloud migration, DevOps automation, cloud-native application development, and managed cloud services to clients in Nepal and globally.
 
 ### InfoDevelopers
-- **Location**: Sanepa, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Sanepa, Lalitpur
+- **Coordinates**: Latitude 27.6855, Longitude 85.3082
 - **Company Size**: 200+ employees
 - **Founding Year**: 2007
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Nepal commercial banks, Development banks, Cooperatives, Microfinance institutions
 - **Tech Stack**: Java, Spring, .NET, Angular, React, Oracle, SQL Server, PostgreSQL
 - **Official Website**: https://infodev.com.np
-- **Careers Page**: undefined
+- **Careers Page**: https://infodev.com.np/careers
+- **LinkedIn**: https://www.linkedin.com/company/infodevelopers
+- **Overview**: Established Nepal IT company delivering core banking software, e-banking platforms, and enterprise applications for Nepal's financial sector. A major domestic supplier of fintech and banking technology.
 
 ### Hamro Patro
-- **Location**: Panna Hiti, Chabahil, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Panna Hiti, Chabahil, Kathmandu
+- **Coordinates**: Latitude 27.711892, Longitude 85.341927
 - **Company Size**: 50+ employees
 - **Founding Year**: 2010
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Nepali diaspora worldwide, Nepal consumers, Advertising partners
 - **Tech Stack**: Android, iOS, Flutter, React, Node.js, Firebase, GCP
 - **Official Website**: https://www.hamropatro.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.linkedin.com/company/hamropatro/jobs
+- **LinkedIn**: https://www.linkedin.com/company/hamropatro
+- **Overview**: Nepal's most-downloaded app (40M+ downloads) — the definitive Nepali calendar, news aggregator, and digital services platform. Engineering team in Kathmandu building mobile and web consumer products at scale.
 
 ### Khalti by IME
-- **Location**: Panipokhari, Kathmandu, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Panipokhari, Kathmandu, Nepal
+- **Coordinates**: Latitude 27.729252, Longitude 85.324746
 - **Company Size**: 100+ employees
 - **Founding Year**: 2017
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Nepal consumers, Merchants, Banks & financial institutions, Government agencies
 - **Tech Stack**: Python, Django, React, React Native, PostgreSQL, Redis, AWS
 - **Official Website**: https://khalti.com
-- **Careers Page**: undefined
+- **Careers Page**: https://khalti.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/khaltiofficial
+- **Overview**: Nepal's premier digital payment service provider, operating as Khalti by IME following the strategic merger. Headquartered in Panipokhari, Kathmandu, powering digital payments, micro-loans, and lifestyle services for millions.
 
 ### NAXA
-- **Location**: Gairigaun, Baneshwor, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Gairigaun, Baneshwor, Kathmandu
+- **Coordinates**: Latitude 27.693333, Longitude 85.347791
 - **Company Size**: 20–50 employees
 - **Founding Year**: 2014
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Government of Nepal, UN agencies, World Bank, I/NGOs, Humanitarian sector
 - **Tech Stack**: Python, Django, React, QGIS, GeoServer, PostGIS, OpenStreetMap, Leaflet
 - **Official Website**: https://www.naxa.com.np
-- **Careers Page**: undefined
+- **Careers Page**: https://www.naxa.com.np/career
+- **LinkedIn**: https://www.linkedin.com/company/naxanepal
+- **Overview**: Nepal's leading geospatial and civic-tech firm, building maps, GIS tools, and open-data platforms for government, UN agencies, and humanitarian organisations. A key contributor to OpenStreetMap Nepal.
 
 ### Geek Tech Solutions
-- **Location**: Balkumari, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Balkumari, Lalitpur
+- **Coordinates**: Latitude 27.671, Longitude 85.338
 - **Company Size**: 10–50 employees
 - **Founding Year**: 2018
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: SMEs in Nepal, International clients, E-commerce businesses
 - **Tech Stack**: React, Node.js, Flutter, Android, iOS, PHP, Laravel, MySQL
 - **Official Website**: https://www.thegtspl.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.thegtspl.com/career
+- **LinkedIn**: https://www.linkedin.com/company/geek-tech-solutions-pvt-ltd
+- **Overview**: Lalitpur studio building custom web, mobile, and desktop software for domestic and international business clients.
 
 ### Zunkiree Labs
-- **Location**: Naxal, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Naxal, Kathmandu
+- **Coordinates**: Latitude 27.718, Longitude 85.326
 - **Company Size**: 10–50 employees
 - **Founding Year**: 2022
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: AI-first startups, US tech companies
 - **Tech Stack**: Python, LLM, FastAPI, React, Docker, AWS, Machine Learning
 - **Official Website**: https://zunkireelabs.com
-- **Careers Page**: undefined
+- **Careers Page**: https://zunkireelabs.com/careers/
+- **LinkedIn**: https://www.linkedin.com/company/zunkireelabs
+- **Overview**: AI-native product studio hiring remotely from Nepal, building LLM-powered platforms for engineering, ML, design, and DevOps use cases.
 
 ### Dignep Group
-- **Location**: Kathmandu, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Kathmandu, Nepal
+- **Coordinates**: Latitude 27.714, Longitude 85.328
 - **Company Size**: 50–100 employees
 - **Founding Year**: 2004
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: European tech companies, Australian businesses, US startups
 - **Tech Stack**: React, Angular, .NET, Java, Python, AWS, Azure, PostgreSQL
 - **Official Website**: https://dignep.com.np
-- **Careers Page**: undefined
+- **Careers Page**: https://dignep.com.np/careers/
+- **LinkedIn**: https://www.linkedin.com/company/dignep-group
+- **Overview**: ISO-certified Nepal software company delivering dedicated development teams and product engineering services, with growing AI and automation capabilities.
 
 ### EB Pearls
-- **Location**: Kandevsthan, Kupondole, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Kandevsthan, Kupondole, Lalitpur
+- **Coordinates**: Latitude 27.6895, Longitude 85.3135
 - **Company Size**: 100+ employees
 - **Founding Year**: 2004
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Australian SMEs, Australian enterprise clients, Startups across APAC
 - **Tech Stack**: React, React Native, Swift, Kotlin, Node.js, Laravel, AWS, Flutter
 - **Official Website**: https://ebpearls.com.au
-- **Careers Page**: undefined
+- **Careers Page**: https://ebpearls.com.au/careers
+- **LinkedIn**: https://www.linkedin.com/company/ebpearls
+- **Overview**: Australian-founded product studio with a large Kathmandu engineering office, specialising in mobile apps (iOS/Android/React Native), web applications, and UI/UX design for Australian clients.
 
 ### Proshore
-- **Location**: Tinkune, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Tinkune, Kathmandu
+- **Coordinates**: Latitude 27.6865, Longitude 85.3485
 - **Company Size**: 80+ employees
 - **Founding Year**: 2012
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: European SaaS companies, Dutch e-commerce businesses, Nordic tech startups
 - **Tech Stack**: React, Angular, Vue, Node.js, PHP, Laravel, Python, AWS, Docker
 - **Official Website**: https://proshore.eu
-- **Careers Page**: undefined
+- **Careers Page**: https://proshore.homerun.co/?lang=en
+- **LinkedIn**: https://www.linkedin.com/company/proshore
+- **Overview**: Dutch–Nepal company that assembles ready-to-code product teams for European tech companies, specialising in nearshore team extension for SaaS and e-commerce clients.
 
 ### Tekvortex
-- **Location**: Shanta Bhawan Marg, Sanepa, Lalitpur, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Shanta Bhawan Marg, Sanepa, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.6812, Longitude 85.3055
 - **Company Size**: 10–50 employees
 - **Founding Year**: 2017
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Nepal SMEs, Startups, International clients
 - **Tech Stack**: React, Flutter, Node.js, Python, Firebase, AWS, MySQL
 - **Official Website**: https://tekvortex.com
-- **Careers Page**: undefined
+- **Careers Page**: https://tekvortex.com
+- **LinkedIn**: https://www.linkedin.com/company/tekvortex
+- **Overview**: Nepal software studio delivering custom web and mobile application development, UI/UX design, and digital transformation projects for domestic and international clients.
 
 ### Docsumo
-- **Location**: Sanepa, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Sanepa, Lalitpur
+- **Coordinates**: Latitude 27.6865, Longitude 85.3125
 - **Company Size**: 50–100 employees
 - **Founding Year**: 2019
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US financial services, Insurance companies, Mortgage lenders, Accounting firms
 - **Tech Stack**: Python, Machine Learning, LLM, FastAPI, React, AWS, PostgreSQL, AI
 - **Official Website**: https://www.docsumo.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.docsumo.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/docsumo
+- **Overview**: AI-powered Intelligent Document Processing (IDP) platform automating data extraction from unstructured documents (invoices, bank statements, forms) for financial services and insurance companies. Engineering team in Nepal.
 
 ### Niural
-- **Location**: Sanepa, Lalitpur, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Sanepa, Lalitpur
+- **Coordinates**: Latitude 27.6832, Longitude 85.309
 - **Company Size**: 50–100 employees
 - **Founding Year**: 2021
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US tech companies, Global remote-first companies, HR and payroll service providers
 - **Tech Stack**: Python, AI, React, Node.js, TypeScript, PostgreSQL, AWS, Machine Learning
 - **Official Website**: https://www.niural.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.niural.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/niural
+- **Overview**: AI-powered global payroll and workforce management platform built by Nepali founders. Automates international payroll, contractor payments, and HR compliance for companies hiring globally. Engineering hub in Kathmandu.
 
 ### Bajra Technologies
-- **Location**: Gurju Marg, Dillibazar, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Gurju Marg, Dillibazar, Kathmandu
+- **Coordinates**: Latitude 27.706836, Longitude 85.325384
 - **Company Size**: 200+ employees
 - **Founding Year**: 2011
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Silicon Valley startups, US enterprise clients, North American digital platforms
 - **Tech Stack**: React, React Native, Node.js, Python, Java, AWS, Flutter, TypeScript, PostgreSQL, Docker
 - **Official Website**: https://bajratechnologies.com
-- **Careers Page**: undefined
+- **Careers Page**: https://bajratechnologies.com/jobs
+- **LinkedIn**: https://www.linkedin.com/company/bajra-technologies
+- **Overview**: Bajra Technologies is a premier software engineering firm with 200+ engineers building high-scale web platforms, mobile apps, and cloud architectures for Silicon Valley startups and global enterprises.
 
 ### Deerhold
-- **Location**: Jaya Bagheshwori Marg, Sifal, Kathmandu, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Jaya Bagheshwori Marg, Sifal, Kathmandu
+- **Coordinates**: Latitude 27.7121, Longitude 85.3416
 - **Company Size**: 300+ employees
 - **Founding Year**: 2020
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US healthcare networks, Health insurance companies, Enterprise SaaS
 - **Tech Stack**: Java, Python, AWS, React, Angular, Snowflake, Docker, PostgreSQL
 - **Official Website**: https://deerhold.com
-- **Careers Page**: undefined
+- **Careers Page**: https://deerhold.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/deerhold
+- **Overview**: Founded by the pioneers behind Deerwalk, Deerhold delivers bespoke digital transformation, healthcare analytics, and cloud engineering for North American healthcare networks from its tech hub in Sifal.
 
 ### GrowByData
-- **Location**: Sanepa, Lalitpur, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Sanepa, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.6845, Longitude 85.3066
 - **Company Size**: 150+ employees
 - **Founding Year**: 2014
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Fortune 500 retailers, Global advertising agencies, US eCommerce brands
 - **Tech Stack**: Python, Big Data, Machine Learning, AWS, React, Elasticsearch, PostgreSQL
 - **Official Website**: https://growbydata.com
-- **Careers Page**: undefined
+- **Careers Page**: https://growbydata.com/career-overview/
+- **LinkedIn**: https://www.linkedin.com/company/growbydata
+- **Overview**: GrowByData empowers global eCommerce brands and retailers with real-time marketing intelligence, competitive price monitoring, and search visibility data from its delivery center in Bakhundole.
 
 ### Yarsa Tech & Labs
-- **Location**: Tal Chowk, Pokhara (also Kathmandu), Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Tal Chowk, Pokhara (also Kathmandu)
+- **Coordinates**: Latitude 28.160315, Longitude 84.057005
 - **Company Size**: 100+ employees
 - **Founding Year**: 2016
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Consumer electronics buyers, Smart home devices, Global hardware distributors
 - **Tech Stack**: C++, Embedded C, IoT, Python, React, Node.js, PCB Design, Firmware
 - **Official Website**: https://www.yarsalabs.com
-- **Careers Page**: undefined
+- **Careers Page**: https://www.yarsalabs.com/careers/
+- **LinkedIn**: https://www.linkedin.com/company/yarsalabs/
+- **Overview**: Yarsa Tech is a pioneer in hardware innovation, consumer IoT products, and software engineering in Nepal, building connected devices and consumer apps alongside Yarsa Labs.
 
 ### Techkraft Inc.
-- **Location**: Chakupat, Lalitpur, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Chakupat, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.6785, Longitude 85.3235
 - **Company Size**: 100+ employees
 - **Founding Year**: 2017
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US enterprise clients, North American financial tech, Global SaaS companies
 - **Tech Stack**: React, Node.js, Python, Java, AWS, Docker, Kubernetes, TypeScript, PostgreSQL
 - **Official Website**: https://techkraftinc.com/
-- **Careers Page**: undefined
+- **Careers Page**: https://careers.techkraftinc.com/jobs/Careers
+- **LinkedIn**: https://www.linkedin.com/company/techkraft-inc/
+- **Overview**: Techkraft Inc. is a global technology services firm delivering modern cloud-native architectures, digital transformation, and scalable software solutions for US enterprises and fintech leaders.
 
 ### Asterdio
-- **Location**: Kamalpokhari, Kathmandu, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Kamalpokhari, Kathmandu, Nepal
+- **Coordinates**: Latitude 27.7082, Longitude 85.323
 - **Company Size**: 50–100 employees
 - **Founding Year**: 2015
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US healthtech startups, North American SaaS companies, Global digital platforms
 - **Tech Stack**: React, Node.js, Python, Flutter, AWS, Docker, PostgreSQL
 - **Official Website**: https://asterdio.com
-- **Careers Page**: undefined
+- **Careers Page**: https://asterdio.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/asterdio
+- **Overview**: Asterdio designs and develops high-impact digital products, mobile applications, and AI integrations for North American and European healthcare, legaltech, and SaaS startups.
 
 ### Devfinity
-- **Location**: New Baneshwor, Kathmandu, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: New Baneshwor, Kathmandu, Nepal
+- **Coordinates**: Latitude 27.6915, Longitude 85.334
 - **Company Size**: 100–250 employees
 - **Founding Year**: 2018
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: US enterprise companies, North American fintechs, Healthcare & logistics platforms
 - **Tech Stack**: React, Node.js, .NET, Python, Angular, Flutter, AWS, Azure, PostgreSQL
 - **Official Website**: https://devfinity.com
-- **Careers Page**: undefined
+- **Careers Page**: https://devfinity.com/careers/
+- **LinkedIn**: https://www.linkedin.com/company/devfinity/
+- **Overview**: Devfinity operates a major engineering and development hub in Kathmandu, delivering full-stack software development, cloud infrastructure, and UI/UX design to enterprise clients across North America.
 
 ### Delta Tech (Delta Sales App)
-- **Location**: Tinpaini, Biratnagar-2, Morang, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Tinpaini, Biratnagar-2, Morang, Nepal
+- **Coordinates**: Latitude 26.4633, Longitude 87.2798
 - **Company Size**: 50–150 employees
 - **Founding Year**: 2016
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: FMCG manufacturers, Wholesale distributors, Retail brands in South Asia
 - **Tech Stack**: Flutter, React Native, React, Node.js, PHP, Laravel, MySQL, AWS, PostgreSQL
 - **Official Website**: https://deltatechnepal.com
-- **Careers Page**: undefined
+- **Careers Page**: https://deltatechnepal.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/delta-tech-nepal/
+- **Overview**: Headquartered in Biratnagar, Delta Tech is the creator of Delta Sales App, Delta Retailer, and Delta Inventory CRM, providing field sales automation and supply chain tech used across Nepal, India, and Southeast Asia.
 
 ### Tuna Technology
-- **Location**: Yogikuti-3, Butwal, Rupandehi, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Yogikuti-3, Butwal, Rupandehi, Nepal
+- **Coordinates**: Latitude 27.6865, Longitude 83.4663
 - **Company Size**: 20–50 employees
 - **Founding Year**: 2018
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Hospitality & hotel chains, Dairy and agricultural enterprises, Commercial businesses in Western Nepal
 - **Tech Stack**: Python, Django, React, Flutter, PHP, Laravel, MySQL, Docker
 - **Official Website**: https://tunatechnology.com
-- **Careers Page**: undefined
+- **Careers Page**: https://tunatechnology.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/tuna-technology
+- **Overview**: Based in Butwal with a presence in Kathmandu Valley, Tuna Technology builds enterprise ERP solutions, Dairy ERP, and Hotel Management Software (HMS), alongside custom web and mobile applications.
 
 ### Nepsavvy I.T. Solutions
-- **Location**: Lion's Chowk, Narayangarh, Chitwan, Nepal, Nepal
-- **Coordinates**: Latitude undefined, Longitude undefined
+- **Location**: Lion's Chowk, Narayangarh, Chitwan, Nepal
+- **Coordinates**: Latitude 27.6974, Longitude 84.4239
 - **Company Size**: 20–50 employees
 - **Founding Year**: 2019
-- **Client Base / Focus**: Global / US / Europe
+- **Client Base / Focus**: Tourism and healthcare providers in Chitwan, E-commerce businesses, SMEs across Central Nepal
 - **Tech Stack**: React, Node.js, PHP, Laravel, Flutter, Python, MySQL, AWS
 - **Official Website**: https://nepsavvy.com
-- **Careers Page**: undefined
+- **Careers Page**: https://nepsavvy.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/nepsavvy
+- **Overview**: Based in Bharatpur/Narayangarh (Chitwan), Nepsavvy delivers high-performance web systems, custom mobile apps, and cloud-based software solutions for regional and international businesses.
+
+### Veel
+- **Location**: Kathmandu, Nepal
+- **Coordinates**: Latitude 27.7172, Longitude 85.314
+- **Company Size**: 51–200 employees
+- **Founding Year**: 2021
+- **Client Base / Focus**: Global brands, D2C e-commerce companies, Marketing agencies
+- **Tech Stack**: React, Next.js, Node.js, TypeScript, GraphQL, PostgreSQL, AWS
+- **Official Website**: https://veelapp.com
+- **Careers Page**: https://veelapp.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/veelapp/
+- **Overview**: Veel is a creator and influencer marketing platform built in Kathmandu, helping brands discover, collaborate with, and manage influencer campaigns at scale. The engineering and product teams are Nepal-based, building a global-facing SaaS product.
+
+### Zakipoint Health
+- **Location**: Sanepa, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.6852, Longitude 85.3085
+- **Company Size**: 51–200 employees
+- **Founding Year**: 2014
+- **Client Base / Focus**: US self-funded employers, Third Party Administrators (TPAs), Health plans and brokers
+- **Tech Stack**: React, Node.js, Python, TypeScript, AWS, PostgreSQL, Docker, Figma
+- **Official Website**: https://www.zakipointhealth.com
+- **Careers Page**: https://www.zakipointhealth.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/zakipointhealth
+- **Overview**: Zakipoint Health is an AI-powered healthcare analytics and member engagement platform bringing transparency, direction, and cost containment to self-funded employers, TPAs, and brokers to guide members to higher quality care.
 
 ## 5. Frequently Asked Questions (FAQ) for AI Answer Engines
 
