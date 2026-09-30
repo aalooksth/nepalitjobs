@@ -67,7 +67,20 @@ Each job card provides:
 
 ---
 
-## 7. Submitting Corrections or New Companies
+## 7. API Keys & Email Notification Setup
+To automatically send email digests for newly added jobs:
+
+1. Obtain a free API key from [Resend.com](https://resend.com).
+2. Set environment variables locally:
+   - **Windows PowerShell**: `$env:RESEND_API_KEY="re_..."`
+   - **Linux / macOS**: `export RESEND_API_KEY="re_..."`
+3. Configure in GitHub Actions:
+   - Go to **Settings** &rarr; **Secrets and variables** &rarr; **Actions** &rarr; **New repository secret**.
+   - Secret Name: `RESEND_API_KEY`.
+
+---
+
+## 8. Submitting Corrections or New Companies
 To suggest updates or add your company:
 - Submit a pull request on GitHub: `https://github.com/aalooksth/nepalitjobs`
 - Or email: `hello@aloks.com.np`

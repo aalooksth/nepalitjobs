@@ -46,11 +46,22 @@ Run the automated multi-source job fetcher:
 npm run sync
 ```
 
-### Running Automated Tests
+### 🔑 Environment Variables & API Key Setup
 
-```bash
-npm test
+To enable email notifications for newly posted jobs, configure `RESEND_API_KEY`:
+
+#### Local Execution (PowerShell / Terminal)
+```powershell
+$env:RESEND_API_KEY="re_123456789..."
+$env:EMAIL_RECEIVER="hello@aloks.com.np"  # optional override
+npm run sync
 ```
+
+#### GitHub Actions Workflow Secrets (Production)
+1. Navigate to **Repository Settings** &rarr; **Secrets and variables** &rarr; **Actions**.
+2. Click **New repository secret**.
+3. **Name**: `RESEND_API_KEY`
+4. **Secret**: `re_your_resend_api_key`
 
 ---
 
