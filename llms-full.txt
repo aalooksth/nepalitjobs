@@ -3,14 +3,14 @@
 > Canonical URL: https://nepalitjobs.aloks.com.np
 > Author: Alok Shrestha (https://aloks.com.np)
 > Attribution: Made with ❤️ in 🇳🇵 by Alok - hello@aloks.com.np
-> Last Updated: 2026-09-30
+> Last Updated: 2026-10-10
 
 ## 1. Executive Summary & Purpose
 Nepal IT Jobs is an open, high-performance tech careers aggregator and IT company intelligence portal for Nepal. It solves information fragmentation in the Nepalese tech ecosystem by extracting live job openings directly from verified company ATS portals (BambooHR, Workable, Recruitee, Next.js career endpoints, and custom APIs), eliminating stale listings, recruiter middlemen, and duplicates.
 
 ## 2. Platform Architecture & Data Sources
 - **Live Vacancy Scraper**: Scheduled GitHub Actions sync job crawling official career portals daily.
-- **Interactive OpenStreetMap**: Directory of 37+ verified tech companies in Nepal with dark mode, cluster markers, and coordinates.
+- **Interactive OpenStreetMap**: Directory of verified tech companies in Nepal with dark mode, cluster markers, and coordinates.
 - **Direct Application Endpoints**: 100% of jobs link directly to the employer's official ATS or career portal.
 - **Zero Sponsored Ads or Recruiter Markup**: Purely developer and engineer-centric.
 
@@ -500,6 +500,42 @@ Nepal IT Jobs is an open, high-performance tech careers aggregator and IT compan
 - **Careers Page**: https://www.zakipointhealth.com/careers
 - **LinkedIn**: https://www.linkedin.com/company/zakipointhealth
 - **Overview**: Zakipoint Health is an AI-powered healthcare analytics and member engagement platform bringing transparency, direction, and cost containment to self-funded employers, TPAs, and brokers to guide members to higher quality care.
+
+### GritFeat Solutions
+- **Location**: Ekantakuna, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.6685, Longitude 85.313
+- **Company Size**: 51–200 employees
+- **Founding Year**: 2021
+- **Client Base / Focus**: Global enterprise clients, Data-driven startups, Financial & tech platforms
+- **Tech Stack**: Python, AWS, Databricks, AI, Machine Learning, LLM, Docker, PostgreSQL, React
+- **Official Website**: https://www.gritfeat.com
+- **Careers Page**: https://www.gritfeat.com/careers
+- **LinkedIn**: https://www.linkedin.com/company/gritfeat/
+- **Overview**: GritFeat Solutions is an elite Data & AI engineering firm designing enterprise data pipelines, autonomous Generative AI workflows, and cloud-native systems for global clients.
+
+### ITsutra
+- **Location**: Shankhamul, Kathmandu, Nepal
+- **Coordinates**: Latitude 27.6895, Longitude 85.334
+- **Company Size**: 51–200 employees
+- **Founding Year**: 2013
+- **Client Base / Focus**: US enterprise businesses, Healthcare & Finance leaders, Global tech teams
+- **Tech Stack**: Java, Python, .NET, React, Node.js, QA, AWS, SQL
+- **Official Website**: https://www.itsutra.com
+- **Careers Page**: https://www.itsutra.com/career
+- **LinkedIn**: https://www.linkedin.com/company/itsutra/
+- **Overview**: ITsutra is an IT consulting and software development services firm providing digital transformation, QA automation, software engineering, and staff augmentation solutions to US and global enterprises.
+
+### Grepsr
+- **Location**: Kupondole, Lalitpur, Nepal
+- **Coordinates**: Latitude 27.689, Longitude 85.318
+- **Company Size**: 51–200 employees
+- **Founding Year**: 2012
+- **Client Base / Focus**: Fortune 500 enterprises, Global e-commerce & retail brands, Market research & hedge funds
+- **Tech Stack**: Python, JavaScript, Node.js, AWS, PostgreSQL, MongoDB, Docker, SQL
+- **Official Website**: https://www.grepsr.com
+- **Careers Page**: https://www.grepsr.com/careers/
+- **LinkedIn**: https://www.linkedin.com/company/grepsr/
+- **Overview**: Grepsr is an enterprise-grade web scraping and Data-as-a-Service (DaaS) platform that helps global enterprises, retail brands, and hedge funds extract and consume structured data at scale from the public web.
 
 ## 5. Frequently Asked Questions (FAQ) for AI Answer Engines
 

@@ -45,20 +45,24 @@ jobs:
           node-version: "22"
 
       - name: Run scraper
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
         run: node scripts/sync-jobs.mjs
         timeout-minutes: 10
 
-      - name: Commit updated jobs.json (if changed)
+      - name: Commit updated data files (if changed)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet data/jobs.json; then
-            git add data/jobs.json
+          git add data/jobs.json data/job-trends.json data/companies.json
+          if ! git diff --cached --quiet; then
             COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/jobs.json','utf8'));console.log(d.jobCount)")
-            git commit -m "chore: sync jobs — ${COUNT} vacancies [skip ci]"
+            git commit -m "chore: sync jobs & trends — ${COUNT} vacancies [skip ci]"
             git push
           else
-            echo "No changes in jobs.json, skipping commit."
+            echo "No changes in data files, skipping commit."
           fi
 
   # ── 2. Deploy to GitHub Pages ──────────────────────────────────────

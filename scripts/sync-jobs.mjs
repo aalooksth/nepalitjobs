@@ -1141,7 +1141,7 @@ async function zohoRecruit(company) {
         applyUrl: jobUrl,
         careersUrl: company.careersUrl,
         applyEmail: company.applyEmail,
-        applyHow: `Apply on the Techkraft careers portal: ${jobUrl}`,
+        applyHow: `Apply on the ${company.name} careers portal: ${jobUrl}`,
         source: "Zoho Recruit",
       });
     });

@@ -1,17 +1,8 @@
 {
-  "generatedAt": "2026-10-10T11:45:39.353Z",
-  "jobCount": 84,
-  "companyCount": 39,
-  "errors": [
-    {
-      "company": "guardsix",
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON"
-    },
-    {
-      "company": "proshore",
-      "error": "404 https://feed.homerun.co/proshore"
-    }
-  ],
+  "generatedAt": "2026-10-10T15:12:27.031Z",
+  "jobCount": 86,
+  "companyCount": 42,
+  "errors": [],
   "jobs": [
     {
       "id": "verisk-4945",
@@ -2624,6 +2615,64 @@
       "descriptionHtml": "   <div id=\"hs_cos_wrapper_widget_1720536692160_\" class=\"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_inline_rich_text\" style=\"\" data-hs-cos-general-type=\"widget\" data-hs-cos-type=\"inline_rich_text\" data-hs-cos-field=\"short_description\"><p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\">At <strong>zakipoint Health</strong>, we are dedicated to <strong>transforming healthcare through innovative solutions</strong> and a passionate team. We believe in building cutting-edge technology that makes a real difference in the <strong>U.S. healthcare industry</strong>. Explore exciting career opportunities with us and contribute to making a <strong>meaningful impact in healthcare</strong>.</span></p>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\">Whether you are an experienced professional or just starting your career, we offer a <strong>collaborative environment</strong> where your skills and ideas can thrive. <strong>Apply today and be a part of our mission to revolutionize healthcare!</strong></span></p>\n<h3 style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><strong>Job Description</strong></span></h3>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\">We are looking for a talented <strong>UI/UX Designer</strong> with <strong>at least 5 years of experience</strong> to join our team and create <strong>intuitive, engaging, and impactful healthcare solutions</strong>.</span></p>\n<h3 style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><strong>What We Are Looking For:</strong></span></h3>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\">We seek a professional with a strong design background who can contribute to our mission with creativity and user-centered thinking.</span></p>\n<h3 style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><strong>Mindset:<br><br></strong></span></h3>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>Ambitious</strong> – Strives for excellence and continuous improvement.</span><br><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>Competitive</strong> – Pushes creative boundaries to build standout user experiences.</span><br><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>High Energy &amp; Enthusiastic</strong> – Brings passion and excitement to the team.</span><br><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>Creative</strong> – Thinks outside the box to craft visually stunning and intuitive designs.</span><br><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>Entrepreneurial</strong> – Takes ownership and drives initiatives forward.</span><br><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>Invested in Self-Learning &amp; Growth</strong> – Constantly evolving and refining skills.</span><br><span style=\"color: #ffffff;\"><span>➡️</span>&nbsp;<strong>Curious</strong> – Eager to explore new trends, tools, and technologies in design.</span></p>\n<h3 style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><strong>Responsibilities:</strong></span></h3>\n<span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Design Excellence</strong> – Create wireframes, prototypes, and high-fidelity designs for web and mobile healthcare applications.</span><br><span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Cross-Team Collaboration</strong> – Work closely with marketing, product, and development teams to deliver user-centric solutions.</span><br><span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Creative Strategy</strong> – Develop and execute UI/UX strategies aligned with business goals.</span><br><span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Industry Awareness</strong> – Stay updated with design trends, emerging technologies, and best practices.</span><br><span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Implementation Support</strong> – Partner with developers to ensure accurate execution of design concepts.</span><br><span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Presentation &amp; Feedback</strong> – Pitch and refine designs based on stakeholder input.</span><br><span style=\"color: #ffffff; font-size: 20px;\"><strong><span>➡️ </span>Design System Development</strong> – Maintain a consistent design system and UI components.</span><br><br>\n<h3 style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><strong>Required Skills &amp; Qualifications:<br><br></strong></span></h3>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\"><span>➡️</span> <strong>Bachelor’s or Master’s degree</strong> in Design, Marketing, or a related field.<br><strong><span>➡️ </span>5+ years of experience</strong> in UI/UX design, branding, and digital product design.<br><span>➡️</span> Strong portfolio showcasing expertise in UI/UX, branding, and healthcare application design (preferred).<br><span>➡️</span> Proficiency in <strong>Figma, Sketch, and Adobe Creative Suite</strong> (Photoshop, Illustrator, InDesign, etc.).<br><span>➡️</span> Strong understanding of <strong>storytelling, typography, and user experience design principles</strong>.<br><span>➡️</span> Experience working in <strong>healthcare or regulated industries</strong> (preferred but not required).<br><span>➡️</span> Ability to work under pressure and meet deadlines in a fast-paced environment.</span></p>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\">📍 <strong>Location:</strong> Sanepa, Lalitpur, Nepal</span><br><span style=\"color: #ffffff;\">📅 <strong>Join Us &amp; Make an Impact in Healthcare Technology!</strong></span></p>\n<p style=\"font-size: 20px;\"><span style=\"color: #ffffff;\">Interested? Apply now!</span></p>\n<p style=\"font-size: 20px;\"><span style=\"color: #000000;\">&nbsp;</span></p></div></div>\n        ",
       "requirementsHtml": "",
       "source": "Zakipoint careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "grepsr-732393000001441323",
+      "companyId": "grepsr",
+      "company": "Grepsr",
+      "title": "Drop Your CV",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Kathmandu, Nepal",
+      "postedAt": null,
+      "deadline": null,
+      "applyUrl": "https://grepsr.zohorecruit.com/jobs/Careers/732393000001441323",
+      "careersUrl": "https://www.grepsr.com/careers/",
+      "applyEmail": null,
+      "applyHow": "Apply on the Grepsr careers portal: https://grepsr.zohorecruit.com/jobs/Careers/732393000001441323",
+      "summary": "",
+      "descriptionHtml": "",
+      "requirementsHtml": "",
+      "source": "Zoho Recruit",
+      "listingKind": "talent-pool"
+    },
+    {
+      "id": "grepsr-732393000007346005",
+      "companyId": "grepsr",
+      "company": "Grepsr",
+      "title": "Sales Representative",
+      "department": "Sales / BD",
+      "domain": "Sales / BD",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Kathmandu, Nepal",
+      "postedAt": null,
+      "deadline": null,
+      "applyUrl": "https://grepsr.zohorecruit.com/jobs/Careers/732393000007346005",
+      "careersUrl": "https://www.grepsr.com/careers/",
+      "applyEmail": null,
+      "applyHow": "Apply on the Grepsr careers portal: https://grepsr.zohorecruit.com/jobs/Careers/732393000007346005",
+      "summary": "",
+      "descriptionHtml": "",
+      "requirementsHtml": "",
+      "source": "Zoho Recruit",
       "listingKind": "vacancy"
     }
   ]

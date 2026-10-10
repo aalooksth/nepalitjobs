@@ -1532,5 +1532,125 @@
       "kind": "zakipoint",
       "url": "https://www.zakipointhealth.com/careers"
     }
+  },
+  {
+    "id": "gritfeat",
+    "name": "GritFeat Solutions",
+    "website": "https://www.gritfeat.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.gritfeat.com",
+    "careersUrl": "https://www.gritfeat.com/careers",
+    "displayCareersUrl": "https://www.gritfeat.com/careers",
+    "linkedinUrl": "https://www.linkedin.com/company/gritfeat/",
+    "applyEmail": null,
+    "location": "Ekantakuna, Lalitpur, Nepal",
+    "hq": "Ekantakuna, Lalitpur, Nepal",
+    "size": "51–200",
+    "employeeRange": "51-200",
+    "founded": 2021,
+    "industry": "Data Engineering · AI & ML · Cloud Systems",
+    "type": "Services",
+    "about": "GritFeat Solutions is an elite Data & AI engineering firm designing enterprise data pipelines, autonomous Generative AI workflows, and cloud-native systems for global clients.",
+    "techStack": [
+      "Python",
+      "AWS",
+      "Databricks",
+      "AI",
+      "Machine Learning",
+      "LLM",
+      "Docker",
+      "PostgreSQL",
+      "React"
+    ],
+    "clientTypes": [
+      "Global enterprise clients",
+      "Data-driven startups",
+      "Financial & tech platforms"
+    ],
+    "coordinates": [27.6685, 85.313],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    }
+  },
+  {
+    "id": "itsutra",
+    "name": "ITsutra",
+    "website": "https://www.itsutra.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.itsutra.com",
+    "careersUrl": "https://www.itsutra.com/career",
+    "displayCareersUrl": "https://www.itsutra.com/career",
+    "linkedinUrl": "https://www.linkedin.com/company/itsutra/",
+    "applyEmail": "careers@itsutra.com",
+    "location": "Shankhamul, Kathmandu, Nepal",
+    "hq": "Kathmandu, Nepal · Irving, TX, USA",
+    "size": "51–200",
+    "employeeRange": "51-200",
+    "founded": 2013,
+    "industry": "IT Consulting · Custom Software Development · QA Automation",
+    "type": "Services",
+    "about": "ITsutra is an IT consulting and software development services firm providing digital transformation, QA automation, software engineering, and staff augmentation solutions to US and global enterprises.",
+    "techStack": [
+      "Java",
+      "Python",
+      ".NET",
+      "React",
+      "Node.js",
+      "QA",
+      "AWS",
+      "SQL"
+    ],
+    "clientTypes": [
+      "US enterprise businesses",
+      "Healthcare & Finance leaders",
+      "Global tech teams"
+    ],
+    "coordinates": [27.6895, 85.334],
+    "directoryOnly": true,
+    "forceNepal": true,
+    "source": {
+      "kind": "none"
+    }
+  },
+  {
+    "id": "grepsr",
+    "name": "Grepsr",
+    "website": "https://www.grepsr.com",
+    "logoUrl": "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.grepsr.com",
+    "careersUrl": "https://www.grepsr.com/careers/",
+    "displayCareersUrl": "https://grepsr.zohorecruit.com/jobs/Careers/",
+    "linkedinUrl": "https://www.linkedin.com/company/grepsr/",
+    "applyEmail": null,
+    "location": "Kupondole, Lalitpur, Nepal",
+    "hq": "Kupondole, Lalitpur, Nepal",
+    "size": "51–200",
+    "employeeRange": "51-200",
+    "founded": 2012,
+    "industry": "Web Scraping · Data as a Service (DaaS) · Big Data",
+    "type": "Product",
+    "about": "Grepsr is an enterprise-grade web scraping and Data-as-a-Service (DaaS) platform that helps global enterprises, retail brands, and hedge funds extract and consume structured data at scale from the public web.",
+    "techStack": [
+      "Python",
+      "JavaScript",
+      "Node.js",
+      "AWS",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "SQL"
+    ],
+    "clientTypes": [
+      "Fortune 500 enterprises",
+      "Global e-commerce & retail brands",
+      "Market research & hedge funds"
+    ],
+    "coordinates": [27.689, 85.318],
+    "forceNepal": true,
+    "tested": true,
+    "source": {
+      "kind": "zoho-recruit",
+      "url": "https://grepsr.zohorecruit.com/jobs/Careers/"
+    }
   }
 ]
+
