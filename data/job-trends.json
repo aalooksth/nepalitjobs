@@ -3258,5 +3258,73 @@
       "On-site": 67,
       "Hybrid": 8
     }
+  },
+  {
+    "date": "2026-10-26",
+    "totalJobs": 80,
+    "companyCount": 42,
+    "bySeniority": {
+      "Mid": 49,
+      "Intern / Trainee": 6,
+      "Manager": 7,
+      "Senior": 15,
+      "Staff / Principal": 1,
+      "Architect / Leadership": 2
+    },
+    "byDomain": {
+      "Full Stack": 7,
+      "Design": 10,
+      "Engineering": 21,
+      "Finance": 2,
+      "DevOps / Platform": 3,
+      "Digital": 2,
+      "Operations": 1,
+      "QA / Testing": 4,
+      "Delivery / PM": 1,
+      "49003793976": 1,
+      "Security": 1,
+      "Engineering Manager": 1,
+      "Technology": 1,
+      "Development": 1,
+      "AI / Machine Learning": 3,
+      "People / HR": 2,
+      "Product": 1,
+      "Backend": 4,
+      "Sales / BD": 5,
+      "Data": 3,
+      "Frontend": 3,
+      "Mobile": 2,
+      "Support": 1
+    },
+    "byCompany": {
+      "Cedar Gate Technologies": 10,
+      "Hybrid News Limited": 6,
+      "Infinite Computer Solutions": 1,
+      "Verisk": 1,
+      "CloudFactory": 2,
+      "Maitri Services": 2,
+      "Fusemachines": 3,
+      "Leapfrog Technology": 5,
+      "F1Soft Group": 15,
+      "Ycotek": 2,
+      "Geek Tech Solutions": 3,
+      "Zunkiree Labs": 4,
+      "Dignep Group": 1,
+      "EB Pearls": 2,
+      "Deerhold": 1,
+      "GrowByData": 10,
+      "Yarsa Tech & Labs": 2,
+      "Techkraft Inc.": 2,
+      "Veel": 6,
+      "Grepsr": 2
+    },
+    "byLocation": {
+      "Kathmandu, Nepal": 46,
+      "Lalitpur, Nepal": 34
+    },
+    "byWorkType": {
+      "On-site": 73,
+      "Hybrid": 7
+    }
   }
 ]
