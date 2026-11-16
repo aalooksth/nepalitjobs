@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T13:18:39.813Z",
-  "jobCount": 86,
+  "generatedAt": "2026-11-16T14:32:35.677Z",
+  "jobCount": 95,
   "companyCount": 42,
   "errors": [
     {
@@ -349,35 +349,6 @@
       "listingKind": "vacancy"
     },
     {
-      "id": "niural-marketing-web-developer",
-      "companyId": "niural",
-      "company": "Niural",
-      "title": "Marketing Web Developer",
-      "department": "Engineering",
-      "domain": "Engineering",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": "2026-11-10",
-      "deadline": null,
-      "applyUrl": "https://np.linkedin.com/jobs/view/marketing-web-developer-at-niural-ai-4489446203",
-      "careersUrl": "https://www.niural.com/careers",
-      "applyEmail": "team@niural.com",
-      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/marketing-web-developer-at-niural-ai-4489446203",
-      "summary": "Marketing Web Developer at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
-      "descriptionHtml": "Marketing Web Developer at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
-      "requirementsHtml": "",
-      "source": "LinkedIn",
-      "listingKind": "vacancy"
-    },
-    {
       "id": "niural-software-engineer-ii-frontend",
       "companyId": "niural",
       "company": "Niural",
@@ -431,6 +402,35 @@
       "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/benefits-operation-specialist-at-niural-ai-4489440410",
       "summary": "Benefits Operation Specialist at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
       "descriptionHtml": "Benefits Operation Specialist at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
+      "requirementsHtml": "",
+      "source": "LinkedIn",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "niural-senior-software-engineer-i-frontend",
+      "companyId": "niural",
+      "company": "Niural",
+      "title": "Senior Software Engineer I - Frontend",
+      "department": "Frontend",
+      "domain": "Frontend",
+      "seniority": "Senior",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": "2026-11-10",
+      "deadline": null,
+      "applyUrl": "https://np.linkedin.com/jobs/view/senior-software-engineer-i-frontend-at-niural-ai-4489438460",
+      "careersUrl": "https://www.niural.com/careers",
+      "applyEmail": "team@niural.com",
+      "applyHow": "Apply on LinkedIn: https://np.linkedin.com/jobs/view/senior-software-engineer-i-frontend-at-niural-ai-4489438460",
+      "summary": "Senior Software Engineer I - Frontend at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
+      "descriptionHtml": "Senior Software Engineer I - Frontend at Niural (Lalitpur, Nepal). View and apply directly on LinkedIn.",
       "requirementsHtml": "",
       "source": "LinkedIn",
       "listingKind": "vacancy"
@@ -1253,6 +1253,435 @@
       "listingKind": "talent-pool"
     },
     {
+      "id": "f1soft-senior-officer-airlines-business",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Senior Officer - Airlines Business",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Senior",
+      "experience": {
+        "min": 4,
+        "max": null,
+        "label": "4+ years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/senior-officer-airlines-business",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Senior Officer - Airlines Business - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partn",
+      "descriptionHtml": "Senior Officer - Airlines Business - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Senior Officer - Airlines Business Pulchowk, lalitpur Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Senior Level Business Development Apply Now The Senior Officer &ndash; Airlines Business will be responsible for managing airline partnerships, driving revenue growth, enhancing operational efficiency, and coordinating with internal and external stakeholders to strengthen eSewa&#39;s airline business. The role requires strong relationship management, commercial acumen, and operational coordination to ensure smooth airline integrations, campaigns, and business expansion. Qualification and Experience Bachelor&#39;s Degree in Business Administration, Marketing, Management, Tourism, Aviation, or a related field. (Master&#39;s Degree is preferred.) 4+ years of experience in airline business, online travel agencies (OTA), travel management, aviation, business deve",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-marketing-assistant-nepalgunj",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Marketing Assistant - Nepalgunj",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": 1,
+        "max": null,
+        "label": "1+ years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/marketing-assistant-nepalgunj",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Marketing Assistant - Nepalgunj - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partners",
+      "descriptionHtml": "Marketing Assistant - Nepalgunj - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Marketing Assistant - Nepalgunj Nepalgunj, Nepal Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Entry Level Business Development Apply Now The Marketing Assistant will support the execution of eSewa&#39;s marketing initiatives to strengthen brand visibility, enhance customer engagement, and support business growth in the assigned region. This role focuses on assisting with promotional campaigns, coordinating branding activities, supporting field marketing operations, and maintaining effective communication with internal teams and external partners. The ideal candidate should be proactive, organized, creative, and capable of working in a dynamic, field-oriented environment. Qualification and Experience Bachelor&#39;s Degree in Marketing, Business Administration, Management, or a related field. 6 months&ndash;1 year of experience in marketing, brand promotion, f",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-hospitality-partnership-executive-biratnagar",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Hospitality Partnership Executive (Biratnagar)",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": 1,
+        "max": 2,
+        "label": "1–2 years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/hospitality-partnership-executive-biratnagar",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Hospitality Partnership Executive (Biratnagar) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospi",
+      "descriptionHtml": "Hospitality Partnership Executive (Biratnagar) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Hospitality Partnership Executive (Biratnagar) Biratnagar, Nepal Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Entry Level Business Development Apply Now Hospitality Partnership Executive will be responsible for onboarding hotel partners, managing partner relationships, ensuring inventory and content accuracy, and driving booking performance through effective coordination, quality control, and data-driven execution. The role plays a key part in strengthening hospitality partnerships and optimizing hotel visibility and sales on the platform. Qualification and Experience Bachelor&rsquo;s degree in Hospitality Management, Marketing, or a related field 1-2 years of experience in hospitality, partnerships, or business development Job Description 1. Hotel Onboarding & Quality Assurance Identify, approach, and onboard new hotel partners as per busines",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-hospitality-partnership-executive-nepalgunj",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Hospitality Partnership Executive (Nepalgunj)",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": 1,
+        "max": 2,
+        "label": "1–2 years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/hospitality-partnership-executive-nepalgunj",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Hospitality Partnership Executive (Nepalgunj) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospit",
+      "descriptionHtml": "Hospitality Partnership Executive (Nepalgunj) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa General Management Available General Management Jobs Chief Operating Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Hospitality Partnership Executive (Nepalgunj) Nepalgunj, Nepal Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Entry Level Business Development Apply Now Hospitality Partnership Executive will be responsible for onboarding hotel partners, managing partner relationships, ensuring inventory and content accuracy, and driving booking performance through effective coordination, quality control, and data-driven execution. The role plays a key part in strengthening hospitality partnerships and optimizing hotel visibility and sales on the platform. Qualification and Experience Bachelor&rsquo;s degree in Hospitality Management, Marketing, or a related field 1-2 years of experience in hospitality, partnerships, or business development Job Description 1. Hotel Onboarding & Quality Assurance Identify, approach, and onboard new hotel partners as per business t",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-hospitality-partnership-executive-janakpur",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Hospitality Partnership Executive (Janakpur)",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": 1,
+        "max": 2,
+        "label": "1–2 years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/hospitality-partnership-executive-janakpur",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Hospitality Partnership Executive (Janakpur) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospita",
+      "descriptionHtml": "Hospitality Partnership Executive (Janakpur) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Hospitality Partnership Executive (Janakpur) Janakpur, Nepal Application Deadline: Nov 30, 2026 Last Updated: 2 weeks ago Full Time Entry Level Business Development Apply Now Hospitality Partnership Executive will be responsible for onboarding hotel partners, managing partner relationships, ensuring inventory and content accuracy, and driving booking performance through effective coordination, quality control, and data-driven execution. The role plays a key part in strengthening hospitality partnerships and optimizing hotel visibility and sales on the platform. Qualification and Experience Bachelor&rsquo;s degree in Hospitality Management, Marketing, or a related field 1-2 years of experience in hospitality, partnerships, or business development Job Description 1. Hotel Onboarding & Quality Assurance Identify, approach, and onboard new hotel partners as per business targ",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-hospitality-partnership-executive-butwal",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Hospitality Partnership Executive (Butwal)",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": 1,
+        "max": 2,
+        "label": "1–2 years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/hospitality-partnership-executive-butwal",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Hospitality Partnership Executive (Butwal) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitali",
+      "descriptionHtml": "Hospitality Partnership Executive (Butwal) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Hospitality Partnership Executive (Butwal) Butwal, Nepal Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Entry Level Business Development Apply Now Hospitality Partnership Executive will be responsible for onboarding hotel partners, managing partner relationships, ensuring inventory and content accuracy, and driving booking performance through effective coordination, quality control, and data-driven execution. The role plays a key part in strengthening hospitality partnerships and optimizing hotel visibility and sales on the platform. Qualification and Experience Bachelor&rsquo;s degree in Hospitality Management, Marketing, or a related field 1-2 years of experience in hospitality, partnerships, or business development Job Description 1. Hotel Onboarding & Quality Assurance Identify, approach, and onboard new hotel partners as per business targets. E",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-business-development-officer-foneinsure",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Business Development Officer",
+      "department": "Sales / BD",
+      "domain": "Sales / BD",
+      "seniority": "Mid",
+      "experience": {
+        "min": 3,
+        "max": null,
+        "label": "3+ years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/business-development-officer-foneinsure",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Business Development Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership",
+      "descriptionHtml": "Business Development Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Foneinsure Business Development Officer Pulchowk Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Mid Level Business Development Apply Now The Business Development Officer is responsible for driving business growth through software product sales, identifying new business opportunities, conducting market and product research, and building strong relationships with clients and stakeholders. The role involves preparing technical and financial proposals, coordinating contract documentation, delivering product presentations, and collaborating with internal teams, particularly the technical team and management, to ensure client requirements are addressed and business objectives are achieved. Qualification and Experience Bachelor&#39;s degree in Business Administration, Business Studies, Marketing, Information Technology, or a related field. 1&ndash;3 years of experience in bus",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-business-development-assistant",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Business Development Assistant",
+      "department": "Sales / BD",
+      "domain": "Sales / BD",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/business-development-assistant",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Business Development Assistant - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnersh",
+      "descriptionHtml": "Business Development Assistant - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Vidhypro Crafts Business Development Assistant Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Business Development Apply Now The role of Business Development Assistant is responsible for driving business growth by identifying and developing strategic partnerships, expanding channel networks, and generating new business opportunities. It involves managing partner and client relationships, conducting product demonstrations, negotiating agreements, and driving lead conversion to achieve assigned business targets. Qualification and Experience Bachelors Degree (completed) in Business Administration or related management domain. 2-3 years of prior work experience in Business Development roles with exposure in industries such as: ERP/Software Solutions, SaaS, and IT Services. Candidates with experience as FMCG Dealer Develop",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-intern-business-development",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Intern - Business Development",
+      "department": "Sales / BD",
+      "domain": "Sales / BD",
+      "seniority": "Intern / Trainee",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Internship",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 21, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/intern-business-development",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Intern - Business Development - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnershi",
+      "descriptionHtml": "Intern - Business Development - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa General Management Available General Management Jobs Chief Operating Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Intern - Business Development Pulchowk, lalitpur Application Deadline: Nov 21, 2026 Last Updated: 3 hours ago Internship Entry Level Business Development Apply Now eSewa is looking for a motivated, proactive, and detail-oriented Business Development Intern to support its Business Development team. The intern will assist in merchant onboarding, lead generation, follow-up calls, and documentation management to ensure a smooth and efficient onboarding process. This internship provides an excellent opportunity to gain practical experience in business development, merchant relationship management, customer communication, and operational support within the digital payments industry. Qualification and Experience Currently pursuing or recently completed a Bachelor&#39;s degree in Business Administration, Management, Marketing, or a related field. Freshers are encouraged to apply. Basic underst",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-business-development-assistant-hospitality",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Business Development Assistant - Hospitality",
+      "department": "Sales / BD",
+      "domain": "Sales / BD",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/business-development-assistant-hospitality",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Business Development Assistant - Hospitality - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospita",
+      "descriptionHtml": "Business Development Assistant - Hospitality - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Business Development Assistant - Hospitality Pulchowk, lalitpur Application Deadline: Nov 30, 2026 Last Updated: 3 hours ago Full Time Entry Level Business Development Apply Now eSewa is seeking a proactive, result-oriented, and relationship-focused individual for the position of Business Development Assistant &ndash; Hospitality . The ideal candidate will be responsible for identifying business opportunities within the hospitality sector, expanding the company&#39;s hotel and hospitality client base, managing client relationships, and coordinating with internal teams to ensure smooth business operations. The role involves lead generation, client engagement, contract management, reporting, and issue resolution while contributing to the growth and expansion of eSewa&#39;s hospitality business. Qualification and Experience Bachelor&#39;s degree in Business Administration, ",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-content-creation-intern",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Content Creation Intern",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Intern / Trainee",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Internship",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/content-creation-intern",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Content Creation Intern - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Exec",
+      "descriptionHtml": "Content Creation Intern - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Content Creation Intern Pulchowk, lalitpur Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Internship Entry Level Brand and Marketing Apply Now We are looking for a creative, energetic, and trend-savvy Content Creation Intern who is eager to learn, experiment, and contribute to impactful digital campaigns. If you&#39;re confident on camera, love creating engaging content, and want hands-on experience working with a dynamic marketing team, we&#39;d love to have you on board. Qualification and Experience Currently pursuing or recently completed a Bachelor&#39;s degree in Marketing, Mass Communication, Journalism, Media Studies, Business Administration, or a related field. Freshers are encouraged to apply. Candidates should have a passion for content creation and social media, with experience creating content on their personal social media accounts or through academic, freelance, o",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-copywriter-brand-storyteller",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Copywriter / Brand Storyteller",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/copywriter-brand-storyteller",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Copywriter / Brand Storyteller - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnersh",
+      "descriptionHtml": "Copywriter / Brand Storyteller - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Copywriter / Brand Storyteller Pulchowk, lalitpur Application Deadline: Nov 30, 2026 Last Updated: 2 weeks ago Full Time Entry Level Brand and Marketing Apply Now The Copywriter is responsible for bringing eSewa brand to life through impactful storytelling and compelling copy that inspires action and builds emotional connections with customers. The role goes beyond writing as it requires translating marketing strategies into meaningful narratives that seamlessly connect visuals with words, ensuring every communication reflects eSewa&#39;s brand promise. Working closely with designers, marketers, product teams, and business stakeholders, the Copywriter will create audience-centric communication that resonates across customer segments, occasions, and platforms. Qualification and Experience Bachelor&#39;s degree in Marketing, Mass Communication, Journalism, English, Business Administrati",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-motion-graphic-designer",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Motion & Graphic Designer",
+      "department": "Design",
+      "domain": "Design",
+      "seniority": "Mid",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/motion-graphic-designer",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Motion & Graphic Designer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Ex",
+      "descriptionHtml": "Motion & Graphic Designer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Hamro Bazar Ventures Motion & Graphic Designer Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Brand and Marketing Apply Now The Motion Graphic Designer is required to support Hamrobazar&rsquo;s growing demand for video content, digital advertisements, and campaign creatives. This role will directly contribute to brand visibility, customer acquisition, app installations, and marketplace engagement. Qualification and Experience Bachelors Degree in Management, Design or related discipline. 3 years of work experience over design related roles. Job Description Static Graphic Design: Design social media posts, digital banners, promotional materials, and other marketing creatives. Motion Graphics & Animation: Develop engaging animations, motion graphics, and animated advertisements for digital campaigns. Video Editing & Productio",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
       "id": "f1soft-backend-engineer-galli",
       "companyId": "f1soft",
       "company": "F1Soft Group",
@@ -1271,7 +1700,7 @@
         "Node.js",
         "Python",
         "Django",
-        "GraphQL"
+        "QA"
       ],
       "employmentType": "Full-time",
       "workType": "On-site",
@@ -1282,8 +1711,8 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Backend Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand a",
-      "descriptionHtml": "Backend Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Galli Express Backend Engineer Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Mid Level Software Engineer Apply Now We&#39;re looking for a mid-level Backend Developer with strong backend expertise in Django and Node.js, hands-on GIS/geospatial experience, and a proven ability to mentor junior developers. You&#39;ll write production code, make architectural decisions, and guide a small team toward delivery. Qualification and Experience Bachelor&#39;s Degree in Computer Science, Engineering or related technical discipline. 3-4 years of professional software development experience. Job Description Design, develop, and maintain backend services using Django (Python) and Node.js (JavaScript/TypeScript). Build and optimize geospatial APIs and services using tools such as PostGIS, GeoDjango, GeoServer, Leaflet, Mapbox GL, or OpenLayers. Design and manage spatial databases, including writing and optimizing complex spatial queries. Architect scalable, secure, and maintainable RESTful/GraphQL APIs for map-based applications. Integrate third-party mapping and location services (Google Maps, Mapbox, ArcGIS, OSM, etc.). Collaborate with front-end developers, GIS analysts, and product managers to deliver map centric features. Lead, mentor, and supervise junior developers &mdash; conduct code reviews, guide technical decisions, and support their growth. Own task delegation, and technical documentation for your team&#39;s deliverables. Ensure co",
+      "summary": "Backend Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (",
+      "descriptionHtml": "Backend Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa General Management Available General Management Jobs Chief Operating Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Galli Express Backend Engineer Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Mid Level Software Engineer Apply Now We&#39;re looking for a mid-level Backend Developer with strong backend expertise in Django and Node.js, hands-on GIS/geospatial experience, and a proven ability to mentor junior developers. You&#39;ll write production code, make architectural decisions, and guide a small team toward delivery. Qualification and Experience Bachelor&#39;s Degree in Computer Science, Engineering or related technical discipline. 3-4 years of professional software development experience. Job Description Design, develop, and maintain backend services using Django (Python) and Node.js (JavaScript/TypeScript). Build and optimize geospatial APIs and services using tools such as PostGIS, GeoDjango, GeoServer, Leaflet, Mapbox GL, or OpenLayers. Design and manag",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1304,7 +1733,8 @@
       "techStack": [
         "Python",
         "Django",
-        "Docker"
+        "Docker",
+        "QA"
       ],
       "employmentType": "Full-time",
       "workType": "On-site",
@@ -1315,8 +1745,8 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Backend Engineer - Python/Django - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing A",
-      "descriptionHtml": "Backend Engineer - Python/Django - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Backend Engineer - Python/Django F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Software Engineer Apply Now We are looking for a skilled Python/Django Backend Engineer to design, develop, and maintain scalable, secure, and high-performance backend systems. The ideal candidate should have hands-on experience with Django 5, Django REST Framework (DRF), real-time communication, asynchronous task processing, third-party integrations, and Docker-based deployment workflows. The candidate will work on backend APIs, real-time order management, payment systems, reporting utilities, and production-ready application infrastructure. Qualification and Experience Bachelor&#39;s Degree in Computer Engineering, Science or related technical discipline. Atleast 2-3 years of prior experience with Python/Django roles Experience with Django 5 and modern Python development practices. Previous experience with restaurant management, food ordering, POS, kitchen display systems, or order management platforms. Experience with thermal receipt printers and ESC/POS protocols. Familiarity with Firebase Cloud Messaging (FCM). Knowledge of pre-commit and automated code quality checks. Experience with CI/CD pipelines and production application monitoring. Understanding of scalable, event-driven backend architectures. Job Description 1. Core Backend Development Design, develop, and maintain robust R",
+      "summary": "Backend Engineer - Python/Django - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partner",
+      "descriptionHtml": "Backend Engineer - Python/Django - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Backend Engineer - Python/Django F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Software Engineer Apply Now We are looking for a skilled Python/Django Backend Engineer to design, develop, and maintain scalable, secure, and high-performance backend systems. The ideal candidate should have hands-on experience with Django 5, Django REST Framework (DRF), real-time communication, asynchronous task processing, third-party integrations, and Docker-based deployment workflows. The candidate will work on backend APIs, real-time order management, payment systems, reporting utilities, and production-ready application infrastructure. Qualification and Experience Bachelor&#39;s Degree in Computer Engineering, Science or related technical discipline. Atleast 2-3 years of prior experience with Pyt",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1337,7 +1767,8 @@
       "techStack": [
         "JavaScript",
         "Python",
-        "Django"
+        "Django",
+        "QA"
       ],
       "employmentType": "Full-time",
       "workType": "On-site",
@@ -1348,168 +1779,74 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Frontend Engineer - AngularJS - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Avai",
-      "descriptionHtml": "Frontend Engineer - AngularJS - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Frontend Engineer - AngularJS F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Software Engineer Apply Now We are looking for a skilled Frontend Engineer with experience in AngularJS, JavaScript, HTML5, and CSS3 to develop and maintain responsive, interactive, and user-friendly web applications. The candidate will work closely with backend developers working with Python, Django, and Django REST Framework (DRF) to integrate APIs and deliver seamless application functionality. The role focuses on building frontend interfaces for our food-ordering and restaurant management platform, including customer ordering, merchant dashboards, kitchen order management, and administrative panels. Qualification and Experience Bachelor&#39;s Degree in Computer Engineering, Science or related technical discipline. Atleast 2-3 years of prior experience with frontend roles in relevant stack. Experience integrating frontend applications with Python/Django and Django REST Framework. Familiarity with WebSocket and real-time applications. Experience building e-commerce, food-ordering, restaurant management, or administrative dashboard interfaces. Familiarity with AngularJS-compatible UI libraries or similar CSS frameworks. Experience with frontend testing tools such as Jasmine, Karma, or equivalents. Basic understanding of authentication, authorization, and secure frontend development. Familiar",
+      "summary": "Frontend Engineer - AngularJS - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnershi",
+      "descriptionHtml": "Frontend Engineer - AngularJS - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Frontend Engineer - AngularJS F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Software Engineer Apply Now We are looking for a skilled Frontend Engineer with experience in AngularJS, JavaScript, HTML5, and CSS3 to develop and maintain responsive, interactive, and user-friendly web applications. The candidate will work closely with backend developers working with Python, Django, and Django REST Framework (DRF) to integrate APIs and deliver seamless application functionality. The role focuses on building frontend interfaces for our food-ordering and restaurant management platform, including customer ordering, merchant dashboards, kitchen order management, and administrative panels. Qualification and Experience Bachelor&#39;s Degree in Computer Engineering, Science or related technical di",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
     },
     {
-      "id": "f1soft-copywriter-brand-storyteller",
+      "id": "f1soft-customer-intelligence-analyst",
       "companyId": "f1soft",
       "company": "F1Soft Group",
-      "title": "Copywriter / Brand Storyteller",
+      "title": "Customer Intelligence Analyst",
       "department": "Engineering",
       "domain": "Engineering",
       "seniority": "Mid",
       "experience": {
-        "min": 3,
-        "max": null,
-        "label": "3+ years"
+        "min": 2,
+        "max": 4,
+        "label": "2–4 years"
       },
       "techStack": [
         "Python",
-        "Django"
+        "Django",
+        "QA"
       ],
       "employmentType": "Full-time",
       "workType": "On-site",
       "location": "Lalitpur, Nepal",
       "postedAt": null,
       "deadline": "Nov 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/copywriter-brand-storyteller",
+      "applyUrl": "https://career.f1soft.com/jobs/customer-intelligence-analyst",
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Copywriter / Brand Storyteller - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Ava",
-      "descriptionHtml": "Copywriter / Brand Storyteller - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Copywriter / Brand Storyteller Pulchowk, lalitpur Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Entry Level Brand and Marketing Apply Now The Copywriter is responsible for bringing eSewa brand to life through impactful storytelling and compelling copy that inspires action and builds emotional connections with customers. The role goes beyond writing as it requires translating marketing strategies into meaningful narratives that seamlessly connect visuals with words, ensuring every communication reflects eSewa&#39;s brand promise. Working closely with designers, marketers, product teams, and business stakeholders, the Copywriter will create audience-centric communication that resonates across customer segments, occasions, and platforms. Qualification and Experience Bachelor&#39;s degree in Marketing, Mass Communication, Journalism, English, Business Administration, or a related field. 1&ndash;3 years of experience in copywriting, content writing, advertising, digital marketing, or brand communication. Experience in fintech, banking, technology, consumer brands, or advertising agencies will be an added advantage. Job Description Develop compelling copy for integrated marketing campaigns, product launches, seasonal campaigns, and always-on brand communication. Craft engaging content for social media, digital advertisements, app banners, landing pages, websites, blogs, emailers, SMS, push notifications (FCM), in-app communication, video scripts, pre",
+      "summary": "Customer Intelligence Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnershi",
+      "descriptionHtml": "Customer Intelligence Analyst - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Customer Intelligence Analyst Pulchowk Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Mid Level Product Management Apply Now The Customer Intelligence Analyst plays a pivotal role in understanding and enhancing the customer journey through data-driven insights, behavioral analysis, and campaign intelligence. The role requires a balance of analytical expertise, cross-functional collaboration, and strategic thinking to continuously improve user experience (UX), optimize engagement campaigns, and strengthen customer relationships. Qualification and Experience Bachelor&rsquo;s or Master&rsquo;s degree in Business Analytics, Marketing, Economics, Statistics, or a related field. 2-4 years of experience in data analytics, customer intelligence, or CX strategy (preferably in fintech, e-commerce, or digital services). Strong attention to detail and the ability to transla",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
     },
     {
-      "id": "f1soft-motion-graphic-designer",
+      "id": "f1soft-customer-experience-officer",
       "companyId": "f1soft",
       "company": "F1Soft Group",
-      "title": "Motion & Graphic Designer",
-      "department": "Design",
-      "domain": "Design",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "Python",
-        "Django"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Nov 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/motion-graphic-designer",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Motion & Graphic Designer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Availabl",
-      "descriptionHtml": "Motion & Graphic Designer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Hamro Bazar Ventures Motion & Graphic Designer Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Brand and Marketing Apply Now The Motion Graphic Designer is required to support Hamrobazar&rsquo;s growing demand for video content, digital advertisements, and campaign creatives. This role will directly contribute to brand visibility, customer acquisition, app installations, and marketplace engagement. Qualification and Experience Bachelors Degree in Management, Design or related discipline. 3 years of work experience over design related roles. Job Description Static Graphic Design: Design social media posts, digital banners, promotional materials, and other marketing creatives. Motion Graphics & Animation: Develop engaging animations, motion graphics, and animated advertisements for digital campaigns. Video Editing & Production: Edit promotional videos, reels, product explainers, and social media content. Creative Concept Development: Collaborate with the marketing team to conceptualize and execute engaging, trend-driven visual content. Digital Campaign Creatives: Design static and animated advertisements for Meta, Google, and other digital platforms. Required Skills Adobe Photoshop & Illustrator for Static graphic design, digital creatives, image editing, and visual composition Adobe After Effects for Motion graphics, 2D animation, kinetic typography, and visual effects Adobe Premiere Pro & CapCut for Video e",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-hospitality-partnership-executive-janakpur",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Hospitality Partnership Executive (Janakpur)",
+      "title": "Customer Experience Officer",
       "department": "Engineering",
       "domain": "Engineering",
       "seniority": "Mid",
       "experience": {
-        "min": 1,
-        "max": 2,
-        "label": "1–2 years"
+        "min": 2,
+        "max": 4,
+        "label": "2–4 years"
       },
       "techStack": [
         "Python",
-        "Django"
+        "Django",
+        "QA"
       ],
       "employmentType": "Full-time",
       "workType": "On-site",
       "location": "Lalitpur, Nepal",
       "postedAt": null,
       "deadline": "Nov 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/hospitality-partnership-executive-janakpur",
+      "applyUrl": "https://career.f1soft.com/jobs/customer-experience-officer",
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Hospitality Partnership Executive (Janakpur) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and",
-      "descriptionHtml": "Hospitality Partnership Executive (Janakpur) - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Hospitality Partnership Executive (Janakpur) Janakpur, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Entry Level Business Development Apply Now Hospitality Partnership Executive will be responsible for onboarding hotel partners, managing partner relationships, ensuring inventory and content accuracy, and driving booking performance through effective coordination, quality control, and data-driven execution. The role plays a key part in strengthening hospitality partnerships and optimizing hotel visibility and sales on the platform. Qualification and Experience Bachelor&rsquo;s degree in Hospitality Management, Marketing, or a related field 1-2 years of experience in hospitality, partnerships, or business development Job Description 1. Hotel Onboarding & Quality Assurance Identify, approach, and onboard new hotel partners as per business targets. Ensure accurate and complete uploading of hotel details including rates, amenities, policies, and images. Follow standardized onboarding checklists to maintain compliance and quality standards. Monitor and reduce onboarding and content-related errors through regular reviews. Coordinate with internal teams to resolve onboarding or system-related issues. 2. Partner Relationship Management Maintain regular communication with hotel partners through calls, meetings, and field visits. Conduct monthly partner engagement and performance review discussions. Address partner queries, concerns, a",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-business-development-assistant",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Business Development Assistant",
-      "department": "Sales / BD",
-      "domain": "Sales / BD",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "Python",
-        "Django"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Nov 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/business-development-assistant",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Business Development Assistant - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Ava",
-      "descriptionHtml": "Business Development Assistant - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Vidhypro Crafts Business Development Assistant Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Associate Level Business Development Apply Now The role of Business Development Assistant is responsible for driving business growth by identifying and developing strategic partnerships, expanding channel networks, and generating new business opportunities. It involves managing partner and client relationships, conducting product demonstrations, negotiating agreements, and driving lead conversion to achieve assigned business targets. Qualification and Experience Bachelors Degree (completed) in Business Administration or related management domain. 2-3 years of prior work experience in Business Development roles with exposure in industries such as: ERP/Software Solutions, SaaS, and IT Services. Candidates with experience as FMCG Dealer Development Officers, Dealer Sales In-charges, or in distributor/channel management may also be considered. Job Description Identify, approach, and develop strategic partnerships and channel partners to expand business reach. Conduct product demonstrations, negotiate business terms, and facilitate partnership agreements and contract signings. Generate referrals lead through partner networks and other business channels, and drive lead conversion into paying customers. Build and nurture relationships with existing clients and partners to improve retention and generate repeat business. Plan, coordi",
-      "requirementsHtml": "",
-      "source": "F1Soft careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "f1soft-chief-operating-officer",
-      "companyId": "f1soft",
-      "company": "F1Soft Group",
-      "title": "Chief Operating Officer",
-      "department": "Engineering",
-      "domain": "Engineering",
-      "seniority": "Mid",
-      "experience": {
-        "min": 12,
-        "max": null,
-        "label": "12+ years"
-      },
-      "techStack": [
-        "Python",
-        "Django"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Lalitpur, Nepal",
-      "postedAt": null,
-      "deadline": "Nov 30, 2026",
-      "applyUrl": "https://career.f1soft.com/jobs/chief-operating-officer",
-      "careersUrl": "https://career.f1soft.com/jobs",
-      "applyEmail": "talent@f1soft.com",
-      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Chief Operating Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Business Development Available",
-      "descriptionHtml": "Chief Operating Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Chief Operating Officer Pulchowk Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Managerial Level General Management Apply Now eSewa invites applications for the position of Chief Operating Officer (COO), reporting directly to the CEO. The COO will lead the company&rsquo;s payment operations, customer service, and administrative functions; translate organizational priorities into actionable operational plans; strengthen service delivery and internal controls; and drive productivity through process optimization, automation, and effective resource utilization. Qualification and Experience Master&rsquo;s degree in Management, Finance, Technology or a related discipline. At least 12 years of relevant experience in banking, financial services, payments or fintech, including 5 years leading large operational teams or multiple departments. Demonstrated experience in payment operations, reconciliation, settlement, customer service and operational risk management. Strong understanding of digital payments, banking processes, internal controls and applicable regulatory requirements. Proven ability to improve processes, deliver automation, manage incidents and support business continuity. Strong leadership, analytical, communication and stakeholder management skills, with budgeting and resource management capability. Job Description Translate company strategy into operational plans, service targets, and clear departmental accountabilities. Contribute to business pl",
+      "summary": "Customer Experience Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership ",
+      "descriptionHtml": "Customer Experience Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Customer Experience Officer Pulchowk Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Mid Level Product Management Apply Now The Customer Experience Officer plays a key role in understanding and improving how customers experience the product across every touchpoint, through direct feedback, call surveys, and social media insights. The role requires a balance of empathy, analytical thinking, and cross-functional collaboration to identify pain points, close feedback loops, and translate customer voices into actionable improvements that strengthen satisfaction, trust, and long-term engagement. Qualification and Experience Bachelor&rsquo;s or Master&rsquo;s degree in Business Analytics, Marketing, Economics, Statistics, or a related field. 2-4 years of experience in customer experience, CX research, customer insights, or UX research (preferably in fintech, e-commerce, o",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -1529,7 +1866,8 @@
       },
       "techStack": [
         "Python",
-        "Django"
+        "Django",
+        "QA"
       ],
       "employmentType": "Full-time",
       "workType": "On-site",
@@ -1540,8 +1878,74 @@
       "careersUrl": "https://career.f1soft.com/jobs",
       "applyEmail": "talent@f1soft.com",
       "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
-      "summary": "Finance Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand an",
-      "descriptionHtml": "Finance Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Business Development Available Business Development Jobs Hospitality Partnership Executive (Janakpur) eSewa Business Development Assistant Vidhypro Crafts General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Finance Officer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Mid Level Account and Finance Apply Now The role of Finance Officer is responsible for managing day-to-day accounting and financial operations, ensuring accurate transaction processing, timely payments, and regular financial reconciliations. It involves supporting periodic financial closing, preparation of financial statements and MIS reports, and coordinating audit-related activities. Qualification and Experience Master&#39;s Degree in Management domain (completed or persuing) or Chartered Accountant. Around 4-5 years of prior work experience in Finance related roles. Job Description Responsible for booking vouchers, local purchases, merchant bills, receipts, and payment transactions accurately and on time. Process and settle payments to merchants, suppliers, employees, and other stakeholders within the required timeline. Perform timely reconciliation of bank accounts and party/vendor/customer balances. Complete periodic accounting and financial closing activities within the defined timelines. Prepare and support periodic financial statements, MIS reports, and other reports as assigned by the supervisor. Coordinate and support internal and external audit activities, including preparation of required schedules, documents, and supporting information. Support business performance analysis, including cost analysis, KPI monitoring, and pre",
+      "summary": "Finance Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (N",
+      "descriptionHtml": "Finance Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV F1Soft International Finance Officer F1Soft Tower, Pulchowk, Lalitpur District, Nepal Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Mid Level Account and Finance Apply Now The role of Finance Officer is responsible for managing day-to-day accounting and financial operations, ensuring accurate transaction processing, timely payments, and regular financial reconciliations. It involves supporting periodic financial closing, preparation of financial statements and MIS reports, and coordinating audit-related activities. Qualification and Experience Master&#39;s Degree in Management domain (completed or persuing) or Chartered Accountant. Around 4-5 years of prior work experience in Finance related roles. Job Description Responsible for booking vouchers, local purchases, merchant bills, receipts, and payment transactions accurately and on time. Process and settle payments to merchants, su",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-senior-qa-engineer-1",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Senior QA Engineer",
+      "department": "QA / Testing",
+      "domain": "QA / Testing",
+      "seniority": "Senior",
+      "experience": {
+        "min": null,
+        "max": null,
+        "label": "Not specified"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/senior-qa-engineer-1",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Senior QA Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive",
+      "descriptionHtml": "Senior QA Engineer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Travels and Tours Senior QA Engineer Pulchowk, lalitpur Application Deadline: Nov 30, 2026 Last Updated: 5 hours ago Full Time Senior Level Engineering Apply Now Senior QA Engineer is responsible to lead and drive software quality assurance across the organization by establishing robust testing strategies, automation frameworks, quality standards, and continuous testing practices. Qualification and Experience Bachelor&rsquo;s degree in Computer Science, Computer Engineering, Information Technology, or a related technical discipline. 5+ years of professional experience in Software Quality Assurance, Software Testing, or Quality Job Description Test Strategy & Quality Ownership Own and drive the overall QA strategy for assigned products and projects. Define appropriate testing approaches, methodologies, tools, environments, and quality standards based on product requirements and risk. Review requir",
+      "requirementsHtml": "",
+      "source": "F1Soft careers",
+      "listingKind": "vacancy"
+    },
+    {
+      "id": "f1soft-chief-operating-officer",
+      "companyId": "f1soft",
+      "company": "F1Soft Group",
+      "title": "Chief Operating Officer",
+      "department": "Engineering",
+      "domain": "Engineering",
+      "seniority": "Mid",
+      "experience": {
+        "min": 12,
+        "max": null,
+        "label": "12+ years"
+      },
+      "techStack": [
+        "Python",
+        "Django",
+        "QA"
+      ],
+      "employmentType": "Full-time",
+      "workType": "On-site",
+      "location": "Lalitpur, Nepal",
+      "postedAt": null,
+      "deadline": "Nov 30, 2026",
+      "applyUrl": "https://career.f1soft.com/jobs/chief-operating-officer",
+      "careersUrl": "https://career.f1soft.com/jobs",
+      "applyEmail": "talent@f1soft.com",
+      "applyHow": "Apply on https://career.f1soft.com/jobs. F1Soft Group also accepts CVs at talent@f1soft.com.",
+      "summary": "Chief Operating Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Exec",
+      "descriptionHtml": "Chief Operating Officer - Career at F1Soft Group Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV Career Categories Business Development Available Business Development Jobs Senior Officer - Airlines Business eSewa Marketing Assistant - Nepalgunj eSewa Hospitality Partnership Executive (Biratnagar) eSewa Hospitality Partnership Executive (Nepalgunj) eSewa Hospitality Partnership Executive (Janakpur) eSewa Hospitality Partnership Executive (Butwal) eSewa Business Development Officer Foneinsure Business Development Assistant Vidhypro Crafts Intern - Business Development eSewa Business Development Assistant - Hospitality eSewa Brand and Marketing Available Brand and Marketing Jobs Content Creation Intern eSewa Copywriter / Brand Storyteller eSewa Motion & Graphic Designer Hamro Bazar Ventures Software Engineer Available Software Engineer Jobs Backend Engineer Galli Express Backend Engineer - Python/Django F1Soft International Frontend Engineer - AngularJS F1Soft International Product Management Available Product Management Jobs Customer Intelligence Analyst eSewa Customer Experience Officer eSewa Account and Finance Available Account and Finance Jobs Finance Officer F1Soft International Engineering Available Engineering Jobs Senior QA Engineer eSewa Travels and Tours General Management Available General Management Jobs Chief Operating Officer eSewa Find Jobs Browse Jobs by Category Jobs by Level Jobs by Type Hiring Companies Support How it works FAQs About F1Soft Group Drop your CV eSewa Chief Operating Officer Pulchowk Application Deadline: Nov 30, 2026 Last Updated: 1 week ago Full Time Managerial Level General Management Apply Now eSewa invites applications for the position of Chief Operating Officer (COO), reporting directly to the CEO. The COO will lead the company&rsquo;s payment operations, customer service, and administrative functions; translate organizational priorities into actionable operational plans; strengthen service delivery and internal controls; and drive productivity through process optimization, automation, and effective resource utilization. Qualification and Experience Master&rsquo;s degree in Management, Finance, Technology or a related discipline. At least 12 years of relevant experience in banking, financial services, payments or fintech, including 5 years leading large operational teams or multiple departments. Demonstrated experience in payment op",
       "requirementsHtml": "",
       "source": "F1Soft careers",
       "listingKind": "vacancy"
@@ -2534,73 +2938,6 @@
       "listingKind": "vacancy"
     },
     {
-      "id": "veelapp-01a032cf-eb10-74f9-82a6-daec4a427979",
-      "companyId": "veelapp",
-      "company": "Veel",
-      "title": "Frontend Developer",
-      "department": "Product and Engineering",
-      "domain": "Frontend",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "JavaScript",
-        "GraphQL",
-        "AI"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Kathmandu, Nepal",
-      "postedAt": null,
-      "deadline": null,
-      "applyUrl": "https://veelapp.com/careers",
-      "careersUrl": "https://veelapp.com/careers",
-      "applyEmail": null,
-      "applyHow": "Visit the Veel careers page to read the full job description and apply: https://veelapp.com/careers",
-      "summary": "We’re looking for a Frontend Developer with strong technical fundamentals, an ownership mindset, and a sharp eye for design. You’ll work closely with Engineering, Product, and Design to build scalable, performant, and polished web experiences using React, Next.js, TypeScript, and GraphQL. If you care about both how products work and how they look, we’d love to hear from you.",
-      "descriptionHtml": "<h3>About Veel</h3><p>Veel is a leading SaaS platform that enables businesses to collaborate with influencers, UGC creators, and loyal customers to produce engaging and authentic video content. With AI-driven video filtering, seamless payment solutions, and contract management, we help businesses connect with their audiences in new, creative ways.</p><h3>Role Overview</h3><p>We’re looking for a Frontend Developer with strong technical fundamentals, an ownership mindset, and a sharp eye for design. You’ll work closely with Engineering, Product, and Design to build scalable, performant, and polished web experiences using React, Next.js, TypeScript, and GraphQL. If you care about both how products work and how they look, we’d love to hear from you.</p><h3>Key Responsibilities</h3><ul><li>Build and maintain scalable, performant frontend features using React and Next.js.</li><li>Bring a strong design eye to frontend development, ensuring interfaces are polished, intuitive, and aligned with product and brand standards.</li><li>Write clean, maintainable, and reusable code following frontend best practices.</li><li>Build and maintain reusable components and frontend systems.</li><li>Integrate RESTful APIs and GraphQL and collaborate with backend engineers to deliver end-to-end features.</li><li>Write unit and integration tests and proactively identify and resolve bugs.</li><li>Optimize application performance across devices and browsers.</li><li>Collaborate with Product, Design, and Engineering teams to deliver high-quality features.</li><li>Stay current with frontend technologies and continuously improve development practices.</li></ul><h3>Key Requirements</h3><ul><li>3–5 years of hands-on frontend development experience, preferably in a product-based company.</li><li>Strong proficiency in React.js, Next.js, JavaScript (ES6+), TypeScript, HTML5, and CSS3.</li><li>A strong eye for design, UI details, and visual consistency, with a good understanding of how design translates into polished frontend experiences.</li><li>Hands-on experience with GraphQL and RESTful APIs.</li><li>Experience with modern CSS frameworks and methodologies such as TailwindCSS, CSS Modules, or Shadcn.</li><li>Experience with state management libraries such as Redux, Zustand, or Recoil.</li><li>Strong understanding of responsive design, accessibility, and frontend performance optimization.</li><li>Familiarity with Jest, React Testing Library, or similar testing frameworks.</li><li>Proficiency with Git and collaborative development workflows.</li><li>Strong problem-solving, communication, and collaboration skills.</li><li>Curious, proactive, and driven to take ownership and continuously improve.</li></ul><h3>Why Join Veel?</h3><ul><li><strong>Competitive Pay & Performance Bonuses</strong> – Your hard work deserves to be rewarded.</li><li><strong>Product-Driven Culture</strong> – We follow globally recognized best practices to build world-class products.</li><li><strong>Career & Personal Growth</strong> – We grow together, setting and achieving ambitious goals.</li><li><strong>Internationally Proven Team</strong> – Work alongside some of the best minds in the industry.</li></ul><h3>Job Perks You Will Love</h3><ul><li><strong>Employee Healthcare Plan</strong> – Because your well-being matters.</li><li><strong>Company Stock Plan</strong> – If you believe in our future, we want you to be part of it.</li><li><strong>Healthy Meals and Snacks</strong> – Complimentary breakfast, lunch, dinner, coffee, and drinks—because great ideas need great fuel!</li><li><strong>Transportation & Drop-Off Service</strong> – Safe and reliable drop-off service for late shifts to ensure convenience.</li><li><strong>5 Days Work Week</strong> – Enjoy a healthy work-life balance with weekends off!</li><li><strong>Play, Relax & Bond</strong> – From futsal tournaments and gaming battles to team outings and fun office events, we make work feel like home.</li></ul>",
-      "requirementsHtml": "",
-      "source": "Veel careers",
-      "listingKind": "vacancy"
-    },
-    {
-      "id": "veelapp-019f83d2-6963-758a-8378-9d96312a14b2",
-      "companyId": "veelapp",
-      "company": "Veel",
-      "title": "Customer Success Manager",
-      "department": "Sales and Marketing",
-      "domain": "Sales / BD",
-      "seniority": "Manager",
-      "experience": {
-        "min": 2,
-        "max": 3,
-        "label": "2–3 years"
-      },
-      "techStack": [
-        "AI"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Kathmandu, Nepal",
-      "postedAt": null,
-      "deadline": null,
-      "applyUrl": "https://veelapp.com/careers",
-      "careersUrl": "https://veelapp.com/careers",
-      "applyEmail": null,
-      "applyHow": "Visit the Veel careers page to read the full job description and apply: https://veelapp.com/careers",
-      "summary": "We’re looking for a Customer Success Manager to manage key customer relationships, drive customer satisfaction and retention, and help our growing Customer Success team deliver an exceptional customer experience.In this role, you’ll work closely with customers to understand their goals, help them get value from Veel, identify opportunities to strengthen and grow relationships, and act as a trusted point of contact throughout their journey. You’ll",
-      "descriptionHtml": "<h3>About Veel</h3><p>Veel is a leading SaaS platform that enables businesses to collaborate with influencers, UGC creators, and loyal customers to produce engaging and authentic video content. With AI-driven video filtering, seamless payment solutions, and contract management, we help businesses connect with their audiences in new, creative ways.</p><h3>Role Overview</h3><p>We’re looking for a <strong>Customer Success Manager</strong> to manage key customer relationships, drive customer satisfaction and retention, and help our growing Customer Success team deliver an exceptional customer experience.</p><p>In this role, you’ll work closely with customers to understand their goals, help them get value from Veel, identify opportunities to strengthen and grow relationships, and act as a trusted point of contact throughout their journey. You’ll also support junior team members and contribute to improving our Customer Success processes as we grow.</p><h3>Key Responsibilities</h3><ul><li><strong>Manage Key Accounts</strong> · Build and maintain strong relationships with a portfolio of important customers.</li><li><strong>Drive Customer Success</strong> · Understand customer goals and help ensure they achieve meaningful value from Veel.</li><li><strong>Support Retention & Growth</strong> · Monitor customer needs, identify opportunities for deeper engagement, and support account growth and renewals.</li><li><strong>Lead Customer Conversations</strong> · Conduct regular check-ins, business reviews, and strategic conversations with customers.</li><li><strong>Build Stakeholder Relationships</strong> · Develop relationships with key customer contacts and decision-makers.</li><li><strong>Mentor CSMs</strong> · Support and guide junior Customer Success team members by sharing knowledge, best practices, and account management approaches.</li><li><strong>Collaborate Across Teams</strong> · Work closely with Sales, Product, Marketing, and other teams to address customer needs and improve the overall customer experience.</li><li><strong>Be the Voice of the Customer</strong> · Gather customer feedback and share insights with internal teams to help improve our products and services.</li><li><strong>Build Customer Advocacy</strong> · Develop strong customer relationships that can lead to testimonials, case studies, referrals, and other advocacy opportunities.</li></ul><h3>Key Requirements</h3><ul><li>2-3 years of experience in Customer Success, Account Management, or a related customer-facing role, preferably in SaaS or technology.</li><li>Experience managing multiple customer accounts and building long-term relationships.</li><li>Strong understanding of customer retention, engagement, and account growth.</li><li>Experience handling customer conversations, business reviews, and account-related challenges.</li><li>Ability to understand customer needs and translate them into practical solutions.</li><li>Experience mentoring or supporting junior team members.</li><li>Strong communication, relationship-building, and problem-solving skills.</li><li>Comfortable working with CRM and customer management tools such as <strong>HubSpot</strong>.</li><li>Strong organizational skills and the ability to manage multiple priorities effectively.</li></ul><p><strong>Note:</strong> Shift timing is from<strong> </strong>1 PM–9 PM initially; eventually moving to night shifts (up to 1 AM+), with split shifts as required. </p><p><strong>Bonus:</strong> Experience working with SaaS products, technology companies, DTC or consumer brands, creator marketing, or UGC platforms.</p><h3>Why Join Veel?</h3><ul><li><strong>Competitive Pay & Performance Bonuses</strong> – Your hard work deserves to be rewarded.</li><li><strong>Product-Driven Culture</strong> – We follow globally recognized best practices to build world-class products.</li><li><strong>Career & Personal Growth</strong> – We grow together, setting and achieving ambitious goals.</li><li><strong>Internationally Proven Team</strong> – Work alongside some of the best minds in the industry.</li></ul><h3>Job Perks You Will Love</h3><ul><li><strong>Employee Healthcare Plan</strong> – Because your well-being matters.</li><li><strong>Company Stock Plan</strong> – If you believe in our future, we want you to be part of it.</li><li><strong>Healthy Meals and Snacks</strong> – Complimentary breakfast, lunch, dinner, coffee, and drinks—because great ideas need great fuel!</li><li><strong>Transportation & Drop-Off Service</strong> – Safe and reliable drop-off service for late shifts to ensure convenience.</li><li><strong>5 Days Work Week</strong> – Enjoy a healthy work-life balance with weekends off!</li><li><strong>Play, Relax & Bond</strong> – From futsal tournaments and gaming battles to team outings and fun office events, we make work feel like home.</li></ul>",
-      "requirementsHtml": "",
-      "source": "Veel careers",
-      "listingKind": "vacancy"
-    },
-    {
       "id": "grepsr-732393000001441323",
       "companyId": "grepsr",
       "company": "Grepsr",
@@ -2628,37 +2965,6 @@
       "requirementsHtml": "",
       "source": "Zoho Recruit",
       "listingKind": "talent-pool"
-    },
-    {
-      "id": "grepsr-732393000007528001",
-      "companyId": "grepsr",
-      "company": "Grepsr",
-      "title": "AI GTM Engineer (Artificial Intelligence : Go-to-Market)",
-      "department": "AI / Machine Learning",
-      "domain": "AI / Machine Learning",
-      "seniority": "Mid",
-      "experience": {
-        "min": null,
-        "max": null,
-        "label": "Not specified"
-      },
-      "techStack": [
-        "AI"
-      ],
-      "employmentType": "Full-time",
-      "workType": "On-site",
-      "location": "Kathmandu, Nepal",
-      "postedAt": null,
-      "deadline": null,
-      "applyUrl": "https://grepsr.zohorecruit.com/jobs/Careers/732393000007528001",
-      "careersUrl": "https://www.grepsr.com/careers/",
-      "applyEmail": null,
-      "applyHow": "Apply on the Grepsr careers portal: https://grepsr.zohorecruit.com/jobs/Careers/732393000007528001",
-      "summary": "",
-      "descriptionHtml": "",
-      "requirementsHtml": "",
-      "source": "Zoho Recruit",
-      "listingKind": "vacancy"
     }
   ]
 }
